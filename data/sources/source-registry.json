@@ -32,7 +32,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://rqb.oead.at/en/news/article/2026/09/oead-scholarship-programmes-and-further-grants-to-austria-for-2027-28",
+        "description": "Oe AD primary September 2026 notice links grants.at for 2027/28 programmes.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "at-oead",
@@ -64,7 +74,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://oead.at/en/news/article/2026/08/ernst-mach-stipendium-weltweit-bewerbung-bis-1-dezember-2026",
+        "description": "Ernst Mach worldwide 2027/28 deadline December 1 2026; annual call.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "at-university-of-vienna",
@@ -95,7 +115,21 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://international.univie.ac.at/en/",
+        "description": "Student exchange deadlines October 15 and November 15 2026 visible on primary page.",
+        "raw_date_contexts": [
+          "chelor's or Diploma degrees, completed STEOP) Duration of the stay: one or two semester Application deadline: 15 October 2026 (Africa & Asia) and 15 November 2026 (Australia, Canada & USA) APPLY NOW: Mobility Fellowships The University of Vienna’s Mobility Fellowships suppor",
+          "ed STEOP) Duration of the stay: one or two semester Application deadline: 15 October 2026 (Africa & Asia) and 15 November 2026 (Australia, Canada & USA) APPLY NOW: Mobility Fellowships The University of Vienna’s Mobility Fellowships support research stays by University of Vie",
+          "nd third‑party‑funded Senior Scientists with a permanent position Duration: 2 - 8 weeks Application deadline: 4 November 2026 APPLY NOW: Chicago - Vienna International Grant Program Seed funding for research-oriented networking meetings (seminars/workshops/events) between re"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "be-study-in-flanders",
@@ -126,7 +160,20 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://www.studyinflanders.be/scholarships/master-mind-scholarships",
+        "description": "2026/27 Master Mind call explicitly closed; 2027/28 scheme under review.",
+        "raw_date_contexts": [
+          "demic year 2027-2028. Eager to apply? Learn more about this scholarship below! The call for the academic year 2026-2027 is now closed . Eligibility criteria Read more How to apply? Read more Host institutions and deadlines Read more Payment of the scholarship Read more",
+          "ee for a local student who receives a study grant from the Flemish government. The rate for the academic year 2026-2027 is €136,50. This rate may increase slightly on a yearly basis. There are a number of scholarships reserved for students from priorty countries for th"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "be-wbi",
@@ -158,7 +205,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://www.wbi.be/fr/actualites/offre-bourse-stage-entreprise-etudiants",
+        "description": "Company internship grant deadline November 1 2026 for Jan-Jun 2027 placements.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "be-ares",
@@ -187,7 +244,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://www.ares-ac.be/en/cooperation-au-developpement/bourses",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "bg-fulbright-bulgaria",
@@ -218,7 +285,20 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://www.fulbright.bg/en/",
+        "description": "Research grants application deadline December 4 2026 visible on homepage; citizenship restrictions.",
+        "raw_date_contexts": [
+          "ers, and PhD students can now apply for Fulbright research grants in the United States. Application deadline: December 4, 2026. Read more Info sessions N Bulgarian citizenship N Excellent English language skills N All fields except clinical medicine N Assisted application pro",
+          "month non-degree program for mid-career professionals. No age or other restrictions. Application deadline was July 1, 2026 Competition CLOSED  Fulbright Bulgarian Leaders Grant A generous $100,000 grant for self-placed candidates who pursue an MA or PhD in the U.S. Appli"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "bg-insait",
@@ -251,7 +331,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://insait.ai/insait-opens-applications-for-surf-2026-summer-research-internship-program/",
+        "description": "SURF 2026 summer research cycle verified; annual and past summer, not currently open.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "bg-feba-alumni",
@@ -280,7 +370,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://www.febalumni.org/en/2026/06/17/feba-alumni-club-obyavyava-konkurs-za-mesechni-stipendii-visoki-akademichni-postizheniya-za-leten-semestr-na-akademichnata-20252026-g-kraen-srok-30-06-2026-g/",
+        "description": "Primary alumni call published June 17 2026, deadline June 30; closed, institutional eligibility.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "hr-ampeu",
@@ -312,7 +412,21 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://en.ampeu.hr/open-calls",
+        "description": "Primary open-calls list shows February 20 2026 bilateral call explicitly deadline passed.",
+        "raw_date_contexts": [
+          "cholarships CEEPUS News Scholarships of the Republic of Croatia - Call for Applications for the academic year 2026/2027 Experiencing a CEEPUS Mobility in Croatia: Summer School of Exotic and Wild Animal Medicine at the Veterinary Faculty in Zagreb CEEPUS International ",
+          "ic in Zagreb Open Calls Scholarships of the Republic of Croatia - Call for Applications for the academic year 2026/2027 Experiencing a CEEPUS Mobility in Croatia: Summer School of Exotic and Wild Animal Medicine at the Veterinary Faculty in Zagreb CEEPUS International ",
+          "on Legal info Terms of use Contact Accessibility info Cookie settings --> Closed Calls Bilateral Scholarships 20 February 2026 Scholarships of the Republic of Croatia - Call for Applications for the academic year 2026/2027 Deadline has passed Bilateral Scholarships 12 Februar"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "hr-croatian-ministry",
@@ -343,7 +457,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://mzom.gov.hr/glavni-izbornik-368/highlights/calls-417/scholarships-of-the-republic-of-croatia-call-for-applications-in-the-academic-year-2026-2027/7588",
+        "description": "Primary ministry 2026/27 bilateral scholarship call co-published with AMPEU, not a separate programme.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Co-publishes same government bilateral programme with AMPEU; not additional independent catalogue."
     },
     {
       "id": "hr-study-in-croatia",
@@ -374,7 +498,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "guidance_only",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://www.studyincroatia.hr/",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "cy-cyprus-state-scholarships-foundation",
@@ -403,7 +537,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://www.gov.cy/mof-cssf/documents/prokiryxi-kratikon-ypotrofion-gia-proptychiakes-spoydes-2025-26/",
+        "description": "Gov.cy primary undergraduate 2025/26 scholarship announcement published April 2026.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "cy-onek",
@@ -436,7 +580,21 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://youthfunds.onek.org.cy/en/",
+        "description": "Youth Initiatives 2027 call August 11 2026;2026 Green Volunteering and youth travel calls May 2026.",
+        "raw_date_contexts": [
+          "us + 357 22402630 Contact News & Announcements All Announcements 14 Results 3 Extensions 2 Calls 6 Events 3 📅 August 11, 2026 First Call for Applications under the “Youth Initiatives” Programme for 2027 Announcements Calls Read More → 📅 May 18, 2026 Second Call for Applicati",
+          "irst Call for Applications under the “Youth Initiatives” Programme for 2027 Announcements Calls Read More → 📅 May 18, 2026 Second Call for Applications under the “Green Volunteering” Programme for 2026 Announcements Calls Read More → 📅 May 5, 2026 Second Call for Applicat",
+          "ond Call for Applications under the “Green Volunteering” Programme for 2026 Announcements Calls Read More → 📅 May 5, 2026 Second Call for Applications under the “Youth and the World” Programme for 2026 Announcements Calls Read More → 📅 April 15, 2026 Grants awarded under"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "cy-cyprus-diaspora-scholarships",
@@ -466,7 +624,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://www.gov.cy/mfa/en/service-for-overseas-cypriots-and-repatriated-cypriots/",
+        "description": "Primary MFA 2026 diaspora resource lists university scholarships and paidinternships; no application deadline.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "cz-study-in-czechia",
@@ -497,7 +665,21 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://studyin.gov.cz/scholarships/",
+        "description": "Scholarship database shows 2026/27 Barrande and bilateral programmes; publishedcycle not openstatus.",
+        "raw_date_contexts": [
+          " to favorites CZ Barrande Length of stay fulldegree Scholarship type study visit, research stay Academic year 2026/2027, 2025/2026 More information Barrande Fellowship Programme: Short-term stays /host country: Czechia/ Add to favorites Barrande Fellowship Programme: S",
+          "stays /host country: Czechia/ Add to favorites CZ Barrande Length of stay kratkodoby Academic year 2025/2026, 2026/2027 More information Bilateral Agreements: Ministry of Education Scholarships for Students of Bachelor's, Master's and Doctoral Study Programmes from Ind",
+          "S Scholarships in Czechia Length of stay kratkodoby Scholarship type study visit, research stay Academic year 2026/2027 More information Stránkování 1 2 3 4 … 6 Next page --> svg]:h-auto [&>svg]:w-full\"> Go to home page Have a question? Get in touch. E-mail: info@study"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "cz-dzs",
@@ -528,7 +710,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://www.dzs.cz/program/evropsky-sbor-solidarity/projekty-granty",
+        "description": "Primary ESC 2026 call describes priorities and grants.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "cz-charles-university",
@@ -559,7 +751,20 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "guidance_updated",
+        "url": "https://cuni.cz/UKEN-1617.html",
+        "description": "Scholarship guidance updated August 14 2026; no call publication date.",
+        "raw_date_contexts": [
+          "saries there are other means of help, including loans of technical aids or counselling services. Last change: August 14, 2026, 15:09 Last change: August 14, 2026, 15:09 Responsible for site content: CU POINT Contacts Rectorate Charles University Ovocný trh 560/5 Prague 1, 11",
+          ", including loans of technical aids or counselling services. Last change: August 14, 2026, 15:09 Last change: August 14, 2026, 15:09 Responsible for site content: CU POINT Contacts Rectorate Charles University Ovocný trh 560/5 Prague 1, 116 36 Czech Republic +420 224 491 111"
+        ]
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "dk-study-in-denmark",
@@ -590,7 +795,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "guidance_only",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://studyindenmark.dk/study-options/scholarships",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "dk-dm-and-ma-travel-grant",
@@ -621,7 +836,19 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://dm.dk/students/membership/travel-grant/",
+        "description": "Next application round opens November 1 2026; membership/studenteligibility.",
+        "raw_date_contexts": [
+          "ull sm:relative sm:top-0 sm:right-0 md:order-1 shrink-0\"> Application The next application round will open on 1 November 2026 picture>img]:rounded-full sm:relative sm:top-0 sm:right-0 md:order-1 shrink-0\"> Contact p>a]:!text-current\"> If you have any questions regarding DM's"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "dk-university-of-copenhagen",
@@ -652,7 +879,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://studies.ku.dk/masters/tuition-fees--scholarships/",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "ee-harno",
@@ -684,7 +921,21 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://www.harno.ee/en/scholarships-and-grants/scholarships-studying-and-working-estonia/scholarships-international",
+        "description": "Primary page describes national 2026/27 degree/exchange scholarship round.",
+        "raw_date_contexts": [
+          "s who are citizens of the Russian Federation or Belarus will not be accepted in the application round for the 2026/2027 academic year. Scholarships for participation in summer schools The scholarship supports the participation of foreign students in summer schools of t",
+          "applied for by the foreign students who wish to study at a higher education institution in Estonia during the 2026/2027 academic year at formal studies or as an exchange student. The scholarship supports master's and PhD studies in all fields. In the first stage of hig",
+          "applied for by the foreign students who wish to study at a higher education institution in Estonia during the 2026/2027 academic year at formal studies or as an exchange student. The scholarship supports master's and PhD studies in all fields. In the first stage of hig"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "ee-university-of-tartu",
@@ -713,7 +964,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://ut.ee/en/scholarships-and-other-stipends",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "ee-taltech",
@@ -744,7 +1005,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://taltech.ee/en/scholarships",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "fi-study-in-finland",
@@ -775,7 +1046,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "guidance_only",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://www.studyinfinland.fi/funding-your-studies/bachelors-and-masters-scholarships",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "fi-aalto-university",
@@ -806,7 +1087,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://www.aalto.fi/en/admission-services/scholarships-and-tuition-fees",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "fi-university-of-helsinki",
@@ -837,7 +1128,21 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://www.helsinki.fi/en/admissions-and-education/apply-bachelors-and-masters-programmes/tuition-fees-and-scholarship-programme",
+        "description": "2026 admission financial dates and tuition waiver scheme visible; tuition only, not a living allowance.",
+        "raw_date_contexts": [
+          "eceive the 50% tuition waiver , you can . The deadline for tuition fee payment for the first academic year is 31 August 2026. If you are applying for a residence permit, but have not yet paid the tuition fee, please make sure you have sufficient funds to cover the tuition f",
+          " Documents stating that a student is not liable to pay tuition fees must be valid when the semester starts on 1 August 2026. If your document is valid e.g. until October 2026, you are not liable to pay the tuition fee for the fall term. If your document is valid e.g. until",
+          "ote that you should only apply for the recommencing of studies when the annual registration period has begun (1 April 2026). Please contact your degree programme before applying for the recommencing of studies. You need to pay the tuition fee in order to enroll as an atte"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "fr-campus-france",
@@ -868,7 +1173,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "current_catalogue",
+        "url": "https://campusbourses.campusfrance.org/?lang=en",
+        "description": "Campus Bourses database includes December 31 2026 and January 25 2027 deadlines.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "fr-1jeune1solution",
@@ -900,7 +1215,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "current_catalogue",
+        "url": "https://www.1jeune1solution.gouv.fr/stages",
+        "description": "Primary internshipsearch listings and September 2026 schoolplacement catalogue; perlisting dates stillneeded.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "fr-service-civique",
@@ -931,7 +1256,19 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "current_catalogue",
+        "url": "https://www.service-civique.gouv.fr/missions/tu-es-l-engagement",
+        "description": "Primary missioncatalogue includes postings October 3 2026 and starting October 15/19 2026.",
+        "raw_date_contexts": [
+          "ion Marty rejoint l'Agence du Service Civique Elle en assure désormais la direction générale Salons étudiants 2026-2027 Où rencontrer le Service Civique partout en France À la une SUIVEZ-NOUS ! Instagram Facebook Youtube Tiktok Linkedin Haut de page Un problème pendant"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "de-daad",
@@ -962,7 +1299,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://www2.daad.de/deutschland/stipendium/datenbank/de/21148-stipendiendatenbank/?detail=57742121",
+        "description": "Primary research scholarship database shows selection November 2026 and funding February 2027.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "de-stipendiumplus",
@@ -993,7 +1340,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "guidance_only",
+        "url": "https://stipendiumplus.de/",
+        "description": "Primary portal provides 13 fundingfoundation guidance; no dated 2026 call verified.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "de-rausvonzuhaus",
@@ -1025,7 +1382,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "current_catalogue",
+        "url": "https://www.rausvonzuhaus.de/faq",
+        "description": "Primary FAQ describes Last Minute funded places deadlines within the next  3 months; October 2026 Discover EU session visible.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "gr-iky",
@@ -1057,7 +1424,21 @@
       "refresh_cadence": "daily",
       "last_check_at": "2026-10-04",
       "review_tier": "feed_tested",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "current_catalogue",
+        "url": "https://www.iky.gr/en/",
+        "description": "RSS newest October 1 2026; includes notices and results so opportunity selection required.",
+        "raw_date_contexts": [
+          "/8/2026 ANNOUNCEMENT The State Scholarships Foundation (IKY), as the… More IKY-Fulbright Scholarships Results 2026-2027: U.S. Researchers in Greece 17/7/2026 Call Results for the academic year 2026-2027 … More IKY promotes the Use of the EPALE Platform in Erasmus+ Proj",
+          "right Scholarships Results 2026-2027: U.S. Researchers in Greece 17/7/2026 Call Results for the academic year 2026-2027 … More IKY promotes the Use of the EPALE Platform in Erasmus+ Projects through Information and Training Activities 11/6/2026 Nea Ionia, 11/06/2026 PR",
+          "AR «Adapting to Changing Labor Market: Cooperation… More More Scholarships IKY-Fulbright Scholarships Results 2026-2027: U.S. Researchers in Greece 17/7/2026 Call Results for the academic year 2026-2027 … More Call for Applications for “IKY – Max Weber Scholarships 202"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "gr-onassis-foundation",
@@ -1088,7 +1469,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://www.onassis.org/el/initiatives/scholarships/greek-scholars",
+        "description": "2026/27 call December 16 2025 now past;Greekpage anticipates 2027/28 call December 2026.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "gr-fulbright-greece",
@@ -1119,7 +1510,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://www.fulbright.gr/en/",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "hu-stipendium-hungaricum",
@@ -1151,7 +1552,21 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://stipendiumhungaricum.hu/apply/",
+        "description": "Primary application page lists 2026/27 call documents; annual intake notcurrently open proof.",
+        "raw_date_contexts": [
+          "or applications and related information for bachelor’s, master’s, one-tier master’s and non-degree programmes 2026/2027. CALL FOR APPLICATIONS - DOCTORAL You can find here the new call for applications and related information for doctoral programmes 2026/2027. APPLY HE",
+          "NS - DOCTORAL You can find here the new call for applications and related information for doctoral programmes 2026/2027. APPLY HERE Click here to open the online application interface. CALL FOR APPLICATIONS - BA/BSC, MA/MSC You can find here the new call for applicatio",
+          "or applications and related information for bachelor’s, master’s, one-tier master’s and non-degree programmes 2026/2027. You can find here the annexes of the Call for Applications for bachelor’s, master’s, one-tier master’s and non-degree programmes CALL FOR APPLICATIO"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "hu-tempus-bilateral-scholarships",
@@ -1182,7 +1597,21 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://en.tka.hu/bilateral-state-scholarships-information-for-applicants",
+        "description": "Primary page lists 2026/27 semester, full study and summer scholarship types.",
+        "raw_date_contexts": [
+          "onditions, provisions, documents to be submitted, etc. within the Calls for application for the academic year 2026-2027. For the academic year 2026-2027 Eligible countries and scholarship types Scholarship Type Semester/partial studies Duration 3-10 months Eligibility ",
+          "to be submitted, etc. within the Calls for application for the academic year 2026-2027. For the academic year 2026-2027 Eligible countries and scholarship types Scholarship Type Semester/partial studies Duration 3-10 months Eligibility bachelor or master or doctoral De",
+          "arship Type Semester/partial studies Duration 3-10 months Eligibility bachelor or master or doctoral Deadline 19 February 2026 Call for application in English Call for application Call for application in Hungarian Pályázati felhívás Online application system scholarship.hu On"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "hu-hungarian-diaspora-scholarship",
@@ -1213,7 +1642,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://diasporascholarship.hu/",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "ie-gradireland",
@@ -1245,7 +1684,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "current_catalogue",
+        "url": "https://gradireland.com/",
+        "description": "Primary site lists 2027 Kerryinternship and graduate programmes with remaining application days.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "ie-hea",
@@ -1276,7 +1725,19 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://hea.ie/policy/internationalisation/goi-ies/",
+        "description": "2026 call deadline March 12 2026 andresultsearly June; closedannual programme.",
+        "raw_date_contexts": [
+          "sessment process are included in the 2026 Call document. Key dates 2026 Application deadline 5pm (Irish time) 12 March 2026 2026 Call outcome Early June 2026 Contact information Information about the 2026 call of the Government of Ireland International Education Scholarshi"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "ie-l-argas",
@@ -1309,7 +1770,20 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "current_catalogue",
+        "url": "https://www.leargas.ie/",
+        "description": "Primary events include October 15 Gathering 2026 and October-Novembertraining deadlines.",
+        "raw_date_contexts": [
+          " Play video about Impact of the European Solidarity Corps News The next DiscoverEU application round opens on 1 October 2026! The next application round of DiscoverEU will take place between 8 and 22 April 2026. Read on to learn more! Youth Erasmus+ Latest News European Inn",
+          "ication round opens on 1 October 2026! The next application round of DiscoverEU will take place between 8 and 22 April 2026. Read on to learn more! Youth Erasmus+ Latest News European Innovative Teaching Awards Castleconnell National School's Story Play video about Europea"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "it-scambieuropei",
@@ -1342,7 +1816,21 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "current_catalogue",
+        "url": "https://www.scambieuropei.info/",
+        "description": "Primary home lists October 2 2026 Asserinternship and October 1 Schuman 2027 internships.",
+        "raw_date_contexts": [
+          "o Lavoro Lavoro in Irlanda per insegnanti e professionisti dell’infanzia Lavoro in Austria stagione invernale 2026/2027 settore ristorazione ed ospitalità Lavoro per Au pair in Germania a Monaco di Baviera. Garantito corso tedesco Lavoro a Malta come Trading Coach di l",
+          "er 500 figure per l’animazione e lo spettacolo Club Med: Lavoro in Francia e Italia per la stagione invernale 2026-2027 con Eures Tutte le offerte di Lavoro Stage Stage all’Aia con l’Asser Institute in comunicazione e PR Borse Schuman 2027: 514 Stage al Parlamento euro",
+          "a, precisamente a Dublino, Cork, Galway e Wicklow. Lavoro 1 Ottobre 2026 Lavoro in Austria stagione invernale 2026/2027 settore ristorazione ed ospitalità Vuoi lavorare in Austria per la stagione invernale 2026/2027? Alberghi e ristoranti in Vorarlberg e Tirolo cercano"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "it-eurodesk-italia",
@@ -1374,7 +1862,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "current_catalogue",
+        "url": "https://www.eurodesk.it/notizie",
+        "description": "Primary September-October 2026 news and October 6/November 12 webinars.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "it-study-in-italy",
@@ -1405,7 +1903,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://www.esteri.it/en/servizi-opportunita/opportunita/borse-di-studio/per-cittadini-stranieri/borsestudio_stranieri/",
+        "description": "Primary MAECI 2026/27 scholarship call links Study In Italy applicationportal; deadline March 26 2026 past.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "lv-viaa",
@@ -1437,7 +1945,21 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://www.viaa.gov.lv/en/latvian-state-scholarships",
+        "description": "Pageupdated January 13 2026 lists 2026/27 national state scholarships; annual, notcurrently open.",
+        "raw_date_contexts": [
+          "Nordplus Published: 18.05.2021. Updated: 13.01.2026. Call for applications for the Latvian state scholarships 2026/2027 In accordance with bilateral agreements on co-operation in education and science concluded between Latvian government and a few countries Latvia offe",
+          " staff for studies and participation in summer schools in Latvian higher education institutions (HEIs) in the 2026/2027 academic year. The Ministry of Education and Science of Latvia has delegated the administration of the Latvian state scholarships to the State Educat",
+          " Development Agency (Valsts izglītības attīstības aģentūra – VIAA). Eligible applicants for the academic year 2026/2027 I. Citizens from countries that have signed an Agreement* on co-operation in education and science Azerbaijan Belgium (FederationWallonia - Brussels)"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "lv-university-of-latvia",
@@ -1468,7 +1990,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://www.lu.lv/en/admission/scholarships-and-student-loans/fees-grants-and-scholarships/",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "lv-riga-technical-university",
@@ -1500,7 +2032,19 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://www.rtu.lv/en/studies/scholarships-2",
+        "description": "Primary page 2026/27 state scholarship; duplicates VIAAfunding, not independent.",
+        "raw_date_contexts": [
+          "studies, research and participation in summer schools in Latvian higher education institutions (HEIs) for the 2026/2027 academic year. The Latvian state scholarship can be applied for by citizens of countries that have either signed an agreement with Latvia or offer th"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Observedstateprogramme duplicatesVIAA."
     },
     {
       "id": "lt-study-in-lithuania",
@@ -1532,7 +2076,21 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://studyin.lt/scholarships/",
+        "description": "Primarycatalogue 2026 calls includes Vilnius April 1 2026 deadline now past; also quarterly university updates.",
+        "raw_date_contexts": [
+          "ical Un... Vilnius University Vytautas Magnus University Search Search University Vilnius University Deadline 2026-04-01 Eligible for Any country Tuition Fee Waiver for Full-Time Master Degree Studies Dreaming of a world-class Master’s degree but worried about the cost?",
+          "via apply.vu.lt . Tick the box for the Tuition Fee Waiver in the application form. Submit your application by 1 April 2026 . ! Selection is based on your entrance score and a short motivation interview. Make sure your application stands out! Link to page University Educat",
+          "ake sure your application stands out! Link to page University Education Exchanges Support Foundation Deadline 2026-04-20 Eligible for China, Georgia, Indonesia, Israel, Japan, Kazakhstan, Moldova, New Zealand, South Korea, The Philippines, Ukraine, United States of Amer"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "lt-vilnius-university",
@@ -1562,7 +2120,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://www.vu.lt/en/students/services-for-students/finance",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "lt-kaunas-university-of-technology",
@@ -1593,7 +2161,21 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://admissions.ktu.edu/",
+        "description": "Primary admissions news February 26 2026 masterstate scholarship notice; overlapsnationalprogramme.",
+        "raw_date_contexts": [
+          "o KTU – the Strongest Engineering University in Lithuania 6 months ago Kaunas Named Emerging City of the Year 2026-03-05 Study Master’s at KTU with a State Scholarship 2026-02-26 Kaunas attracts international students. Why do education agents recommend KTU? 2026-02-24 s",
+          "6 months ago Kaunas Named Emerging City of the Year 2026-03-05 Study Master’s at KTU with a State Scholarship 2026-02-26 Kaunas attracts international students. Why do education agents recommend KTU? 2026-02-24 show more » More Than 25 Events to Mark the Final Week of S",
+          "a State Scholarship 2026-02-26 Kaunas attracts international students. Why do education agents recommend KTU? 2026-02-24 show more » More Than 25 Events to Mark the Final Week of Summer in Kaunas 2 months ago Fresh Out of KTU: Mariandree Crossing the Ocean to Pursue a D"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Observed 2026state grant notice duplicatesnational funding; university-specificdated scholarship not yet verified."
     },
     {
       "id": "lu-university-of-luxembourg",
@@ -1624,7 +2206,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://www.uni.lu/life-en/financial-support/scholarships/",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "lu-luxembourg-mfa-internships",
@@ -1655,7 +2247,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://mae.gouvernement.lu/en/directions-du-ministere/finances-ressources-humaines/stages.html",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "lu-luxembourg-cooperation",
@@ -1687,7 +2289,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://cooperation.gouvernement.lu/en/s-engager.html",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "mt-myscholarship",
@@ -1718,7 +2330,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://myscholarship.gov.mt/en/",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "mt-university-of-malta",
@@ -1749,7 +2371,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://www.um.edu.mt/study/feesfunding/scholarships/",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "mt-malta-student-grants",
@@ -1780,7 +2412,20 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://stipendsandgrants.gov.mt/en/",
+        "description": "Primary page says 2026/27 Stipendsand Grantsapplications nowopen; localeligibilityrules.",
+        "raw_date_contexts": [
+          " for Students’ Maintenance Grants as per respective Legal Notice and Subsidiary Legislation for Academic Year 2026/2027 are to apply for Students’ Maintenance Grants online. important information Applications for Stipends and Grants for Academic Year 2026/2027 is NOW O",
+          "ents’ Maintenance Grants online. important information Applications for Stipends and Grants for Academic Year 2026/2027 is NOW OPEN Click here to Apply Useful Links MCAST - Stipend Office University of Malta - Stipend Office Malta Further & Higher Education Authority ©"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "nl-study-in-nl",
@@ -1811,7 +2456,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://www.studyinnl.org/finances/scholarships",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "nl-magnet-me",
@@ -1842,7 +2497,21 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "current_catalogue",
+        "url": "https://magnet.me/en/internships/netherlands",
+        "description": "Primary HTML internship records showresponse Deadline October 4 2026 and February 2027 start dates.",
+        "raw_date_contexts": [
+          "ge\",[\"_o\",[[\"min\",50000],[\"max\",50000],[\"timePeriod\",\"\\\"MONTHLY\\\"\"]]]],[\"currency\",\"\\\"EUR\\\"\"],[\"jobStarts\",\"\\\"2027-02-01\\\"\"],[\"employment\",[\"_o\",[[\"key\",\"\\\"FULL_TIME\\\"\"],[\"translation\",\"\\\"Full-time\\\"\"]]]],[\"minimumDuration\",22]]]],[\"\\\"1082538\\\"\",[\"_o\",[[\"id\",1082538],[\"",
+          " groei van het aandeel van Danone binnen de categorieën zuivel en plantaardig. Di…\\\"\"],[\"responseDeadline\",\"\\\"2026-10-04\\\"\"],[\"state\",[\"_o\",[[\"key\",\"\\\"PUBLISHED\\\"\"],[\"translation\",\"\\\"Active\\\"\"]]]],[\"stateChangeReason\",null],[\"geolocation\",469],[\"remote\",false],[\"externa",
+          "ge\",[\"_o\",[[\"min\",65000],[\"max\",65000],[\"timePeriod\",\"\\\"MONTHLY\\\"\"]]]],[\"currency\",\"\\\"EUR\\\"\"],[\"jobStarts\",\"\\\"2027-09-01\\\"\"],[\"employment\",[\"_o\",[[\"key\",\"\\\"FULL_TIME\\\"\"],[\"translation\",\"\\\"Full-time\\\"\"]]]],[\"minimumDuration\",null]]]],[\"\\\"1082559\\\"\",[\"_o\",[[\"id\",1082559],"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "nl-leiden-university",
@@ -1872,7 +2541,19 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://www.universiteitleiden.nl/en/scholarships/sea/leiden-university-excellence-scholarship-lexs",
+        "description": "Primary LEx Spage deadline December 1 2026; nationality/programmerestrictions.",
+        "raw_date_contexts": [
+          "degree programme - with the exception of LLM (non-advanced) and MSc programmes at Leiden Law School. Deadline 1 December 2026 Target group Master Countries/ nationalities Non-EEA/non-EFTA students / Exception: All nationalities for Advanced LLMs & MSc Int. Relations and Dipl"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "pl-eurodesk-polska",
@@ -1885,7 +2566,7 @@
         "grant",
         "youth"
       ],
-      "operator": "Eurodesk Polska",
+      "operator": "FRSE",
       "added_at": "2026-10-04",
       "verified_at": "2026-10-04",
       "verification_status": "page_reachable",
@@ -1900,12 +2581,22 @@
       "page_title": "Granty | Eurodesk Polska | FRSE",
       "source_kind": "recurring_programme_or_catalogue",
       "acquisition_state": "not_connected",
-      "publisher_overlap": false,
+      "publisher_overlap": true,
       "retrieval_notes": "HTML adapter not implemented; inspect precise listing/detail URLs, dates, terms and robots before enabling.",
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "current_catalogue",
+        "url": "https://www.eurodesk.pl/granty",
+        "description": "Primary grant catalogue has October 4/6 2026 deadlines and November 30 grants; publisher FRSE.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "pl-nawa",
@@ -1936,7 +2627,21 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://nawa.gov.pl/en/nawa/news/call-for-applications-banach-nawa-2026",
+        "description": "Primary Banach NAWA 2026 call deadline May 8 2026 and 2026/27 intake; closed.",
+        "raw_date_contexts": [
+          " analysis International cooperation & exchange Zawacka NAWA Programme Outgoing offer Oferta na rok akademicki 2026/2027 Ogłoszenie o naborze Informacje dla wnioskodawców Kontakt Poprzednie nabory Oferta na rok akademicki 2024/2025 Ogłoszenie o naborze Informacje dla wn",
+          "ta na rok akademicki 2025/2026 Ogłoszenie o naborze Informacje dla wnioskodawców Incoming offer Offer for the 2026/2027 academic year Call for applications Information for applicants Contact Closed calls 2024/2025 Offer Call for applications Information for applicants ",
+          " analysis International cooperation & exchange Zawacka NAWA Programme Outgoing offer Oferta na rok akademicki 2026/2027 Ogłoszenie o naborze Informacje dla wnioskodawców Kontakt Poprzednie nabory Oferta na rok akademicki 2024/2025 Ogłoszenie o naborze Informacje dla wn"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "pl-frse",
@@ -1963,12 +2668,22 @@
       "page_title": "Fundacja Rozwoju Systemu Edukacji",
       "source_kind": "recurring_programme_or_catalogue",
       "acquisition_state": "not_connected",
-      "publisher_overlap": false,
+      "publisher_overlap": true,
       "retrieval_notes": "HTML adapter not implemented; inspect precise listing/detail URLs, dates, terms and robots before enabling.",
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://www.frse.org.pl/",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "pt-ipdj",
@@ -2000,7 +2715,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://ipdj.gov.pt/candidaturas",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "pt-fct",
@@ -2032,7 +2757,19 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://www.fct.pt/en/financiamento/programas-de-financiamento/bolsas/",
+        "description": "Primary Ph Dstudentship overviewupdated March 30 2026; postgraduate focus; individualcalls need inspection.",
+        "raw_date_contexts": [
+          "he form, or filling it out in the context of Calls by FCT for funding PhD Studentships . Studentships Updated March 30, 2026 101 Av. do Brasil 1700-066 Lisbon, Portugal +351 213 924 300 Financing Financing Programs International Awards Media News Press Releases Subscribe to"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "pt-dges",
@@ -2063,7 +2800,20 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "unrelated_activity",
+        "url": "https://www.dges.gov.pt/en",
+        "description": "September 29 2026 admissionsresults visible; not proofrecent scholarship call.",
+        "raw_date_contexts": [
+          "tigo Estudante sou inst mob Sou Instituição study mob Programas Impulso O seu browser não suporta JavaScript! 29 september 2026 Publicação dos Resultados da 2ª Fase do Concurso Nacional e Concursos Profissionais Os resultados da 2.ª fase do Concurso Nacional de Acesso (CNA) se",
+          "S, I.P. ... Conselho Coordenador do Ensino Superior Composição do Conselho Coordenador do Ensino Superior ... 11 march 2026 Direção-Geral do Ensino Superior conclui ciclo institucional No âmbito da reforma da Administração Pública, a Direção-Geral do Ensino Superior (DGES)"
+        ]
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "ro-study-in-romania",
@@ -2094,7 +2844,19 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://studyinromania.gov.ro/scholarships",
+        "description": "2026/27 national scholarshipcycle confirmed; site newsstatesapplicationsclosed.",
+        "raw_date_contexts": [
+          "holarships are awarded on a merit-based competition. Please consult the latest updates (for the academic year 2026-2027) on the Ministry of Education website. The specific admission methodology is available on their website, here . 4. Scholarships for students from Nor"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "ro-fulbright-romania",
@@ -2126,7 +2888,19 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://fulbright.ro/the-2027-2028-fulbright-us-student-competition/",
+        "description": "Primary 2027/28 USstudentcall deadline October 6 2026.",
+        "raw_date_contexts": [
+          "m Session: U.S. Fulbright Grants in Romania, Poland and Bulgaria Read More News Pre-Departure Orientation for 2026-2027 Romanian Fulbright Grantees Read More News Fulbright Alumnus Appointed to Ecological Society of America Ethics Committee Read More Grants for Romania"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "ro-anpcdefp",
@@ -2159,7 +2933,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://www.anpcdefp.ro/ce-facem/ne-implicam/erasmus-si-fse/",
+        "description": "Erasmus+/ESF+supportpage updated September 16 2026 for students 18-29 with fewer opportunities; institution-mediated.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "sk-saia-grants",
@@ -2191,7 +2975,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "current_catalogue",
+        "url": "https://grants.saia.sk/Pages/ProgramZoznam.aspx?s=true",
+        "description": "Primary database shows NSPstudentdeadline October 31 2026 16:00.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "sk-national-scholarship-programme",
@@ -2222,7 +3016,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://www.scholarships.sk/en/main/o-programe",
+        "description": "Same SAIAprogramme as database with October 31 2026 round; not an additional independent publisher.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "sk-study-in-slovakia",
@@ -2253,7 +3057,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "guidance_only",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://www.studyinslovakia.saia.sk/en/main/scholarships",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "si-public-scholarship-fund",
@@ -2284,7 +3098,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://www.srips-rs.si/en/public-calls",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "si-cmepius",
@@ -2316,7 +3140,20 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://www.cmepius.si/mednarodno-sodelovanje/moznosti-sodelovanja/bilaterale/",
+        "description": "Bilateralprogramme list 2026/27 and 2027/28 calls; manylisteddeadlinespast, inspect each.",
+        "raw_date_contexts": [
+          "dmission Information for Universities Madžarska Bilateral State Scholarships in Hungary for the academic year 2026-2027 19. 2. 2026 (prijave možne le preko spleta https://scholarship.hu ) http://tka.hu/international-programmes/4133/information-for-applicants (in PDF ) ",
+          "nal-programmes/4133/information-for-applicants (in PDF ) Švica Razpis štipendij Švicarske vlade za Štud. leto 2026/2027 1. 12. 2025 PDF Slovaška Bilateralne štipendije 2026-27 31.10.2025 ob 16:00 CET Informacije Romunija Eugen Ionescu doctoral and postoctoral research "
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "si-university-of-ljubljana",
@@ -2347,7 +3184,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "guidance_only",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://www.uni-lj.si/en/study",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "es-injuve",
@@ -2378,7 +3225,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "current_catalogue",
+        "url": "https://www.injuve.es/convocatorias/becas",
+        "description": "Primary SEPI 107 internshipslisting September 30 2026 deadline October 7 2026.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "es-fundaci-n-carolina",
@@ -2409,7 +3266,21 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://www.fundacioncarolina.es/",
+        "description": "Primary home lists 2026/27 scholarship call; annual programme, checkper call openstate.",
+        "raw_date_contexts": [
+          "niversidades españolas Movilidad de profesorado Estudios institucionales Cómo solicitar Convocatoria de becas 2026-2027 Cómo Trabajamos Criterios valoración Preguntas frecuentes Estudios y análisis Presentación Publicaciones Análisis Carolina Documentos de Trabajo Punt",
+          "niversidades españolas Movilidad de profesorado Estudios institucionales Cómo solicitar Convocatoria de becas 2026-2027 Cómo Trabajamos Criterios valoración Preguntas frecuentes Estudios y análisis Presentación Publicaciones Análisis Carolina Documentos de Trabajo Punt",
+          "niversidades españolas Movilidad de profesorado Estudios institucionales Cómo solicitar Convocatoria de becas 2026-2027 Cómo Trabajamos Criterios valoración Preguntas frecuentes Estudios y análisis Presentación Publicaciones Análisis Carolina Documentos de Trabajo Punt"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "es-la-caixa-foundation",
@@ -2441,7 +3312,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "current_catalogue",
+        "url": "https://fundacionlacaixa.org/es/becas",
+        "description": "Primary scholarships list includesopen research call deadline October 7 2026 andclosed undergrad May 29 2026.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "se-swedish-institute",
@@ -2472,7 +3353,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://si.se/en/apply/scholarships/",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "se-study-in-sweden",
@@ -2503,7 +3394,21 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "guidance_only",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "guidance_updated",
+        "url": "https://studyinsweden.se/scholarships/",
+        "description": "April 20 2026 metadata representsuniversity directory update, notscholarship call.",
+        "raw_date_contexts": [
+          "tatus\":\"closed\",\"post_password\":\"\",\"post_name\":\"uppsala-university\",\"to_ping\":\"\",\"pinged\":\"\",\"post_modified\":\"2026-04-20 08:58:57\",\"post_modified_gmt\":\"2026-04-20 08:58:57\",\"post_content_filtered\":\"\",\"post_parent\":0,\"guid\":\"https://studyinsweden.se/?post_type=si_school_",
+          "ame\":\"uppsala-university\",\"to_ping\":\"\",\"pinged\":\"\",\"post_modified\":\"2026-04-20 08:58:57\",\"post_modified_gmt\":\"2026-04-20 08:58:57\",\"post_content_filtered\":\"\",\"post_parent\":0,\"guid\":\"https://studyinsweden.se/?post_type=si_school_placemarks\\u0026#038;p=334\",\"menu_order\":0",
+          "g_status\":\"closed\",\"post_password\":\"\",\"post_name\":\"university-west\",\"to_ping\":\"\",\"pinged\":\"\",\"post_modified\":\"2026-04-20 08:41:30\",\"post_modified_gmt\":\"2026-04-20 08:41:30\",\"post_content_filtered\":\"\",\"post_parent\":0,\"guid\":\"https://studyinsweden.se/?post_type=si_school_"
+        ]
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "se-lund-university",
@@ -2534,7 +3439,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://www.lunduniversity.lu.se/admissions/bachelors-and-masters-studies/scholarships-and-awards",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "us-usajobs-students",
@@ -2566,7 +3481,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "current_catalogue",
+        "url": "https://recentgrad.usajobs.gov/search/results",
+        "description": "Primaryrecentgraduatecatalogue lists September 22–October 6 2026 vacancy and January 2026–January 2027 ongoingcall.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "us-nsf-reu",
@@ -2598,7 +3523,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://www.nsf.gov/funding/initiatives/reu/students",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "us-careeronestop-scholarship-finder",
@@ -2629,7 +3564,17 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "not_established",
+        "url": "https://www.careeronestop.org/toolkit/training/find-scholarships.aspx",
+        "description": "No reliable dated opportunity publication manually established. HTTP availability does not establish update activity.",
+        "raw_date_contexts": []
+      },
+      "publication_quality": "not_yet_qualified",
+      "counts_toward_active_source_target": false,
+      "exclusion_reason": "Guidance, unrelated date, or dated opportunity publication not yet established."
     },
     {
       "id": "us-fulbright-us-student",
@@ -2660,7 +3605,20 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://us.fulbrightonline.org/",
+        "description": "Primary home 2027/28 competitionnational deadline October 6 2026 5 pm ET.",
+        "raw_date_contexts": [
+          " US Fulbright Program - New Home Page The 2027-2028 Competition is now open. The National Deadline is October 6, 2026 at 5pm Eastern Time. Start an application . I am: Choose... Current U.S. Student U.S. Citizen but not a Student Artist FPA U.S. Professor/Administrat",
+          "ication: Rolling basis through spring 2027–2028 Award Cycle Application: Now open National Deadline: Tuesday, October 6, 2026 at 5 pm Eastern Time Fulbright Application Begin your journey and apply for a Fulbright opportunity. Visit our Getting Started page Start Application"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "us-nasa-internships",
@@ -2691,7 +3649,21 @@
       "refresh_cadence": "proposed weekly; publisher cadence not yet established",
       "last_check_at": "2026-10-04",
       "review_tier": "adapter_research",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "recent_programme",
+        "url": "https://www.nasa.gov/learning-resources/internship-programs/",
+        "description": "Primary page 2027 summer deadline March 1 andfall deadline May 24; programme offers 3 sessionsannually.",
+        "raw_date_contexts": [
+          " 2 min read Dr. Natasha Schatzman Receives Vertical Flight Society (VFS) Award article 3 days ago 10 min read 2026-2027 DWU: Middle School Design Challenge article 1 week ago Highlights 3 min read Rains Swamp the Gandak River article 3 days ago 1 min read Space Reactor",
+          "ffer three sessions annually, so visit our website often for opportunities. Summer 2027 Application Deadline: March 1, 2027 (11:59 p.m. ET) Fall 2027 Application Deadline: May 24, 2027 (11:59 p.m. ET) Click Here to Explore Our Opportunities and Apply Pathways Internship Pa",
+          "pportunities. Summer 2027 Application Deadline: March 1, 2027 (11:59 p.m. ET) Fall 2027 Application Deadline: May 24, 2027 (11:59 p.m. ET) Click Here to Explore Our Opportunities and Apply Pathways Internship Paid internships that are direct pipelines to full-time employm"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "opportunities-for-youth",
@@ -2723,7 +3695,19 @@
       "refresh_cadence": "daily",
       "last_check_at": "2026-10-04",
       "review_tier": "feed_tested",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "current_catalogue",
+        "url": "https://opportunitiesforyouth.org/",
+        "description": "Parsed RSSnewest October 4 2026;international aggregator.",
+        "raw_date_contexts": [
+          "ty Linguistics PhD 2027-28: Fully Funded Doctoral Program in the USA — Eligibility, Requirements, Funding and November 18, 2026 Deadline Oct 1, 2026 Stanford University’s Department of Linguistics is accepting applications for its Ph.D. program... University of Sheffield AHRC "
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "opportunity-desk",
@@ -2755,7 +3739,21 @@
       "refresh_cadence": "daily",
       "last_check_at": "2026-10-04",
       "review_tier": "feed_tested",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "current_catalogue",
+        "url": "https://opportunitydesk.org/",
+        "description": "Parsed RSSnewest October 3 2026;international aggregator.",
+        "raw_date_contexts": [
+          "hing Latest on the Desk Loeb Fellowship 2027-2028 at the Harvard Graduate School of Design (Funded) Jude Ogar October 3, 2026 Africa Closes in 93 days Deadline: January 5, 2027 Applications are open for the Loeb Fellowship 2027-2028. The Loeb Fellowship is… Read More Google ",
+          "t the Harvard Graduate School of Design (Funded) Jude Ogar October 3, 2026 Africa Closes in 93 days Deadline: January 5, 2027 Applications are open for the Loeb Fellowship 2027-2028. The Loeb Fellowship is… Read More Google Engineering & Technical Internships 2027 October 3,",
+          " Loeb Fellowship 2027-2028. The Loeb Fellowship is… Read More Google Engineering & Technical Internships 2027 October 3, 2026 Google Ireland Scholarship for Women in Computer Science 2027 (€5,000 award) October 3, 2026 Closes tomorrow citiesRISE Fellowship for Emerging Leade"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     },
     {
       "id": "scholarships-corner",
@@ -2787,7 +3785,21 @@
       "refresh_cadence": "daily",
       "last_check_at": "2026-10-04",
       "review_tier": "feed_tested",
-      "rights_review_status": "pending"
+      "rights_review_status": "pending",
+      "last_activity_evidence": {
+        "review_date": "2026-10-04",
+        "status": "current_catalogue",
+        "url": "https://scholarshipscorner.website/",
+        "description": "Parsed RSSnewest October 4 2026;international aggregator.",
+        "raw_date_contexts": [
+          "kedin Telegram-plane Youtube Iceland Writers Retreat Award 2027 | Full Funding & Partial Funding Fawad Afridi October 4, 2026 USTC Winter Camp 2027 in China – Fully Funded Scholarship Available Fawad Afridi October 4, 2026 MOPGA Fellowship Program 2027 in France | €2,500 Mon",
+          "Fawad Afridi October 4, 2026 USTC Winter Camp 2027 in China – Fully Funded Scholarship Available Fawad Afridi October 4, 2026 MOPGA Fellowship Program 2027 in France | €2,500 Monthly Allowance Fawad Afridi October 3, 2026 GLOCAL Erasmus Mundus Scholarship 2027-2029 (Fully Fu",
+          " Fawad Afridi October 4, 2026 MOPGA Fellowship Program 2027 in France | €2,500 Monthly Allowance Fawad Afridi October 3, 2026 GLOCAL Erasmus Mundus Scholarship 2027-2029 (Fully Funded) Fawad Afridi October 3, 2026 Human Rights Essay Award 2027 by American University (Full Tu"
+        ]
+      },
+      "publication_quality": "recent_opportunity_publication_confirmed",
+      "counts_toward_active_source_target": true,
+      "exclusion_reason": ""
     }
   ],
   "coverage_notes": [
@@ -2797,5 +3809,267 @@
     "An HTTP 200 means reachable, not editorial quality, permission or fresh opportunity data.",
     "National programmes may be annual, closed, institution-mediated or restricted by citizenship.",
     "RSS feeds containing general institutional notices require selection rules."
-  ]
+  ],
+  "country_quality_summary": [
+    {
+      "country": "AT",
+      "name": "Austria",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 2,
+      "minimum_three_met": false,
+      "remaining_gap": 1,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "BE",
+      "name": "Belgium",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 2,
+      "minimum_three_met": false,
+      "remaining_gap": 1,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "BG",
+      "name": "Bulgaria",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 3,
+      "minimum_three_met": true,
+      "remaining_gap": 0,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "CY",
+      "name": "Cyprus",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 3,
+      "minimum_three_met": true,
+      "remaining_gap": 0,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "CZ",
+      "name": "Czechia",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 1,
+      "minimum_three_met": false,
+      "remaining_gap": 2,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "DE",
+      "name": "Germany",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 2,
+      "minimum_three_met": false,
+      "remaining_gap": 1,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "DK",
+      "name": "Denmark",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 1,
+      "minimum_three_met": false,
+      "remaining_gap": 2,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "EE",
+      "name": "Estonia",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 1,
+      "minimum_three_met": false,
+      "remaining_gap": 2,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "ES",
+      "name": "Spain",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 3,
+      "minimum_three_met": true,
+      "remaining_gap": 0,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "FI",
+      "name": "Finland",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 1,
+      "minimum_three_met": false,
+      "remaining_gap": 2,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "FR",
+      "name": "France",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 2,
+      "minimum_three_met": false,
+      "remaining_gap": 1,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "GR",
+      "name": "Greece",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 2,
+      "minimum_three_met": false,
+      "remaining_gap": 1,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "HR",
+      "name": "Croatia",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 1,
+      "minimum_three_met": false,
+      "remaining_gap": 2,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "HU",
+      "name": "Hungary",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 1,
+      "minimum_three_met": false,
+      "remaining_gap": 2,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "IE",
+      "name": "Ireland",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 3,
+      "minimum_three_met": true,
+      "remaining_gap": 0,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "IT",
+      "name": "Italy",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 3,
+      "minimum_three_met": true,
+      "remaining_gap": 0,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "LT",
+      "name": "Lithuania",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 1,
+      "minimum_three_met": false,
+      "remaining_gap": 2,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "LU",
+      "name": "Luxembourg",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 0,
+      "minimum_three_met": false,
+      "remaining_gap": 3,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "LV",
+      "name": "Latvia",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 1,
+      "minimum_three_met": false,
+      "remaining_gap": 2,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "MT",
+      "name": "Malta",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 1,
+      "minimum_three_met": false,
+      "remaining_gap": 2,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "NL",
+      "name": "Netherlands",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 2,
+      "minimum_three_met": false,
+      "remaining_gap": 1,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "PL",
+      "name": "Poland",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 2,
+      "minimum_three_met": false,
+      "remaining_gap": 1,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "PT",
+      "name": "Portugal",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 1,
+      "minimum_three_met": false,
+      "remaining_gap": 2,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "RO",
+      "name": "Romania",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 3,
+      "minimum_three_met": true,
+      "remaining_gap": 0,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "SE",
+      "name": "Sweden",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 0,
+      "minimum_three_met": false,
+      "remaining_gap": 3,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "SI",
+      "name": "Slovenia",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 1,
+      "minimum_three_met": false,
+      "remaining_gap": 2,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "SK",
+      "name": "Slovakia",
+      "research_entries": 3,
+      "independent_publishers_with_recent_opportunity_evidence": 1,
+      "minimum_three_met": false,
+      "remaining_gap": 2,
+      "automated_permission_review_complete": false
+    },
+    {
+      "country": "US",
+      "name": "United States",
+      "research_entries": 5,
+      "independent_publishers_with_recent_opportunity_evidence": 3,
+      "minimum_three_met": true,
+      "remaining_gap": 0,
+      "automated_permission_review_complete": false
+    }
+  ],
+  "quality_summary": {
+    "countries_reviewed": 28,
+    "countries_with_minimum_three_recent_independent_publishers": 7,
+    "countries_below_minimum_three": 21,
+    "sources_with_recent_opportunity_evidence": 58,
+    "automated_permission_review_complete": 0,
+    "definition": "Recent opportunity activity includes recurring 2026/27 programmes even if currently closed. It does not imply open applications or permission for automated reuse."
+  }
 }
