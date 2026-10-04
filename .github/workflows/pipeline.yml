@@ -34,12 +34,16 @@ jobs:
           GH_REPO: ${{ github.repository }}
         run: |
           mkdir -p previous
-          gh release list --limit 100 --json tagName > previous/releases.json
-          if node -e "process.exit(JSON.parse(require('fs').readFileSync('previous/releases.json')).some(r=>r.tagName==='catalog-latest')?0:1)"; then
+          if gh api "repos/${GH_REPO}/releases/tags/catalog-latest" > previous/release.json 2> previous/restore-error.txt; then
             gh release download catalog-latest --pattern catalog.json --dir previous
             echo "PREVIOUS_CATALOG=previous/catalog.json" >> "$GITHUB_ENV"
           else
-            echo "No prior catalog release. First successful collection seeds state."
+            if rg -q "HTTP 404" previous/restore-error.txt; then
+              echo "No prior catalog release. First successful collection seeds state."
+            else
+              cat previous/restore-error.txt
+              exit 1
+            fi
           fi
       - run: npm run pipeline
       - uses: actions/upload-artifact@v4
