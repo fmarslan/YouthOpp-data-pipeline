@@ -40,7 +40,7 @@ jobs:
             gh release download catalog-latest --pattern catalog.json --dir previous
             echo "PREVIOUS_CATALOG=previous/catalog.json" >> "$GITHUB_ENV"
           else
-            if rg -q "HTTP 404" previous/restore-error.txt; then
+            if grep -q "HTTP 404" previous/restore-error.txt; then
               echo "No prior catalog release. First successful collection seeds state."
             else
               cat previous/restore-error.txt
