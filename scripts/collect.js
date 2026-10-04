@@ -13,7 +13,7 @@ export function validateRecord(record) {
   if (!['scholarships','internships','volunteering','fellowships','training','competitions','grants','jobs','other'].includes(record.category)) throw new Error('Invalid category');
 }
 export async function fetchText(url) {
-  if(new URL(url).protocol !== 'https:' || new URL(url).username || new URL(url).password || /^(localhost|127\.|10\.|192\.168\.|169\.254\.|\[)/.test(new URL(url).hostname)) throw new Error('HTTPS source required');
+  if(new URL(url).protocol !== 'https:' || new URL(url).username || new URL(url).password || /^(localhost|127\.|0\.|10\.|172\.(1[6-9]|2[0-9]|3[01])\.|192\.168\.|169\.254\.|\[)/.test(new URL(url).hostname)) throw new Error('HTTPS source required');
   const response = await fetch(url,{signal:AbortSignal.timeout(25000),redirect:'error',headers:{'User-Agent':'YouthOpp/1.0 (+https://github.com/YouthOpp/data-pipeline)'}});
   if(!response.ok) throw new Error(`HTTP ${response.status}`);
   const reader=response.body.getReader();let size=0;const chunks=[];

@@ -19,3 +19,5 @@ Pipeline handles merge, preservation and publication. Run `npm run validate && n
 ## Quality and provenance
 
 Reference original publisher and opportunity URL in every record. Publisher identity is not a blanket quality endorsement. Report collection failures transparently. Source additions are reviewed for relevance, recent activity, reliable URLs and respectful collection frequency. Never bypass access controls or scrape blocked feeds. Leave blocked or unverified sources disabled in the research registry.
+
+Machine-readable opportunity shape is published in `schemas/opportunity.schema.json`; the runtime validator adds URL, timestamp and duplicate checks. Host restrictions reject private literal addresses and redirecting endpoints. They are defensive checks for reviewed public manifests, not a full DNS-rebinding firewall; trusted maintainers must review hostnames before enabling feeds.
