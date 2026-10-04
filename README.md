@@ -16,7 +16,7 @@ To preserve prior records locally, set `PREVIOUS_CATALOG=/path/to/catalog.json`.
 
 ## Publication
 
-The trusted default-branch schedule runs every six hours. A versioned release (`catalog-<run-id>`) stores an auditable data snapshot; `catalog-latest` serves the most recent successful catalog. Frontend builds download `https://github.com/YouthOpp/data-pipeline/releases/download/catalog-latest/catalog.json` without authentication. Each build should capture one snapshot and use it consistently. Releases accumulate; maintainers can periodically remove old versioned releases while preserving latest state. No paid backend, API key or database is required.
+The trusted `main` push seeds a release after the fork PR is merged; the default-branch schedule runs every six hours, and manual dispatch can refresh it. Work is delivered and merged exclusively in the fmarslan forks; no upstream PR is required. A versioned release (`catalog-<run-id>-<attempt>`) stores an auditable data snapshot; `catalog-latest` serves the most recent successful catalog. Frontend builds download `https://github.com/fmarslan/YouthOpp-data-pipeline/releases/download/catalog-latest/catalog.json` without authentication. Each build should capture one snapshot and use it consistently. Releases accumulate; maintainers can periodically remove old versioned releases while preserving latest state. No paid backend, API key or database is required.
 
 PR checks use read-only permissions, no secrets, fixture tests, and no remote collection. Collection and publishing execute only trusted default-branch code. Public RSS is capped at 5 MB and 25 seconds, HTTPS-only without redirects. Add a canonical feed URL if the publisher redirects. GitHub limits still apply.
 
