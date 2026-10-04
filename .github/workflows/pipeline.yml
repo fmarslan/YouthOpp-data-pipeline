@@ -28,26 +28,16 @@ jobs:
         with:
           node-version: '22'
           cache: npm
-      - run: npm ci
+      - run: npm ci --ignore-scripts
       - run: npm run validate && npm test
       - name: Restore durable previous release
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
-        run: |
-          mkdir -p previous
-          if gh api "repos/${GH_REPO}/releases/tags/catalog-latest" > previous/release.json 2> previous/restore-error.txt; then
-            gh release download catalog-latest --pattern catalog.json --dir previous
-            echo "PREVIOUS_CATALOG=previous/catalog.json" >> "$GITHUB_ENV"
-          else
-            if grep -q "HTTP 404" previous/restore-error.txt; then
-              echo "No prior catalog release. First successful collection seeds state."
-            else
-              cat previous/restore-error.txt
-              exit 1
-            fi
-          fi
+        run: node scripts/release-state.js restore
       - run: npm run pipeline
+      - name: Generate immutable snapshot integrity manifest
+        run: node scripts/release-state.js manifest "catalog-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
       - uses: actions/upload-artifact@v4
         with:
           name: catalog-${{ github.run_id }}
@@ -57,8 +47,14 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
         run: |
-          gh release create "catalog-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" dist/catalog.json dist/collection-report.json --target "$GITHUB_SHA" --title "Catalog ${GITHUB_RUN_ID} attempt ${GITHUB_RUN_ATTEMPT}" --notes "Open AI agent: automated source collection. See collection-report.json for source health."
+          gh release create "catalog-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" dist/catalog.json dist/collection-report.json dist/manifest.json --target "$GITHUB_SHA" --title "Catalog ${GITHUB_RUN_ID} attempt ${GITHUB_RUN_ATTEMPT}" --notes "Open AI agent: automated source collection. See collection-report.json for source health."
           if ! gh release view catalog-latest >/dev/null 2>&1; then
             gh release create catalog-latest --target "$GITHUB_SHA" --title "Latest catalog" --notes "Open AI agent: latest successful catalog."
           fi
           gh release upload catalog-latest dist/catalog.json dist/collection-report.json --clobber
+          gh release upload catalog-latest dist/manifest.json --clobber
+      - name: Retain newest 30 versioned catalog snapshots
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: node scripts/release-state.js prune "catalog-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
