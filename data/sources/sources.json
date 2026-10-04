@@ -2,8 +2,34 @@
   {
     "source": "opportunitiesforyouth",
     "source_url": "https://opportunitiesforyouth.org/feed/",
+    "website_url": "https://opportunitiesforyouth.org/",
     "enabled": true,
+    "adapter": "rss",
     "language": "en",
-    "default_tags": ["education"]
+    "default_tags": [],
+    "added_at": "2026-10-04",
+    "scope": "international"
+  },
+  {
+    "source": "opportunitydesk",
+    "source_url": "https://opportunitydesk.org/feed/",
+    "website_url": "https://opportunitydesk.org/",
+    "enabled": true,
+    "adapter": "rss",
+    "language": "en",
+    "default_tags": [],
+    "added_at": "2026-10-04",
+    "scope": "international"
+  },
+  {
+    "source": "scholarshipscorner",
+    "source_url": "https://scholarshipscorner.website/feed/",
+    "website_url": "https://scholarshipscorner.website/",
+    "enabled": true,
+    "adapter": "rss",
+    "language": "en",
+    "default_tags": [],
+    "added_at": "2026-10-04",
+    "scope": "international"
   }
 ]
