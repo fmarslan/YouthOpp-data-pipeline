@@ -34,7 +34,8 @@ jobs:
           GH_REPO: ${{ github.repository }}
         run: |
           mkdir -p previous
-          if gh release view catalog-latest >/dev/null 2>&1; then
+          gh release list --limit 100 --json tagName > previous/releases.json
+          if node -e "process.exit(JSON.parse(require('fs').readFileSync('previous/releases.json')).some(r=>r.tagName==='catalog-latest')?0:1)"; then
             gh release download catalog-latest --pattern catalog.json --dir previous
             echo "PREVIOUS_CATALOG=previous/catalog.json" >> "$GITHUB_ENV"
           else
