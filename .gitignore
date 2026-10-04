@@ -31,6 +31,8 @@ htmlcov/
 
 # Node
 node_modules/
-package-lock.json
 
-# Do NOT ignore data/ — all pipeline outputs are Git-tracked
+# Legacy data remains tracked; new pipeline outputs use releases.
+
+dist/
+previous/
