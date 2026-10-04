@@ -1,0 +1,137 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "YouthOpp opportunity v1",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "url",
+    "source",
+    "source_url",
+    "created_at",
+    "updated_at",
+    "first_seen_at",
+    "last_seen_at",
+    "last_checked_at",
+    "published_at",
+    "deadline",
+    "location",
+    "language",
+    "summary",
+    "tags",
+    "host_countries",
+    "eligible_countries",
+    "category",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "url": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_url": {
+      "type": "string",
+      "minLength": 1
+    },
+    "created_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "updated_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "first_seen_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "last_seen_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "last_checked_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "published_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "deadline": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "location": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "language": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "summary": {
+      "type": "string",
+      "maxLength": 600
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "host_countries": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z]{2}$"
+      }
+    },
+    "eligible_countries": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z]{2}$"
+      }
+    },
+    "category": {
+      "enum": [
+        "scholarships",
+        "internships",
+        "volunteering",
+        "fellowships",
+        "training",
+        "competitions",
+        "grants",
+        "jobs",
+        "other"
+      ]
+    },
+    "status": {
+      "enum": [
+        "open",
+        "expired",
+        "unknown"
+      ]
+    }
+  }
+}
