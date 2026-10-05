@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "reviewed_at": "2026-10-04",
+  "reviewed_at": "2026-10-05",
   "coverage_target": "USA + EU27; 3–5 independent active sources per country where feasible",
   "sources": [
     {
@@ -1424,7 +1424,7 @@
       "language": "el/en",
       "audience": "Students, graduates or youth; exact eligibility is programme-specific.",
       "freshness_evidence": "GET 200, valid RSS, 24 items; newest 2026-10-01. Mixed institutional notices need opportunity filtering.",
-      "rights_status": "robots.txt permits /feed/; terms URL guessed returned404. Permission basis pending; mixed notices need filtering.",
+      "rights_status": "Actual footer-linked IKY terms reviewed 2026-10-05. Section 3 explicitly prohibits public reproduction, republication, copying/storage and extracts or summaries without prior permission; personal-use exception does not cover a public catalogue. Section 8 permits ordinary hyperlinks. RSS/robots accessibility is not republication permission.",
       "http_status": 200,
       "resolved_url": "https://www.iky.gr/en/",
       "page_title": "Homepage - IKY",
@@ -1432,11 +1432,11 @@
       "acquisition_state": "not_connected",
       "publisher_overlap": false,
       "feed_url": "https://www.iky.gr/feed/",
-      "retrieval_notes": "RSS parser tested; use opportunity selection and retain provenance.",
+      "retrieval_notes": "Keep automated feed ingestion disabled: explicit publisher permission is required for public copied metadata/content under the reviewed terms. Linking to IKY is allowed without framing. Mixed results and administrative notices also require selection.",
       "refresh_cadence": "daily",
-      "last_check_at": "2026-10-04",
+      "last_check_at": "2026-10-05",
       "review_tier": "feed_tested",
-      "rights_review_status": "pending",
+      "rights_review_status": "permission_required",
       "last_activity_evidence": {
         "review_date": "2026-10-04",
         "status": "current_catalogue",
@@ -1450,7 +1450,24 @@
       },
       "publication_quality": "recent_opportunity_publication_confirmed",
       "counts_toward_active_source_target": true,
-      "exclusion_reason": ""
+      "exclusion_reason": "",
+      "ingestion_exclusion_reason": "Publisher terms require prior permission for public reproduction/republication, including extracts and summaries. No permission obtained.",
+      "access_policy_inspection": {
+        "inspected_at": "2026-10-05",
+        "scope": "actual footer-linked terms, robots, public RSS technical compatibility",
+        "reviewed_policy_urls": [
+          "https://www.iky.gr/oroi-proypotheseis-xrisis-istoselidas-iky/",
+          "https://www.iky.gr/robots.txt",
+          "https://www.iky.gr/feed/"
+        ],
+        "robots_status": 200,
+        "robots_allows_feed": true,
+        "express_republication_prohibition_found": true,
+        "prior_permission_required": true,
+        "ordinary_hyperlinks_permitted": true,
+        "publisher_approval_claimed": false,
+        "review_limit": "Section 3 personal-use exception does not authorize YouthOpp public catalogue republication; Section 8 authorizes hyperlinks only."
+      }
     },
     {
       "id": "gr-onassis-foundation",
@@ -3667,39 +3684,66 @@
       ],
       "operator": "NASA",
       "added_at": "2026-10-04",
-      "verified_at": "2026-10-04",
-      "verification_status": "page_reachable",
-      "retrieval_method": "manual_review_then_html_adapter",
-      "adapter_status": "not_implemented",
+      "verified_at": "2026-10-05",
+      "verification_status": "primary_page_reviewed",
+      "retrieval_method": "reviewed_html_metadata",
+      "adapter_status": "reviewed_html_implemented",
       "language": "en",
-      "audience": "Students, graduates or youth; exact eligibility is programme-specific.",
-      "freshness_evidence": "Page fetched successfully; active call dates still require editorial verification.",
-      "rights_status": "Review publisher terms and robots before automated ingestion.",
+      "audience": "OSTEM and Pathways have distinct requirements. The reviewed overview states US citizenship and age 16 minimum; college enrolment and programme-specific GPA/work-hour requirements apply. Metadata record does not encode applicant eligibility.",
+      "freshness_evidence": "Exact NASA programme page fetched HTTP 200 on 2026-10-05 without redirect. WebPage JSON-LD datePublished 2023-01-23T11:57:52-05:00; dateModified 2026-09-28T15:01:36-04:00. Overview lists Summer 2027 March 1 and Fall 2027 May 24 OSTEM deadlines; these do not establish one common Pathways deadline or guarantee an individual vacancy is open.",
+      "rights_status": "NASA published content-use guidelines permit factual non-endorsing informational use with source acknowledgment. Scope: deterministic original title, canonical link and original publication timestamp only. No prose, images, logo, identifiable persons or third-party material. NASA robots permits this public page. This scoped review is not NASA approval or endorsement; AI-generated content is outside this adapter scope.",
       "http_status": 200,
       "resolved_url": "https://www.nasa.gov/learning-resources/internship-programs/",
       "page_title": "NASA Internship Programs - NASA",
       "source_kind": "recurring_programme_or_catalogue",
       "acquisition_state": "not_connected",
       "publisher_overlap": false,
-      "retrieval_notes": "HTML adapter not implemented; inspect precise listing/detail URLs, dates, terms and robots before enabling.",
-      "refresh_cadence": "proposed weekly; publisher cadence not yet established",
-      "last_check_at": "2026-10-04",
-      "review_tier": "adapter_research",
-      "rights_review_status": "pending",
+      "retrieval_notes": "Only the exact NASA Internship Programs canonical WebPage is selected. Trusted reviewed-html adapter validates canonical identity and extracts name/datePublished from WebPage JSON-LD. Publish empty summary, internships category, programme-overview tag and unknown availability/deadline/country eligibility. Preserve original 2023 publication; do not relabel the 2026 modification as publication. The /feed/ URL returned HTML and is not an RSS endpoint.",
+      "refresh_cadence": "six-hour pipeline; one public programme-page request per run; programme metadata only",
+      "last_check_at": "2026-10-05",
+      "review_tier": "exact_programme_metadata_review",
+      "rights_review_status": "access_policy_reviewed_metadata_only",
       "last_activity_evidence": {
-        "review_date": "2026-10-04",
+        "review_date": "2026-10-05",
         "status": "recent_programme",
         "url": "https://www.nasa.gov/learning-resources/internship-programs/",
-        "description": "Primary page 2027 summer deadline March 1 andfall deadline May 24; programme offers 3 sessionsannually.",
-        "raw_date_contexts": [
-          " 2 min read Dr. Natasha Schatzman Receives Vertical Flight Society (VFS) Award article 3 days ago 10 min read 2026-2027 DWU: Middle School Design Challenge article 1 week ago Highlights 3 min read Rains Swamp the Gandak River article 3 days ago 1 min read Space Reactor",
-          "ffer three sessions annually, so visit our website often for opportunities. Summer 2027 Application Deadline: March 1, 2027 (11:59 p.m. ET) Fall 2027 Application Deadline: May 24, 2027 (11:59 p.m. ET) Click Here to Explore Our Opportunities and Apply Pathways Internship Pa",
-          "pportunities. Summer 2027 Application Deadline: March 1, 2027 (11:59 p.m. ET) Fall 2027 Application Deadline: May 24, 2027 (11:59 p.m. ET) Click Here to Explore Our Opportunities and Apply Pathways Internship Paid internships that are direct pipelines to full-time employm"
-        ]
+        "description": "Primary page updated September 28 2026 describes distinct OSTEM and Pathways internship programmes. OSTEM overview lists Summer 2027 March 1 and Fall 2027 May 24 deadlines; record remains programme-overview with unknown individual-call availability, deadline and eligibility.",
+        "raw_date_contexts": [],
+        "application_state": "unknown_programme_overview"
       },
       "publication_quality": "recent_opportunity_publication_confirmed",
       "counts_toward_active_source_target": true,
-      "exclusion_reason": ""
+      "exclusion_reason": "",
+      "editorial_review_date": "2026-10-05",
+      "access_policy_inspection": {
+        "inspected_at": "2026-10-05",
+        "scope": "exact programme HTML, robots, published NASA content-use guidelines; original factual metadata only",
+        "reviewed_policy_urls": [
+          "https://www.nasa.gov/learning-resources/internship-programs/",
+          "https://www.nasa.gov/robots.txt",
+          "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+        ],
+        "robots_status": 200,
+        "robots_allows_source": true,
+        "crawl_delay_seconds": null,
+        "express_indexing_prohibition_found": false,
+        "factual_non_endorsing_use_permitted": true,
+        "express_reuse_licence_found": false,
+        "publisher_approval_claimed": false,
+        "review_limit": "Scoped factual informational metadata review; general media guidance is not a blanket licence for third-party content, marks or AI-generated claims."
+      },
+      "html_check": {
+        "checked_at": "2026-10-05",
+        "http_status": 200,
+        "resolved_url": "https://www.nasa.gov/learning-resources/internship-programs/",
+        "canonical_url": "https://www.nasa.gov/learning-resources/internship-programs/",
+        "json_ld_type": "WebPage",
+        "name": "NASA Internship Programs - NASA",
+        "date_published": "2023-01-23T11:57:52-05:00",
+        "date_modified": "2026-09-28T15:01:36-04:00",
+        "metadata_only": true,
+        "qualified_metadata_items": 1
+      }
     },
     {
       "id": "opportunities-for-youth",
@@ -3939,15 +3983,15 @@
       "verification_status": "rss_tested",
       "retrieval_method": "rss",
       "adapter_status": "implemented_metadata_only",
-      "acquisition_state": "not_connected",
+      "acquisition_state": "connected",
       "language": "cs/en",
       "audience": "Programme-specific students, early-career researchers or language teachers. Citizenship, residence, institution and education requirements must be preserved.",
       "rights_status": "Access policy reviewed 2026-10-04 for bounded original title, canonical link and publication-date indexing only. Homepage explicitly advertises the RSS feed; robots permits /feed/; inspected feed XML, GDPR and media pages contain no express title/link indexing prohibition. Ordinary copyright reservation remains; no express reuse licence or publisher approval is claimed.",
       "source_kind": "recurring_programme_or_catalogue",
       "publisher_overlap": false,
       "retrieval_notes": "Use a trusted metadata-only adapter with exact reviewed item URLs; generic Novinky category or scholarship keywords also match webinars, alumni and news. Preserve Czech titles, summary empty, deadlines null, status unknown and country arrays empty. Programme overview and institution-restricted travel grant are not universally open youth calls. Runtime manifest, CI and live releases determine activation; readiness alone is not collection success.",
-      "refresh_cadence": "proposed weekly; annual programmes and programme-specific windows",
-      "last_check_at": "2026-10-04",
+      "refresh_cadence": "six-hour pipeline; exact reviewed programme metadata only",
+      "last_check_at": "2026-10-05",
       "review_tier": "feed_and_metadata_access_policy_reviewed",
       "rights_review_status": "access_policy_reviewed_metadata_only",
       "last_activity_evidence": {
@@ -4012,7 +4056,17 @@
         }
       ],
       "runtime_source": "fulbright-czech-programmes",
-      "runtime_adapter": "reviewed-rss"
+      "runtime_adapter": "reviewed-rss",
+      "operational_verification": {
+        "verified_at": "2026-10-05",
+        "workflow_run_url": "https://github.com/fmarslan/YouthOpp-data-pipeline/actions/runs/37263518031",
+        "workflow_conclusion": "success",
+        "release_url": "https://github.com/fmarslan/YouthOpp-data-pipeline/releases/tag/catalog-37263518031-1",
+        "release_published_at": "2026-10-05T04:26:39Z",
+        "released_metadata_records": 2,
+        "source_health": "healthy",
+        "application_availability_inferred": false
+      }
     },
     {
       "id": "de-fulbright-germany",

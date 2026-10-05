@@ -102,5 +102,33 @@
       "grants"
     ],
     "research_source_id": "cz-fulbright-commission"
+  },
+  {
+    "source": "us-nasa-internships",
+    "source_url": "https://www.nasa.gov/learning-resources/internship-programs/",
+    "website_url": "https://www.nasa.gov/",
+    "enabled": true,
+    "adapter": "reviewed-html",
+    "language": "en",
+    "default_tags": [],
+    "added_at": "2026-10-05",
+    "scope": "reviewed programme overview metadata; individual application windows and eligibility unknown",
+    "reviewed_page": {
+      "url": "https://www.nasa.gov/learning-resources/internship-programs/",
+      "category": "internships",
+      "kind": "programme-overview"
+    },
+    "access_review": {
+      "reviewed_at": "2026-10-05",
+      "robots_url": "https://www.nasa.gov/robots.txt",
+      "policy_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "scope": "Factual programme title, original URL and publication date only; source acknowledgment, no endorsement, imagery or third-party content."
+    },
+    "research_source_id": "us-nasa-internships",
+    "categories": [
+      "internships"
+    ],
+    "publisher_country": "US",
+    "publisher_type": "public-institution"
   }
 ]

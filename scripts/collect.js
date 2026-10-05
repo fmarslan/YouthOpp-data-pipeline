@@ -3,8 +3,9 @@ import { resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { collect as collectRSS } from '../adapters/rss.js';
 import { collect as collectReviewedRSS } from '../adapters/reviewed-rss.js';
+import { collect as collectReviewedHTML } from '../adapters/reviewed-html.js';
 import { categoryIds, classifyRecord, validateClassification, buildCategoricalCatalog, validateCategoricalCatalog } from './taxonomy.js';
-const trustedAdapters = { rss: collectRSS, 'reviewed-rss': collectReviewedRSS };
+const trustedAdapters = { rss: collectRSS, 'reviewed-rss': collectReviewedRSS, 'reviewed-html': collectReviewedHTML };
 export function validateRecord(record) {
   for (const key of ['id','title','url','source','source_url','first_seen_at','last_seen_at','last_checked_at']) if (typeof record[key] !== 'string' || !record[key]) throw new Error(`Missing ${key}`);
   for (const key of ['url','source_url']) if (!['http:','https:'].includes(new URL(record[key]).protocol) || new URL(record[key]).username || new URL(record[key]).password) throw new Error('Unsafe URL');
