@@ -8,7 +8,20 @@
     "language": "en",
     "default_tags": [],
     "added_at": "2026-10-04",
-    "scope": "international"
+    "scope": "international",
+    "publisher_type": "aggregator",
+    "publisher_country": null,
+    "categories": [
+      "scholarships",
+      "internships",
+      "volunteering",
+      "fellowships",
+      "training",
+      "competitions",
+      "grants",
+      "jobs",
+      "other"
+    ]
   },
   {
     "source": "opportunitydesk",
@@ -19,7 +32,21 @@
     "language": "en",
     "default_tags": [],
     "added_at": "2026-10-04",
-    "scope": "international"
+    "scope": "international",
+    "publisher_type": "aggregator",
+    "publisher_country": null,
+    "categories": [
+      "scholarships",
+      "internships",
+      "volunteering",
+      "fellowships",
+      "training",
+      "competitions",
+      "grants",
+      "jobs",
+      "other"
+    ],
+    "research_source_id": "opportunity-desk"
   },
   {
     "source": "scholarshipscorner",
@@ -30,7 +57,21 @@
     "language": "en",
     "default_tags": [],
     "added_at": "2026-10-04",
-    "scope": "international"
+    "scope": "international",
+    "publisher_type": "aggregator",
+    "publisher_country": null,
+    "categories": [
+      "scholarships",
+      "internships",
+      "volunteering",
+      "fellowships",
+      "training",
+      "competitions",
+      "grants",
+      "jobs",
+      "other"
+    ],
+    "research_source_id": "scholarships-corner"
   },
   {
     "source": "fulbright-czech-programmes",
@@ -53,6 +94,13 @@
         "category": "scholarships",
         "kind": "programme-overview"
       }
-    ]
+    ],
+    "publisher_type": "public-institution",
+    "publisher_country": "CZ",
+    "categories": [
+      "scholarships",
+      "grants"
+    ],
+    "research_source_id": "cz-fulbright-commission"
   }
 ]

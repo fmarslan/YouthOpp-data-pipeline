@@ -1,4 +1,5 @@
 import Parser from 'rss-parser';
+import { classifyRecord } from '../scripts/taxonomy.js';
 import { normalizeItem } from './rss.js';
 
 export async function collect({ manifest, fetchText, now }) {
@@ -10,7 +11,7 @@ export async function collect({ manifest, fetchText, now }) {
     if (!selection) continue;
     // Publish reviewed discovery metadata only, never source article prose.
     const record = normalizeItem({ title: item.title, link: item.link, isoDate: item.isoDate, pubDate: item.pubDate }, { ...manifest, default_tags: [] }, now);
-    records.push({ ...record, summary: '', category: selection.category, tags: [selection.kind] });
+    records.push(classifyRecord({ ...record, summary: '', category: selection.category, categories:[selection.category], kind:selection.kind, tags: [selection.kind] }, manifest));
   }
   if (!records.length) throw new Error('No reviewed programme items in feed: preserve last successful records');
   return records;
