@@ -7,13 +7,14 @@ import { pathToFileURL } from 'node:url';
 
 const execute = promisify(execFile);
 const versionTag = /^catalog-\d+-\d+$/;
-const assetNames = ['catalog.json', 'collection-report.json'];
+const assetNames = ['catalog.json', 'collection-report.json', 'contributors.json'];
 export function assetMetadata(bytes) {
   return { sha256: createHash('sha256').update(bytes).digest('hex'), size: bytes.length };
 }
-export function validateManifest(manifest) {
+export function validateManifest(manifest, { requireContributors = false } = {}) {
   if (manifest?.schema_version !== 1 || !versionTag.test(manifest.release_tag) || !Number.isFinite(Date.parse(manifest.generated_at))) throw new Error('Invalid release manifest');
   for (const name of assetNames) {
+    if (name === 'contributors.json' && !requireContributors && !manifest.assets?.[name]) continue;
     const asset = manifest.assets?.[name];
     if (!asset || !/^[a-f0-9]{64}$/.test(asset.sha256) || !Number.isSafeInteger(asset.size) || asset.size < 1) throw new Error(`Invalid manifest asset: ${name}`);
   }
@@ -63,7 +64,7 @@ async function main() {
     const catalog = JSON.parse(await readFile('dist/catalog.json', 'utf8'));
     const assets = {};
     for (const name of assetNames) assets[name] = assetMetadata(await readFile(`dist/${name}`));
-    const manifest = validateManifest({ schema_version: 1, release_tag: tag, generated_at: catalog.generated_at, assets });
+    const manifest = validateManifest({ schema_version: 1, release_tag: tag, generated_at: catalog.generated_at, assets }, { requireContributors: true });
     await writeFile('dist/manifest.json', JSON.stringify(manifest, null, 2));
   } else if (command === 'restore') {
     const path = await restoreCatalog();

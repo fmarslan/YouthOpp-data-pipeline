@@ -1,38 +1,5 @@
-# Python cache and virtual environments
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-.Python
-*.egg
-*.egg-info/
-dist/
-build/
-.eggs/
-.venv/
-venv/
-env/
-ENV/
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# IDE files
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# Pytest / coverage
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Node
 node_modules/
-
-# Legacy data remains tracked; new pipeline outputs use releases.
-
 dist/
 previous/
+.DS_Store
+Thumbs.db
