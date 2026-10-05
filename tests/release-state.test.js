@@ -17,6 +17,13 @@ test('manifest and SHA256 verification reject corruption, missing data and unsaf
   assert.throws(() => validateManifest({ ...manifest, assets: {} }), /asset/);
 });
 
+test('new publication requires contributor integrity while prior catalog restoration stays valid', () => {
+  assert.throws(() => validateManifest(manifest, { requireContributors: true }), /contributors.json/);
+  const complete = { ...manifest, assets: { ...manifest.assets, 'contributors.json': assetMetadata(Buffer.from('{"contributors":[]}')) } };
+  validateManifest(complete, { requireContributors: true });
+  assert.throws(() => validateManifest({ ...complete, assets: { ...complete.assets, 'contributors.json': { size: 1, sha256: 'invalid' } } }), /contributors.json/);
+});
+
 test('retention crosses page boundaries and preserves latest, unrelated and protected releases', () => {
   const versions = Array.from({ length: 105 }, (_, index) => ({ id: index, tag_name: `catalog-${1000 + index}-1`, created_at: new Date(Date.UTC(2026, 0, 1, 0, index)).toISOString(), draft: false, prerelease: false }));
   const releases = [...versions, { ...versions[0], tag_name: 'catalog-latest' }, { ...versions[0], tag_name: 'v1.0' }, { ...versions[0], tag_name: 'catalog-1-1', draft: true }, { ...versions[0], tag_name: 'catalog-2-1', prerelease: true }];

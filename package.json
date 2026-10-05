@@ -6,7 +6,8 @@
   "scripts": {
     "pipeline": "node scripts/collect.js",
     "test": "node --test",
-    "validate": "node scripts/validate.js"
+    "validate": "node scripts/validate.js",
+    "contributors": "node scripts/contributors.js"
   },
   "dependencies": {
     "rss-parser": "^3.13.0"

@@ -19,7 +19,7 @@ export function validateRecord(record) {
 }
 export async function fetchText(url) {
   if(new URL(url).protocol !== 'https:' || new URL(url).username || new URL(url).password || /^(localhost|127\.|0\.|10\.|172\.(1[6-9]|2[0-9]|3[01])\.|192\.168\.|169\.254\.|\[)/.test(new URL(url).hostname)) throw new Error('HTTPS source required');
-  const response = await fetch(url,{signal:AbortSignal.timeout(25000),redirect:'error',headers:{'User-Agent':'YouthOpp/1.0 (+https://github.com/fmarslan/YouthOpp-data-pipeline)'}});
+  const response = await fetch(url,{signal:AbortSignal.timeout(25000),redirect:'error',headers:{'User-Agent':'YouthOpp/1.0 (+https://github.com/YouthOpp/data-pipeline)'}});
   if(!response.ok) throw new Error(`HTTP ${response.status}`);
   const reader=response.body.getReader();let size=0;const chunks=[];
   while(true){const {done,value}=await reader.read();if(done)break;size+=value.length;if(size>5_000_000){await reader.cancel();throw new Error('Feed exceeds 5 MB');}chunks.push(value);}
