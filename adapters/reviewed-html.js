@@ -10,6 +10,19 @@ export async function collect({ manifest, fetchText, now }) {
   const canonicals = [...html.matchAll(/<link\b[^>]*>/gi)].map(match => attributes(match[0])).filter(attrs => attrs.rel?.toLowerCase().split(/\s+/).includes('canonical'));
   if (canonicals.length !== 1 || canonicals[0].href !== selected.url) throw new Error('Reviewed HTML canonical does not match selected programme URL');
 
+  if (selected.metadata_format === 'open-graph') {
+    const metas = [...html.matchAll(/<meta\b[^>]*>/gi)].map(match => attributes(match[0]));
+    const values = property => metas.filter(attrs => attrs.property?.toLowerCase() === property).map(attrs => attrs.content);
+    const urls = values('og:url');
+    const titles = values('og:title');
+    if (urls.length !== 1 || urls[0] !== selected.url || titles.length !== 1 || typeof titles[0] !== 'string' || !titles[0].trim()) throw new Error('Reviewed HTML requires one exact Open Graph programme identity');
+    const dates = values('article:published_time');
+    if (dates.length > 1 || (dates.length && !Number.isFinite(Date.parse(dates[0])))) throw new Error('Reviewed HTML original publication date is ambiguous or invalid');
+    // Missing original publication stays unknown; modification is never publication.
+    const record = normalizeItem({ title: titles[0], link: selected.url, isoDate: dates[0] }, { ...manifest, default_tags: [] }, now);
+    return [{ ...record, summary: '', category: selected.category, categories: [selected.category], kind: selected.kind, tags: [selected.kind], classification: { method: 'editorial-review', status: 'classified', evidence: [selected.url] } }];
+  }
+
   const pages = [];
   for (const match of html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script\s*>/gi)) {
     if (attributes(match[1]).type?.toLowerCase() !== 'application/ld+json') continue;
