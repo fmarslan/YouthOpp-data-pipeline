@@ -1,6 +1,8 @@
+import { classifySource, taxonomy, categoryIds } from './taxonomy.js';
 import { readFile } from 'node:fs/promises';
 const manifests=JSON.parse(await readFile('data/sources/sources.json','utf8'));const ids=new Set();
 for(const item of manifests){
+ classifySource(item,true);
  if(!/^[a-z0-9-]+$/.test(item.source)||ids.has(item.source))throw new Error('Invalid or duplicate source');ids.add(item.source);
  for(const field of ['source_url','website_url'])if(new URL(item[field]).protocol!=='https:' || new URL(item[field]).username || new URL(item[field]).password || /^(localhost|127\.|0\.|10\.|172\.(1[6-9]|2[0-9]|3[01])\.|192\.168\.|169\.254\.|\[)/.test(new URL(item[field]).hostname))throw new Error('Source requires HTTPS');
  if(typeof item.enabled!=='boolean'||!['rss','reviewed-rss'].includes(item.adapter)||typeof item.language!=='string')throw new Error('Invalid adapter manifest');
@@ -16,3 +18,12 @@ for(const item of manifests){
  }
 }
 console.log(`Validated ${ids.size} sources`);
+
+const registry=JSON.parse(await readFile('data/sources/source-registry.json','utf8'));
+const registryIds=new Set();const joins=new Set();
+for(const source of registry.sources){classifySource(source);if(!source.id||registryIds.has(source.id))throw Error('Duplicate research source ID');registryIds.add(source.id);if(source.adapter_source_id){if(!ids.has(source.adapter_source_id)||joins.has(source.adapter_source_id))throw Error('Invalid research adapter join');joins.add(source.adapter_source_id);}}
+const schema=JSON.parse(await readFile('schemas/opportunity.schema.json','utf8'));
+if(JSON.stringify(schema.properties.category.enum)!==JSON.stringify(categoryIds))throw Error('Schema taxonomy drift');
+console.log(`Validated ${registryIds.size} research classifications`);
+
+for(const manifest of manifests)if(manifest.research_source_id&&!registryIds.has(manifest.research_source_id))throw Error('Invalid research source link');

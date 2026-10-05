@@ -23,3 +23,7 @@ PR checks use read-only permissions, no secrets, fixture tests, and no remote co
 ## Sources and contribution
 
 See [adapter contribution guide](docs/adapters.md). Research registry is separate from the enabled source list: only feeds with successful live checks are activated. Current enabled sources: Opportunities for Youth, Opportunity Desk, Scholarships Corner, and two exactly reviewed Fulbright Czech programme/grant items. The Czech adapter publishes title/link/date metadata only, with no article prose or confirmed availability/eligibility. Feed access does not imply ownership of publisher content. YouthOpp publishes short excerpts and links; source inclusion can be paused or removed via issue/PR. No institution endorsement or charitable registration is implied.
+
+## Categorical model
+
+See [Data model](docs/data-model.md) for the shared directory taxonomy, record/source classification, geography, migration and integrity-covered ID indexes.

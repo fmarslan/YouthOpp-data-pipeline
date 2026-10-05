@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "YouthOpp opportunity v1",
+  "title": "YouthOpp canonical record v2 (v1-compatible)",
   "type": "object",
   "required": [
     "id",
@@ -22,7 +22,11 @@
     "host_countries",
     "eligible_countries",
     "category",
-    "status"
+    "status",
+    "categories",
+    "kind",
+    "classification",
+    "publisher_country"
   ],
   "properties": {
     "id": {
@@ -132,6 +136,64 @@
         "expired",
         "unknown"
       ]
+    },
+    "categories": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "scholarships",
+          "internships",
+          "volunteering",
+          "fellowships",
+          "training",
+          "competitions",
+          "grants",
+          "jobs",
+          "other"
+        ]
+      }
+    },
+    "kind": {
+      "enum": [
+        "opportunity",
+        "programme-overview",
+        "institutional-grant",
+        "unknown"
+      ]
+    },
+    "publisher_country": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[A-Z]{2}$"
+    },
+    "classification": {
+      "type": "object",
+      "required": [
+        "method",
+        "status",
+        "evidence"
+      ],
+      "properties": {
+        "method": {
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "classified",
+            "unknown"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
     }
   }
 }
