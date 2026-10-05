@@ -2,6 +2,8 @@
 
 Research date: 4 October 2026. Prepared by Open AI agent: Researcher.
 
+Canonical project repositories: [YouthOpp/data-pipeline](https://github.com/YouthOpp/data-pipeline), [YouthOpp/youthopp.github.io](https://github.com/YouthOpp/youthopp.github.io) and [YouthOpp/.github](https://github.com/YouthOpp/.github). Dated fork workflow/release identifiers below record development-fork execution evidence, not canonical project identities.
+
 Scoped access review updated 5 October 2026 for NASA, IKY and the exact Portugal and Netherlands programmes; other entries retain their recorded review dates. See [the primary-source access review](access-review-2026-10-05.md).
 
 ## What this register means
@@ -35,9 +37,9 @@ All feed checks are dated 4 October 2026. Three newly tested commission feeds co
 
 | Publisher | Exact programme page | Technical evidence | Editorial and access limits |
 |---|---|---|---|
-| NASA | [NASA Internship Programs](https://www.nasa.gov/learning-resources/internship-programs/) | Direct GET 200 without redirect on 2026-10-05; exact canonical WebPage JSON-LD has original publication 2023-01-23 and modification 2026-09-28. robots permits access. | Scoped project factual-use review supports deterministic original title/link/publication date only, with source acknowledgment. No article prose, media, logo or third-party content; no NASA approval or endorsement. Programme overview has unknown individual-call availability/deadline/eligibility. Producer release [catalog-37270813364-1](https://github.com/fmarslan/YouthOpp-data-pipeline/releases/tag/catalog-37270813364-1) verifies this exact metadata adapter; website acceptance is separate. |
+| NASA | [NASA Internship Programs](https://www.nasa.gov/learning-resources/internship-programs/) | Direct GET 200 without redirect on 2026-10-05; exact canonical WebPage JSON-LD has original publication 2023-01-23 and modification 2026-09-28. robots permits access. | Scoped project factual-use review supports deterministic original title/link/publication date only, with source acknowledgment. No article prose, media, logo or third-party content; no NASA approval or endorsement. Programme overview has unknown individual-call availability/deadline/eligibility. Producer release catalog-37270813364-1 (fork verification) verifies this exact metadata adapter; website acceptance is separate. |
 | Fulbright Portugal | [Master’s programme](https://www.fulbright.pt/bolsas/bolsa-fulbright-para-mestrado/) | GET 200; one exact canonical and matching Open Graph URL/title; original publication absent. | Factual title/link programme overview only; original date null, no source prose or inferred eligibility. Separate exact adapter verified in producer release catalog-37270813364-1; Portugal RSS stays excluded for relevance. |
-| Fulbright Netherlands | [Doctoral programme](https://fulbright.nl/naar-de-vs/promovendi/fulbright-beurzen-voor-promovendi/) | Fresh GET 200 on 2026-10-05; one exact canonical/Open Graph URL/title, original publication absent. | Scoped factual title/link review; original date null, programme overview with unknown application fields. Robots requires ten-second same-host spacing. General RSS excluded for relevance; exact adapter verified in [producer release catalog-37272654737-1](https://github.com/fmarslan/YouthOpp-data-pipeline/releases/tag/catalog-37272654737-1). |
+| Fulbright Netherlands | [Doctoral programme](https://fulbright.nl/naar-de-vs/promovendi/fulbright-beurzen-voor-promovendi/) | Fresh GET 200 on 2026-10-05; one exact canonical/Open Graph URL/title, original publication absent. | Scoped factual title/link review; original date null, programme overview with unknown application fields. Robots requires ten-second same-host spacing. General RSS excluded for relevance; exact adapter verified in producer release catalog-37272654737-1 (fork verification). |
 
 ## Country register
 
@@ -45,17 +47,17 @@ All feed checks are dated 4 October 2026. Three newly tested commission feeds co
 
 | Source | Content | Retrieval status | Evidence / review limits |
 |---|---|---|---|
-| [grants.at](https://grants.at/en) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Publisher overlaps another entry. |
+| [grants.at](https://grants.at/en) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Oe AD primary September 2026 notice links grants.at for 2027/28 programmes. This records source activity; application availability remains unclassified unless separately verified. Publisher overlaps another entry. |
 | [OeAD](https://oead.at/en/study-research-teaching/overview-grants-and-scholarships) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Official OeAD 2027/28 scholarship announcement published 2026-09; annual call cycle. Publisher overlaps another entry. |
-| [University of Vienna](https://international.univie.ac.at/en/) | mobility | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
+| [University of Vienna](https://international.univie.ac.at/en/) | mobility | page_reachable; manual_review_then_html_adapter; not_connected | Homepage invites2027/28 AfricaAsia exchange applications by October15 2026, but exact programme application section labels all regional applications closed. Opening rule says approximately one month before deadline. Preserve contradiction and exclude confirmed-open count; no application-portal probing. Eligible Vienna students only; funding depends on selection and budget. |
 | [Fulbright Austria](https://www.fulbright.at/programs/in-austria/students/full-time-study-research-grants) | scholarship, research | primary_page_reviewed; manual_review_then_html_adapter; not_connected | US student awards list March 31–October 7 2026 application window for October 2027 start. Other Fulbright national sites show October 6; confirm the programme-specific closing time before applying. |
 
 ### Belgium (BE)
 
 | Source | Content | Retrieval status | Evidence / review limits |
 |---|---|---|---|
-| [Study in Flanders](https://www.studyinflanders.be/scholarships/master-mind-scholarships) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
-| [WBI](https://www.wbi.be/en/bourses) | scholarship, internship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
+| [Study in Flanders](https://www.studyinflanders.be/scholarships/master-mind-scholarships) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: 2026/27 Master Mind call explicitly closed; 2027/28 scheme under review. This records source activity; application availability remains unclassified unless separately verified. |
+| [WBI](https://www.wbi.be/en/bourses) | scholarship, internship | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Company internship grant deadline November 1 2026 for Jan-Jun 2027 placements. This records source activity; application availability remains unclassified unless separately verified. |
 | [ARES](https://www.ares-ac.be/en/cooperation-au-developpement/bourses) | scholarship | candidate; manual_review_then_html_adapter; not_connected | Not yet assessed; HTTP availability alone does not prove active opportunities. Excluded from independent-publisher activity count: Guidance, unrelated date, or dated opportunity publication not yet established. |
 | [Fulbright Belgium / Luxembourg](https://www.fulbright.be/news/2027-28-competition-open/) | scholarship, research | primary_page_reviewed; manual_review_then_html_adapter; not_connected | Official 2027/28 competition announcement sets December 1 2026, noon CET closing date. The shared commission serves Belgian and Luxembourgish applicants; counted once under Belgium. |
 
@@ -63,7 +65,7 @@ All feed checks are dated 4 October 2026. Three newly tested commission feeds co
 
 | Source | Content | Retrieval status | Evidence / review limits |
 |---|---|---|---|
-| [Fulbright Bulgaria](https://www.fulbright.bg/en/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
+| [Fulbright Bulgaria](https://www.fulbright.bg/en/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Primary research-grants page explicitly lists open visiting-scholar and doctoral non-degree research competitions, deadline December4 2026. Bulgarian citizenship and programme-specific education required; unrelated Leaders and Humphrey competitions are closed. |
 | [INSAIT](https://insait.ai/surf/) | research, internship | candidate; manual_review_then_html_adapter; not_connected | Primary SURF page describes Summer Undergraduate Research Fellowship 2026; recurring annual research programme, now past summer. |
 | [FEBA Alumni](https://www.febalumni.org/en/) | scholarship | candidate; manual_review_then_html_adapter; not_connected | Manual review found a primary June 17 2026 scholarship call with a June 30 deadline. The current fetch returns HTTP 402, so this closed-call evidence does not establish adapter access or a currently open application. |
 
@@ -72,15 +74,15 @@ All feed checks are dated 4 October 2026. Three newly tested commission feeds co
 | Source | Content | Retrieval status | Evidence / review limits |
 |---|---|---|---|
 | [Cyprus State Scholarships Foundation](https://www.gov.cy/mof-cssf/) | scholarship | candidate; manual_review_then_html_adapter; not_connected | Manual review found a primary undergraduate 2025/26 announcement published in April 2026. The collector receives HTTP 403; no currently open window or adapter readiness is established. |
-| [ONEK](https://youthfunds.onek.org.cy/en/) | youth, grant | page_reachable; manual_review_then_html_adapter; not_connected | Primary site lists Youth Initiatives 2027 call dated 2026-08-11 and 2026 programme calls. Feed request 403. |
+| [ONEK](https://youthfunds.onek.org.cy/en/) | youth, grant | page_reachable; manual_review_then_html_adapter; not_connected | Homepage and programme badge say Open, but exact2027 CallA deadline was September16 2026. CallB opens December10 2026 and closes January16 2027; CallC opens April10 2027. On October5 current advertised CallA is closed, next listed call upcoming; exclude from confirmed-open count. |
 | [Cyprus Diaspora Scholarships](https://www.gov.cy/mfa/en/service-for-overseas-cypriots-and-repatriated-cypriots/) | scholarship, internship | candidate; manual_review_then_html_adapter; not_connected | Manual review found a primary 2026 MFA resource listing university scholarships and paid internships without application deadlines. The collector receives HTTP 403; current availability and adapter readiness remain unverified. |
 
 ### Czechia (CZ)
 
 | Source | Content | Retrieval status | Evidence / review limits |
 |---|---|---|---|
-| [Study in Czechia](https://studyin.gov.cz/scholarships/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Publisher overlaps another entry. |
-| [DZS](https://www.dzs.cz/en) | mobility | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Publisher overlaps another entry. |
+| [Study in Czechia](https://studyin.gov.cz/scholarships/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Scholarship database shows 2026/27 Barrande and bilateral programmes; publishedcycle not openstatus. This records source activity; application availability remains unclassified unless separately verified. Publisher overlaps another entry. |
+| [DZS](https://www.dzs.cz/en) | mobility | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Primary ESC 2026 call describes priorities and grants. This records source activity; application availability remains unclassified unless separately verified. Publisher overlaps another entry. |
 | [Charles University](https://cuni.cz/UKEN-1617.html) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Charles University Mobility Fund autumn call opens October 1 2026; faculty deadlines October 20–30, university closing October 30 at 14:00. Restricted to eligible university students and academic mobility. |
 | [Fulbright Commission Czech Republic](https://fulbright.gov.cz/stipendia/stipendium-pro-postgradualni-studium/) | scholarship, research | rss_tested; reviewed_rss_metadata; connected (two exact metadata records, release verified 2026-10-05) | Primary postgraduate page links 2027/28 application documents and September 2 2026 scholarship webinars. Degree and research application windows differ; a recent feed is not proof every programme is open. |
 
@@ -88,9 +90,9 @@ All feed checks are dated 4 October 2026. Three newly tested commission feeds co
 
 | Source | Content | Retrieval status | Evidence / review limits |
 |---|---|---|---|
-| [DAAD](https://www.daad.de/en/studying-in-germany/scholarships/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
-| [StipendiumPlus](https://stipendiumplus.de/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Excluded from independent-publisher activity count: Guidance, unrelated date, or dated opportunity publication not yet established. |
-| [Rausvonzuhaus](https://www.rausvonzuhaus.de/) | youth, mobility | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
+| [DAAD](https://www.daad.de/en/studying-in-germany/scholarships/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Primary research scholarship database shows selection November 2026 and funding February 2027. This records source activity; application availability remains unclassified unless separately verified. |
+| [StipendiumPlus](https://stipendiumplus.de/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Primary portal provides 13 fundingfoundation guidance; no dated 2026 call verified. This records source activity; application availability remains unclassified unless separately verified. Excluded from independent-publisher activity count: Guidance, unrelated date, or dated opportunity publication not yet established. |
+| [Rausvonzuhaus](https://www.rausvonzuhaus.de/) | youth, mobility | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Primary FAQ describes Last Minute funded places deadlines within the next  3 months; October 2026 Discover EU session visible. This records source activity; application availability remains unclassified unless separately verified. |
 | [Fulbright Germany](https://www.fulbright.de/stipendien/programm/studienstipendium-uni-und-haw) | scholarship, research | primary_page_reviewed; manual_review_then_html_adapter; not_connected | 2027/28 masters scheme verified, but page conflicts: opening paragraph says open while application-deadline field says closed for 2027 and next call in spring 2027 for 2028. Treat open status as unresolved; recent programme evidence only. |
 
 ### Denmark (DK)
@@ -98,7 +100,7 @@ All feed checks are dated 4 October 2026. Three newly tested commission feeds co
 | Source | Content | Retrieval status | Evidence / review limits |
 |---|---|---|---|
 | [Study in Denmark](https://studyindenmark.dk/study-options/scholarships) | guidance | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Excluded from independent-publisher activity count: Guidance, unrelated date, or dated opportunity publication not yet established. |
-| [DM and MA Travel Grant](https://dm.dk/students/membership/travel-grant/) | grant | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
+| [DM and MA Travel Grant](https://dm.dk/students/membership/travel-grant/) | grant | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Next application round opens November 1 2026; membership/studenteligibility. This records source activity; application availability remains unclassified unless separately verified. |
 | [University of Copenhagen](https://studies.ku.dk/masters/tuition-fees--scholarships/) | research, job | page_reachable; manual_review_then_html_adapter; not_connected | Primary doctoral vacancies catalogue shows October 5, 7, 10 and 11 2026 deadlines, including AI and plant-biochemistry fellowships. These are funded research/doctoral positions with per-vacancy qualifications, not general undergraduate scholarships. |
 | [Fulbright Denmark](https://fulbrightcenter.dk/go-to-the-us/fulbright-grants-for-danish-students/apply/) | scholarship, research | primary_page_reviewed; manual_review_then_html_adapter; not_connected | Primary Danish student application page states February 17 2027 at noon for Fall 2027/Spring 2028 awards. Check Danish citizenship, university and acceptance requirements. |
 
@@ -115,8 +117,8 @@ All feed checks are dated 4 October 2026. Three newly tested commission feeds co
 | Source | Content | Retrieval status | Evidence / review limits |
 |---|---|---|---|
 | [INJUVE](https://www.injuve.es/convocatorias/becas?activas=si) | scholarship, youth | candidate; manual_review_then_html_adapter; not_connected | Primary listing has SEPI call dated 2026-09-30 with deadline 2026-10-07; direct fetch returned 502. |
-| [Fundación Carolina](https://www.fundacioncarolina.es/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
-| [la Caixa Foundation](https://fundacionlacaixa.org/es/becas) | scholarship | candidate; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
+| [Fundación Carolina](https://www.fundacioncarolina.es/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Primary home lists 2026/27 scholarship call; annual programme, checkper call openstate. This records source activity; application availability remains unclassified unless separately verified. |
+| [la Caixa Foundation](https://fundacionlacaixa.org/es/becas) | scholarship | candidate; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Primary scholarships list includesopen research call deadline October 7 2026 andclosed undergrad May 29 2026. This records source activity; application availability remains unclassified unless separately verified. |
 
 ### Finland (FI)
 
@@ -124,16 +126,16 @@ All feed checks are dated 4 October 2026. Three newly tested commission feeds co
 |---|---|---|---|
 | [Study in Finland](https://www.studyinfinland.fi/funding-your-studies/bachelors-and-masters-scholarships) | guidance | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Excluded from independent-publisher activity count: Guidance, unrelated date, or dated opportunity publication not yet established. |
 | [Aalto University](https://www.aalto.fi/en/admission-services/scholarships-and-tuition-fees) | internship, research, scholarship | page_reachable; manual_review_then_html_adapter; not_connected | AScI summer research assistantship 2026 call was open January 7–31 2026, closes January 31 at 23:59 UTC+2. Past summer programme, not currently open; internship/research eligibility differs from tuition-waiver guidance. |
-| [University of Helsinki](https://www.helsinki.fi/en/admissions-and-education/apply-bachelors-and-masters-programmes/tuition-fees-and-scholarship-programme) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
+| [University of Helsinki](https://www.helsinki.fi/en/admissions-and-education/apply-bachelors-and-masters-programmes/tuition-fees-and-scholarship-programme) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: 2026 admission financial dates and tuition waiver scheme visible; tuition only, not a living allowance. This records source activity; application availability remains unclassified unless separately verified. |
 | [Fulbright Finland Foundation](https://www.fulbright.fi/grant-programs-to-us/grants-masters-studies-us/fulbright-finnish-language-and-culture-teaching-assistant-program-flta) | scholarship, research | primary_page_reviewed; manual_review_then_html_adapter; not_connected | 2027/28 Finnish FLTA application round explicitly open; ends October 25 2026, with information session October 6. Finnish citizenship and bachelor-level education required; other October 1 calls are already closed. |
 
 ### France (FR)
 
 | Source | Content | Retrieval status | Evidence / review limits |
 |---|---|---|---|
-| [Campus France](https://www.campusfrance.org/en/bursaries-foreign-students) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
-| [1jeune1solution](https://www.1jeune1solution.gouv.fr/) | internship, job | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Publisher overlaps another entry. |
-| [Service Civique](https://www.service-civique.gouv.fr/) | volunteering | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Publisher overlaps another entry. |
+| [Campus France](https://www.campusfrance.org/en/bursaries-foreign-students) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Campus Bourses database includes December 31 2026 and January 25 2027 deadlines. This records source activity; application availability remains unclassified unless separately verified. |
+| [1jeune1solution](https://www.1jeune1solution.gouv.fr/) | internship, job | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Primary internshipsearch listings and September 2026 schoolplacement catalogue; perlisting dates stillneeded. This records source activity; application availability remains unclassified unless separately verified. Publisher overlaps another entry. |
+| [Service Civique](https://www.service-civique.gouv.fr/) | volunteering | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Primary missioncatalogue includes postings October 3 2026 and starting October 15/19 2026. This records source activity; application availability remains unclassified unless separately verified. Publisher overlaps another entry. |
 | [Fulbright France](https://fulbright-france.org/fr/node/25) | scholarship, research | primary_page_reviewed; manual_review_then_html_adapter; not_connected | Official student 2027/28 call explicitly open; deadline December 1 2026 at 23:59 Paris time. French citizenship and masters/PhD degree admission requirements apply; first-year funding only. |
 
 ### International (GLOBAL)
@@ -150,15 +152,15 @@ All feed checks are dated 4 October 2026. Three newly tested commission feeds co
 | Source | Content | Retrieval status | Evidence / review limits |
 |---|---|---|---|
 | [IKY](https://www.iky.gr/en/) | scholarship | rss_tested; rss; not_connected | GET 200, valid RSS, 24 items; newest 2026-10-01. Mixed institutional notices need opportunity filtering. |
-| [Onassis Foundation](https://www.onassis.org/initiatives/scholarships) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
+| [Onassis Foundation](https://www.onassis.org/initiatives/scholarships) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: 2026/27 call December 16 2025 now past;Greekpage anticipates 2027/28 call December 2026. This records source activity; application availability remains unclassified unless separately verified. |
 | [Fulbright Greece](https://www.fulbright.gr/en/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | 2027/28 Greek citizenship programme has mandatory registration July 1–October 15 2026 and separate application deadline November 15 2026. A single generic deadline would hide the earlier prerequisite. |
 
 ### Croatia (HR)
 
 | Source | Content | Retrieval status | Evidence / review limits |
 |---|---|---|---|
-| [AMPEU](https://en.ampeu.hr/open-calls) | scholarship, mobility | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Publisher overlaps another entry. |
-| [Croatian Ministry](https://mzom.gov.hr/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Excluded from independent-publisher activity count: Co-publishes same government bilateral programme with AMPEU; not additional independent catalogue. |
+| [AMPEU](https://en.ampeu.hr/open-calls) | scholarship, mobility | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Primary open-calls list shows February 20 2026 bilateral call explicitly deadline passed. This records source activity; application availability remains unclassified unless separately verified. Publisher overlaps another entry. |
+| [Croatian Ministry](https://mzom.gov.hr/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Primary ministry 2026/27 bilateral scholarship call co-published with AMPEU, not a separate programme. This records source activity; application availability remains unclassified unless separately verified. Excluded from independent-publisher activity count: Co-publishes same government bilateral programme with AMPEU; not additional independent catalogue. |
 | [Study in Croatia](https://www.studyincroatia.hr/) | guidance | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Publisher overlaps another entry. Excluded from independent-publisher activity count: Guidance, unrelated date, or dated opportunity publication not yet established. |
 | [University of Zagreb](https://www.unizg.hr/studiji-i-studiranje/upisi-stipendije-priznavanja/stipendije/) | scholarship | primary_page_reviewed; manual_review_then_html_adapter; not_connected | Own 2025/26 scholarship round ran December 17 2025–January 16 2026; primary catalogue states March 17 decision awarding 400 scholarships and April 28 amendment. Closed, institution-specific scheme distinct from AMPEU bilateral awards. |
 | [Croatian Ministry of Demography and Immigration](https://mdu.gov.hr/javni-poziv-za-dodjelu-stipendija-za-ucenje-hrvatskoga-jezika-u-republici-hrvatskoj-za-akademsku-godinu-2026-2027-7582/7582) | scholarship, youth | primary_page_reviewed; manual_review_then_html_adapter; not_connected | Primary Croatian-language 2026/27 call published June 19 2026 for up to 700 awards; deadline July 6 2026, now closed. Diaspora/descendant and other stated eligibility restrictions apply; distinct from science-ministry/AMPEU bilateral programme. |
@@ -168,7 +170,7 @@ All feed checks are dated 4 October 2026. Three newly tested commission feeds co
 | Source | Content | Retrieval status | Evidence / review limits |
 |---|---|---|---|
 | [Stipendium Hungaricum](https://stipendiumhungaricum.hu/apply/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Primary application announcement describes 2026/27 intake; annual cycle, not evidence currently open. Publisher overlaps another entry. |
-| [Tempus Bilateral Scholarships](https://en.tka.hu/bilateral-state-scholarships-information-for-applicants) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Publisher overlaps another entry. |
+| [Tempus Bilateral Scholarships](https://en.tka.hu/bilateral-state-scholarships-information-for-applicants) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Primary page lists 2026/27 semester, full study and summer scholarship types. This records source activity; application availability remains unclassified unless separately verified. Publisher overlaps another entry. |
 | [Hungarian Diaspora Scholarship](https://diasporascholarship.hu/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Publisher overlaps another entry. Excluded from independent-publisher activity count: Guidance, unrelated date, or dated opportunity publication not yet established. |
 | [Fulbright Hungary](https://fulbright.hu/) | scholarship, research | primary_page_reviewed; manual_review_then_html_adapter; not_connected | 2027/28 research/lecturing deadline October 15 2026 and FLTA deadline October 31; postgraduate deadline May 15 has passed. Preserve distinct student, scholar and language-teacher audiences. |
 | [Corvinus University of Budapest](https://www.uni-corvinus.hu/post/hir/applications-are-now-open-for-the-study-scholarship-and-student-organization-scholarship/?lang=en) | scholarship | primary_page_reviewed; manual_review_then_html_adapter; not_connected | Own 2026/27 Study and Student Association scholarships had September 15 2026 noon closing date. Closed call with university-specific active student and association requirements, independent of Tempus national schemes. |
@@ -177,17 +179,17 @@ All feed checks are dated 4 October 2026. Three newly tested commission feeds co
 
 | Source | Content | Retrieval status | Evidence / review limits |
 |---|---|---|---|
-| [gradireland](https://gradireland.com/) | internship, job | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
-| [HEA](https://hea.ie/policy/internationalisation/goi-ies/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
+| [gradireland](https://gradireland.com/) | internship, job | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Primary site lists 2027 Kerryinternship and graduate programmes with remaining application days. This records source activity; application availability remains unclassified unless separately verified. |
+| [HEA](https://hea.ie/policy/internationalisation/goi-ies/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: 2026 call deadline March 12 2026 andresultsearly June; closedannual programme. This records source activity; application availability remains unclassified unless separately verified. |
 | [Léargas](https://www.leargas.ie/) | youth, mobility | page_reachable; manual_review_then_html_adapter; not_connected | Primary site shows upcoming October-November 2026 events; several audiences are youth workers or institutions. |
 
 ### Italy (IT)
 
 | Source | Content | Retrieval status | Evidence / review limits |
 |---|---|---|---|
-| [Scambieuropei](https://www.scambieuropei.info/) | internship, scholarship, youth | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
-| [Eurodesk Italia](https://www.eurodesk.it/) | youth, mobility | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
-| [Study in Italy](https://studyinitaly.esteri.it/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
+| [Scambieuropei](https://www.scambieuropei.info/) | internship, scholarship, youth | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Primary home lists October 2 2026 Asserinternship and October 1 Schuman 2027 internships. This records source activity; application availability remains unclassified unless separately verified. |
+| [Eurodesk Italia](https://www.eurodesk.it/) | youth, mobility | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Primary September-October 2026 news and October 6/November 12 webinars. This records source activity; application availability remains unclassified unless separately verified. |
+| [Study in Italy](https://studyinitaly.esteri.it/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Primary MAECI 2026/27 scholarship call links Study In Italy applicationportal; deadline March 26 2026 past. This records source activity; application availability remains unclassified unless separately verified. |
 
 ### Lithuania (LT)
 
@@ -204,7 +206,7 @@ All feed checks are dated 4 October 2026. Three newly tested commission feeds co
 | [University of Luxembourg](https://www.uni.lu/life-en/financial-support/scholarships/) | scholarship | candidate; manual_review_then_html_adapter; not_connected | Primary publisher search index records Guillaume Dupaix application deadline March 24 2026; closed annual scheme. Direct page currently returns challenge content, so indexed evidence is not technical adapter readiness. |
 | [Luxembourg MFA Internships](https://mae.gouvernement.lu/en/directions-du-ministere/finances-ressources-humaines/stages.html) | internship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Excluded from independent-publisher activity count: Guidance, unrelated date, or dated opportunity publication not yet established. |
 | [Luxembourg Cooperation](https://cooperation.gouvernement.lu/en/s-engager.html) | internship, youth | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Excluded from independent-publisher activity count: Guidance, unrelated date, or dated opportunity publication not yet established. |
-| [Luxembourg National Research Fund (FNR)](https://www.fnr.lu/funding-instruments/afdoc/) | scholarship, research | primary_page_reviewed; manual_review_then_html_adapter; not_connected | AFdoc doctoral-funding first call launched September 2026; closes November 25 2026 at 14:00 CET. Masters-qualified candidates need the specified Luxembourg link and eligible host; grants fund host employment, not tuition. |
+| [Luxembourg National Research Fund (FNR)](https://www.fnr.lu/funding-instruments/afdoc/) | scholarship, research | html_tested; reviewed_html_metadata; connected | AFdoc doctoral-funding first call launched September 2026; closes November 25 2026 at 14:00 CET. Masters-qualified candidates need the specified Luxembourg link and eligible host; grants fund host employment, not tuition. |
 | [Volontaires.lu / National Youth Service](https://www.volontaires.lu/missions-svn/volontaire-en-soutien-a-lorganisation-devenements-et-a-la-communication/) | volunteering, youth | primary_page_reviewed; manual_review_then_html_adapter; not_connected | Primary SNJ national-service mission at Partage Luxembourg lists September 7 2026–June 6 2027, communications/event duties and required French. Mission dates are service duration, not application deadlines; availability unconfirmed. |
 
 ### Latvia (LV)
@@ -221,7 +223,7 @@ All feed checks are dated 4 October 2026. Three newly tested commission feeds co
 |---|---|---|---|
 | [MyScholarship](https://myscholarship.gov.mt/en/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Publisher overlaps another entry. Excluded from independent-publisher activity count: Guidance, unrelated date, or dated opportunity publication not yet established. |
 | [University of Malta](https://www.um.edu.mt/study/feesfunding/scholarships/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Primary Islands and Small States scholarship call deadline July 1 2026 at 14:00 CEST; now closed. Nationality restricted to eligible Small Island Developing States; no current open call inferred. |
-| [Malta Student Grants](https://stipendsandgrants.gov.mt/en/) | grant | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Publisher overlaps another entry. |
+| [Malta Student Grants](https://stipendsandgrants.gov.mt/en/) | grant | page_reachable; manual_link_directory_only; not_connected | Primary page explicitly states academic-year2026/27 maintenance grants applications open; specific statutory eligibility applies. No closing date stated on reviewed landing page. Ordinary source links only: footer-linked Government terms prohibit automated scraping/monitoring. |
 | [Arts Council Malta](https://artscouncilmalta.gov.mt/en/funding-and-grants/artivisti/) | youth, grant | primary_page_reviewed; manual_review_then_html_adapter; not_connected | Artivisti creative-development call had March 30 2026 noon deadline; awards/results now published. Youth arts initiative jointly administered with Aġenzija Żgħażagħ; closed call, distinct from education-ministry student grants. |
 
 ### Netherlands (NL)
@@ -229,7 +231,7 @@ All feed checks are dated 4 October 2026. Three newly tested commission feeds co
 | Source | Content | Retrieval status | Evidence / review limits |
 |---|---|---|---|
 | [Study in NL](https://www.studyinnl.org/finances/scholarships) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Excluded from independent-publisher activity count: Guidance, unrelated date, or dated opportunity publication not yet established. |
-| [Magnet.me](https://magnet.me/en/internships/netherlands) | internship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
+| [Magnet.me](https://magnet.me/en/internships/netherlands) | internship | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Primary HTML internship records showresponse Deadline October 4 2026 and February 2027 start dates. This records source activity; application availability remains unclassified unless separately verified. |
 | [Leiden University](https://www.universiteitleiden.nl/en/scholarships/sea/leiden-university-excellence-scholarship-lexs) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Not yet assessed; HTTP availability alone does not prove active opportunities. |
 | [Fulbright Netherlands](https://fulbright.nl/naar-de-vs/promovendi/fulbright-beurzen-voor-promovendi/) | scholarship, research | primary_page_reviewed; reviewed_html_metadata; connected (exact metadata release verified 2026-10-05) | 2027/28 doctoral research round explicitly open; deadline December 1 2026 at noon Dutch time. Dutch citizenship and affiliation to a Dutch university/research institute required; maximum support is partial, not a full-cost guarantee. |
 
@@ -237,8 +239,8 @@ All feed checks are dated 4 October 2026. Three newly tested commission feeds co
 
 | Source | Content | Retrieval status | Evidence / review limits |
 |---|---|---|---|
-| [Eurodesk Polska](https://www.eurodesk.pl/granty) | scholarship, grant, youth | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Publisher overlaps another entry. |
-| [NAWA](https://nawa.gov.pl/en/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
+| [Eurodesk Polska](https://www.eurodesk.pl/granty) | scholarship, grant, youth | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Primary grant catalogue has October 4/6 2026 deadlines and November 30 grants; publisher FRSE. This records source activity; application availability remains unclassified unless separately verified. Publisher overlaps another entry. |
+| [NAWA](https://nawa.gov.pl/en/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Primary Banach NAWA 2026 call deadline May 8 2026 and 2026/27 intake; closed. This records source activity; application availability remains unclassified unless separately verified. |
 | [FRSE](https://www.frse.org.pl/) | mobility, grant | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Publisher overlaps another entry. Excluded from independent-publisher activity count: Guidance, unrelated date, or dated opportunity publication not yet established. |
 | [Fulbright Poland](https://fulbright.edu.pl/junior-research/) | scholarship, research | primary_page_reviewed; manual_review_then_html_adapter; not_connected | Junior Research Award 2027/28 applications May 12–October 13 2026 at 15:00 Polish time; primary page explicitly open. Polish citizenship and a doctoral dissertation at a Polish institution required. |
 
@@ -247,7 +249,7 @@ All feed checks are dated 4 October 2026. Three newly tested commission feeds co
 | Source | Content | Retrieval status | Evidence / review limits |
 |---|---|---|---|
 | [IPDJ](https://ipdj.gov.pt/candidaturas) | youth, grant | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Excluded from independent-publisher activity count: Guidance, unrelated date, or dated opportunity publication not yet established. |
-| [FCT](https://www.fct.pt/en/financiamento/programas-de-financiamento/bolsas/) | research, scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
+| [FCT](https://www.fct.pt/en/financiamento/programas-de-financiamento/bolsas/) | research, scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Primary Ph Dstudentship overviewupdated March 30 2026; postgraduate focus; individualcalls need inspection. This records source activity; application availability remains unclassified unless separately verified. |
 | [DGES](https://www.dges.gov.pt/en) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Primary 2026/27 need-based grant page gives August 14–October 2 2026 standard window and later proportional awards October 3–May 31, plus enrollment-dependent 20-working-day exceptions. Eligibility and award proration require careful interpretation. |
 | [Fulbright Portugal](https://www.fulbright.pt/bolsas/bolsa-fulbright-para-mestrado/) | scholarship, research | primary_page_reviewed; reviewed_html_metadata; connected (exact metadata release verified 2026-10-05) | 2027/28 masters applications run October 1 2026–January 15 2027, 23:59 Lisbon time. Portuguese citizenship and US university admission required; award supports the first year up to the stated limit. |
 
@@ -255,7 +257,7 @@ All feed checks are dated 4 October 2026. Three newly tested commission feeds co
 
 | Source | Content | Retrieval status | Evidence / review limits |
 |---|---|---|---|
-| [Study in Romania](https://studyinromania.gov.ro/scholarships) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
+| [Study in Romania](https://studyinromania.gov.ro/scholarships) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: 2026/27 national scholarshipcycle confirmed; site newsstatesapplicationsclosed. This records source activity; application availability remains unclassified unless separately verified. |
 | [Fulbright Romania](https://fulbright.ro/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Primary US student 2027/28 competition has deadline 2026-10-06; source active at review. |
 | [ANPCDEFP](https://www.anpcdefp.ro/) | mobility, youth | page_reachable; manual_review_then_html_adapter; not_connected | Primary Erasmus+ and ESF+ programme page updated 2026-09-16; institution-mediated support, not unrestricted individual applications. |
 
@@ -264,7 +266,7 @@ All feed checks are dated 4 October 2026. Three newly tested commission feeds co
 | Source | Content | Retrieval status | Evidence / review limits |
 |---|---|---|---|
 | [Swedish Institute](https://si.se/en/apply/scholarships/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Official application portal links eligible 2026/27 programmes and December 22 2025 call-date notice. Portal text mixes 2025/26 and 2026/27 in its notice; no current open status or 2027 dates inferred. Publisher overlaps another entry. |
-| [Study in Sweden](https://studyinsweden.se/scholarships/) | guidance | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Publisher overlaps another entry. Excluded from independent-publisher activity count: Guidance, unrelated date, or dated opportunity publication not yet established. |
+| [Study in Sweden](https://studyinsweden.se/scholarships/) | guidance | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: April 20 2026 metadata representsuniversity directory update, notscholarship call. This records source activity; application availability remains unclassified unless separately verified. Publisher overlaps another entry. Excluded from independent-publisher activity count: Guidance, unrelated date, or dated opportunity publication not yet established. |
 | [Lund University](https://www.lunduniversity.lu.se/admissions/bachelors-and-masters-studies/scholarships-and-awards) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Primary Lund Global Scholarship states applications closed and February 16 2026 deadline. Tuition-only funding for fee-paying non-EU/EEA students; living costs excluded. |
 | [Fulbright Sweden](https://www.fulbright.se/scholar-program/) | scholarship, research | primary_page_reviewed; manual_review_then_html_adapter; not_connected | Swedish Scholar 2027/28 round opens August 15 2026 and closes January 11 2027. Swedish citizenship, US host affiliation and doctoral/terminal degree by departure required; includes early-career scholars. |
 
@@ -273,7 +275,7 @@ All feed checks are dated 4 October 2026. Three newly tested commission feeds co
 | Source | Content | Retrieval status | Evidence / review limits |
 |---|---|---|---|
 | [Public Scholarship Fund](https://www.srips-rs.si/en/public-calls) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Primary public-calls list includes 2026/27 Zois and diaspora scholarships alongside explicitly expired 2026 calls. Relative open-days indicators need detail deadlines before individual records are marked open. |
-| [CMEPIUS](https://www.cmepius.si/mednarodno-sodelovanje/moznosti-sodelovanja/bilaterale/) | scholarship, mobility | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
+| [CMEPIUS](https://www.cmepius.si/mednarodno-sodelovanje/moznosti-sodelovanja/bilaterale/) | scholarship, mobility | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Bilateralprogramme list 2026/27 and 2027/28 calls; manylisteddeadlinespast, inspect each. This records source activity; application availability remains unclassified unless separately verified. |
 | [University of Ljubljana](https://www.uni-lj.si/en/study) | scholarship, mobility | page_reachable; manual_review_then_html_adapter; not_connected | University-managed 2026/27 traineeship funding call accepts applications while funds last, at latest July 1 2027; mobility runs October 1 2026–September 30 2027. Signed student/employer/department learning agreement required. Distinct institutional selection, not a copied SRIPS scholarship call. |
 
 ### Slovakia (SK)
@@ -281,7 +283,7 @@ All feed checks are dated 4 October 2026. Three newly tested commission feeds co
 | Source | Content | Retrieval status | Evidence / review limits |
 |---|---|---|---|
 | [SAIA Grants](https://grants.saia.sk/Pages/ProgramZoznam.aspx?s=true) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Primary database lists NSP student deadline 2026-10-31 16:00; same publisher as scholarships.sk. Publisher overlaps another entry. |
-| [National Scholarship Programme](https://www.scholarships.sk/en/main/o-programe) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Publisher overlaps another entry. |
+| [National Scholarship Programme](https://www.scholarships.sk/en/main/o-programe) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Same SAIAprogramme as database with October 31 2026 round; not an additional independent publisher. This records source activity; application availability remains unclassified unless separately verified. Publisher overlaps another entry. |
 | [Study in Slovakia](https://www.studyinslovakia.saia.sk/en/main/scholarships) | guidance | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Publisher overlaps another entry. Excluded from independent-publisher activity count: Guidance, unrelated date, or dated opportunity publication not yet established. |
 | [Fulbright Slovakia](https://fulbright.sk/en/us-student) | scholarship, research | primary_page_reviewed; manual_review_then_html_adapter; not_connected | Primary US student 2027/28 call deadline October 6 2026 at 17:00 ET; separate Slovak scholar programme has October 15 deadline. US and Slovak applicant programmes must not be conflated. |
 | [Comenius University FMPI](https://zona.fmph.uniba.sk/detail-novinky/back_to_page/fmfi-uk-zona/article/vyzva-na-podavanie-ziadosti-o-jednorazove-mimoriadne-stipendium-call-for-applications-for-ex-9/) | scholarship | primary_page_reviewed; manual_review_then_html_adapter; not_connected | Faculty extraordinary-scholarship call published September 29 2026, closes October 18 2026. Own student-activity grant restricted to first- and second-cycle FMPI students; not the SAIA national programme. |
@@ -290,7 +292,7 @@ All feed checks are dated 4 October 2026. Three newly tested commission feeds co
 
 | Source | Content | Retrieval status | Evidence / review limits |
 |---|---|---|---|
-| [USAJOBS Students](https://www.usajobs.gov/HiringPath/Students) | internship, job | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
+| [USAJOBS Students](https://www.usajobs.gov/HiringPath/Students) | internship, job | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Primaryrecentgraduatecatalogue lists September 22–October 6 2026 vacancy and January 2026–January 2027 ongoingcall. This records source activity; application availability remains unclassified unless separately verified. |
 | [NSF REU](https://www.nsf.gov/funding/initiatives/reu/students) | research, internship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Excluded from independent-publisher activity count: Guidance, unrelated date, or dated opportunity publication not yet established. |
 | [CareerOneStop Scholarship Finder](https://www.careeronestop.org/toolkit/training/find-scholarships.aspx) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Excluded from independent-publisher activity count: Guidance, unrelated date, or dated opportunity publication not yet established. |
 | [Fulbright US Student](https://us.fulbrightonline.org/) | scholarship | primary_page_reviewed; manual_review_then_html_adapter; not_connected | Official 2027/28 competition is open with a national deadline of October 6 2026 at 5:00 p.m. Eastern Time. Enrolled applicants apply through their institution and may face an earlier campus deadline; eligible U.S. citizens with a bachelor's degree may apply at large. Country and award-specific requirements apply. |
@@ -354,13 +356,13 @@ Recent programme evidence is separate from its application state. The new `last_
 
 ### Confirmed current application coverage
 
-The 3–5 active-source target is not established as currently open applications. The existing explicitly classified examples establish at least one open call or open-call subset for 19 distinct national publishers across 17 countries. None of the 28 target countries has three confirmed current publishers in this conservative review. This is a lower bound from `open_confirmed` or `some_calls_open`; unclassified, conditional, conflicting and closed examples are excluded. A zero count means insufficient reviewed evidence, not proof that the country has no open opportunities. No country has three operational policy-reviewed adapters either.
+The 3–5 active-source target is not established as currently open applications. After the scoped 5 October renewal, explicitly classified examples establish at least one open call or open-call subset for 22 distinct national publishers across 20 countries. None of the 28 target countries has three confirmed current publishers in this conservative review. This is a lower bound from `open_confirmed` or `some_calls_open`; unclassified, conditional, conflicting and closed examples are excluded. A zero count means insufficient reviewed evidence, not proof that the country has no open opportunities. No country has three operational policy-reviewed adapters either.
 
 | Country | Publishers with explicitly confirmed open application evidence |
 |---|---|
 | Austria | 0 |
 | Belgium | 1 |
-| Bulgaria | 0 |
+| Bulgaria | 1 |
 | Cyprus | 0 |
 | Czechia | 1 |
 | Germany | 0 |
@@ -377,7 +379,7 @@ The 3–5 active-source target is not established as currently open applications
 | Lithuania | 1 |
 | Luxembourg | 1 |
 | Latvia | 1 |
-| Malta | 0 |
+| Malta | 1 |
 | Netherlands | 1 |
 | Poland | 1 |
 | Portugal | 1 |
@@ -531,7 +533,7 @@ The Czech allowlist contains only these exact canonical item URLs:
 
 Preserve original Czech title, canonical original link and valid publication date. Set summary to an empty string, deadline to null, availability to unknown and host/eligible country arrays to empty. Do not publish article prose or images. The generic `Novinky` category and broad scholarship keywords also match excluded webinar/alumni content; they cannot determine selection. Unreviewed items remain excluded until primary-content review expands the exact allowlist. Sanitized fixtures retain title/link/date/categories only.
 
-Czech runtime source `fulbright-czech-programmes`, adapter `reviewed-rss`, is operational. Hosted [main run 37263518031](https://github.com/fmarslan/YouthOpp-data-pipeline/actions/runs/37263518031) passed 19 tests, durable-state recovery and collection; [immutable release catalog-37263518031-1](https://github.com/fmarslan/YouthOpp-data-pipeline/releases/tag/catalog-37263518031-1) was published on 5 October 2026 at 04:26:39 UTC with 32 total records, including the two reviewed Czech metadata records, and all four sources healthy. This verifies data collection and publication; hosted website acceptance is separate. No publisher-contact or owner-approval action is presently required by documented policy for this scoped metadata operation. Full descriptions/images, newly restrictive terms or blocked access would require a separate acquisition decision. NL/PT currently have a relevance blocker, not missing consent. Poll conservatively with a clear project User-Agent, honor rate limits and keep at least ten seconds between Netherlands same-host requests.
+Czech runtime source `fulbright-czech-programmes`, adapter `reviewed-rss`, is operational. Hosted main run 37263518031 (fork verification) passed 19 tests, durable-state recovery and collection; immutable release catalog-37263518031-1 (fork verification) was published on 5 October 2026 at 04:26:39 UTC with 32 total records, including the two reviewed Czech metadata records, and all four sources healthy. This verifies data collection and publication; hosted website acceptance is separate. No publisher-contact or owner-approval action is presently required by documented policy for this scoped metadata operation. Full descriptions/images, newly restrictive terms or blocked access would require a separate acquisition decision. NL/PT currently have a relevance blocker, not missing consent. Poll conservatively with a clear project User-Agent, honor rate limits and keep at least ten seconds between Netherlands same-host requests.
 
 ### Remaining implementation gaps
 
@@ -548,7 +550,7 @@ The user’s target is 3–5 high-quality, active researched sources per country
 
 ### Exact Portugal programme-page selection — 5 October 2026
 
-The separately reviewed master's programme now has a trusted exact canonical/Open Graph title/link adapter; this does not activate the unrelated Portugal RSS. The [dated access review](access-review-2026-10-05.md) records GET200, robots scope, privacy-only policy text, all-rights-reserved footer and the absence of express reuse permission. This scoped project assessment covers factual metadata only, not source prose or publisher approval. Original publication is unavailable and stays null; the observed modification timestamp is never publication. The record stays a scholarship programme overview with unknown application state, deadline and eligibility. Current window evidence is separate research evidence. Actual producer [run 37270813364](https://github.com/fmarslan/YouthOpp-data-pipeline/actions/runs/37270813364) and [immutable release catalog-37270813364-1](https://github.com/fmarslan/YouthOpp-data-pipeline/releases/tag/catalog-37270813364-1) verify the Portugal metadata record, with all six integrated sources healthy at 06:07:29 UTC. This is dated production evidence; current source health comes from each later release. Website acceptance remains separate.
+The separately reviewed master's programme now has a trusted exact canonical/Open Graph title/link adapter; this does not activate the unrelated Portugal RSS. The [dated access review](access-review-2026-10-05.md) records GET200, robots scope, privacy-only policy text, all-rights-reserved footer and the absence of express reuse permission. This scoped project assessment covers factual metadata only, not source prose or publisher approval. Original publication is unavailable and stays null; the observed modification timestamp is never publication. The record stays a scholarship programme overview with unknown application state, deadline and eligibility. Current window evidence is separate research evidence. Actual producer run 37270813364 (fork verification) and immutable release catalog-37270813364-1 (fork verification) verify the Portugal metadata record, with all six integrated sources healthy at 06:07:29 UTC. This is dated production evidence; current source health comes from each later release. Website acceptance remains separate.
 
 
 ### Exact Netherlands programme-page selection — 5 October 2026
@@ -557,7 +559,7 @@ The [doctoral programme](https://fulbright.nl/naar-de-vs/promovendi/fulbright-be
 
 ### Research and operational state
 
-The 4 October country research snapshot and later recorded access dates describe editorial evidence. `acquisition_state: connected` is separately supported by a dated producer run/release, not inferred from a reachable page or local test. Czech, NASA and Portugal metadata have such evidence in [run 37270813364](https://github.com/fmarslan/YouthOpp-data-pipeline/actions/runs/37270813364) and [release catalog-37270813364-1](https://github.com/fmarslan/YouthOpp-data-pipeline/releases/tag/catalog-37270813364-1). The runtime source directory joins each adapter to the research source and reports the latest collection health; a later fetch failure preserves records and does not silently rewrite this historical verification. Operational access review is not express publisher permission, and editorial application-window evidence is not catalogue availability.
+The 4 October country research snapshot and later recorded access dates describe editorial evidence. `acquisition_state: connected` is separately supported by a dated producer run/release, not inferred from a reachable page or local test. Czech, NASA and Portugal metadata have such evidence in run 37270813364 (fork verification) and release catalog-37270813364-1 (fork verification). The runtime source directory joins each adapter to the research source and reports the latest collection health; a later fetch failure preserves records and does not silently rewrite this historical verification. Operational access review is not express publisher permission, and editorial application-window evidence is not catalogue availability.
 
 
 ### Finite follow-up scope and ongoing backlog
@@ -569,6 +571,20 @@ Further HTML adapters across the remaining discovery candidates, additional exac
 
 ### Netherlands operational verification — 5 October 2026, 06:29 UTC
 
-The actual merged-main [producer run 37272654737](https://github.com/fmarslan/YouthOpp-data-pipeline/actions/runs/37272654737) passed 44 tests and published [immutable release catalog-37272654737-1](https://github.com/fmarslan/YouthOpp-data-pipeline/releases/tag/catalog-37272654737-1) at 06:29:36 UTC. The downloaded Actions artifact and all three extracted assets match GitHub artifact/release digests and the integrity manifest. The catalog has 37 retained records, with all seven source collections healthy in this dated release; current collection health is established separately by each later run.
+The actual merged-main producer run 37272654737 (fork verification) passed 44 tests and published immutable release catalog-37272654737-1 (fork verification) at 06:29:36 UTC. The downloaded Actions artifact and all three extracted assets match GitHub artifact/release digests and the integrity manifest. The catalog has 37 retained records, with all seven source collections healthy in this dated release; current collection health is established separately by each later run.
 
 The exact Netherlands record `1f4def960c9cca6ae7111473` preserves the original title/link, null publication, empty summary, scholarships/programme-overview, unknown application status/deadline and empty host/eligible countries. `NL` is publisher geography only. Its exact research join and category/kind memberships were verified. Catalog size is 324,910 bytes and SHA256 is `8c93f5d91fb41e2c0eeb4bcd12f7ec2afd70240b4db457388040b30c260e9616`. This is measured producer collection/publication; website consumption and public hosted acceptance remain separate. The general Netherlands RSS remains excluded for relevance, and no publisher approval or currently open youth call is inferred.
+
+
+### Scoped country evidence renewal — 5 October 2026
+
+See [the exact primary-page review](country-renewal-2026-10-05.md). Bulgarian research grants and Malta maintenance grants have explicit current open evidence. Vienna homepage invitations conflict with detail-page application-closed labels; ONEK Open badges conflict with the expired September 16 call and December 10 next opening. Both remain excluded from confirmed-open counts. Malta footer-linked terms prohibit automated scraping, so it remains a manual source-link directory entry. Research Ireland nominations are institutional and subject to restrictive content-publication terms; no adapter or registry activation is implied.
+
+Generic freshness text for recorded dated opportunity evidence now mirrors the existing evidence with its original review date; this is prose reconciliation, not a fresh whole-register verification. The refreshed open-evidence lower bound is 22 publishers across 20 countries, including two newly classified publishers and previously classified entries. Research-source counts and operational adapter counts remain separate.
+
+
+### Luxembourg exact metadata production verification — 5 October 2026
+
+Merged-main fork producer run 37274664011 passed 48 tests and published immutable releasecatalog-37274664011-1 at 06:53:16 UTC. Downloaded artifact/native asset hashes matched the manifest. The catalog retained 39 records across eight integrations: seven source collections were healthy, including one FNR exact record; Scholarships Corner reported a fetch error and retained ten last-good records. This is dated producer evidence, not blanket current health.
+
+FNR record 8d 24597c 237a 1ff 602abeaed preserves AFdoc-FNR, original publication 2026-07-29T 13:25:54.000Z, empty summary, unknown application availability, null deadline and empty host/eligible countries. No automated eligibility or application-window inference. Website acceptance is separate.
