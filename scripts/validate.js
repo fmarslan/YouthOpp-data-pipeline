@@ -9,7 +9,8 @@ for(const item of manifests){
  if(item.adapter==='reviewed-html') {
   const selected=item.reviewed_page;
   if(!selected || selected.url!==item.source_url || new URL(selected.url).hostname!==new URL(item.website_url).hostname || !['internships','scholarships'].includes(selected.category) || selected.kind!=='programme-overview')throw new Error('Invalid reviewed HTML programme selection');
-  if(selected.metadata_format && !['json-ld','open-graph'].includes(selected.metadata_format))throw new Error('Invalid reviewed HTML metadata format');
+  if(selected.metadata_format && !['json-ld','open-graph','heading'].includes(selected.metadata_format))throw new Error('Invalid reviewed HTML metadata format');
+  if(selected.metadata_format==='heading' && (typeof selected.title!=='string'||!selected.title.trim()||typeof item.attribution!=='string'||!item.attribution.trim()))throw new Error('Reviewed heading requires an exact title and publisher attribution');
  }
  if(item.adapter==='reviewed-rss') {
   if(!Array.isArray(item.reviewed_items)||!item.reviewed_items.length)throw new Error('Reviewed RSS requires explicit item allowlist');
