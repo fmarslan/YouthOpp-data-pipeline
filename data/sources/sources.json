@@ -188,5 +188,33 @@
     ],
     "publisher_country": "NL",
     "publisher_type": "public-institution"
+  },
+  {
+    "source": "lu-fnr-afdoc",
+    "source_url": "https://www.fnr.lu/funding-instruments/afdoc/",
+    "website_url": "https://www.fnr.lu/",
+    "enabled": true,
+    "adapter": "reviewed-html",
+    "language": "en",
+    "default_tags": [],
+    "added_at": "2026-10-05",
+    "scope": "exact reviewed doctoral programme metadata; individual application status and encoded eligibility unknown",
+    "reviewed_page": {
+      "url": "https://www.fnr.lu/funding-instruments/afdoc/",
+      "category": "scholarships",
+      "kind": "programme-overview"
+    },
+    "access_review": {
+      "reviewed_at": "2026-10-05",
+      "robots_url": "https://www.fnr.lu/robots.txt",
+      "policy_url": "https://www.fnr.lu/legal-notice/",
+      "scope": "Factual original programme title, canonical URL and original publication date only. Informational use and attributed hyperlinks expressly permitted; no prose, scientific references, media or endorsement. Scientific-reference reuse requires © Fonds National de la Recherche. One exact-page request per six-hour run."
+    },
+    "research_source_id": "lu-fnr-afdoc",
+    "categories": [
+      "scholarships"
+    ],
+    "publisher_country": "LU",
+    "publisher_type": "public-institution"
   }
 ]
