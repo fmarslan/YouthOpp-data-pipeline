@@ -4349,13 +4349,13 @@
       "verification_status": "primary_page_reviewed",
       "retrieval_method": "reviewed_html_metadata",
       "adapter_status": "reviewed_html_implemented",
-      "acquisition_state": "not_connected",
+      "acquisition_state": "connected",
       "language": "nl/en",
       "audience": "Programme-specific students, early-career researchers or language teachers. Citizenship, residence, institution and education requirements must be preserved.",
       "rights_status": "Exact programme, robots, privacy and homepage fetched HTTP200 without redirects on 2026-10-05; same-host review requests spaced at least10 seconds. Privacy policy addresses personal data; no express factual-title/link indexing prohibition or reuse licence established in the inspected scope. Scoped project acquisition assessment supports original title/link only, without prose, imagery, personal data or publisher approval.",
       "source_kind": "recurring_programme_or_catalogue",
       "publisher_overlap": false,
-      "retrieval_notes": "One exact canonical and matching Open Graph URL/title identify the programme. Original publication metadata is absent; published_at stays null. Publish scholarships/programme-overview, empty summary and unknown availability/deadline/host/eligible countries. NL is publisher geography only. Existing reviewed-html Open Graph path is sufficient; actual activation requires merged runtime manifest and verified production release. General RSS remains excluded for irrelevant alumni stories.",
+      "retrieval_notes": "One exact canonical and matching Open Graph URL/title identify the programme. Original publication metadata is absent; published_at stays null. Publish scholarships/programme-overview, empty summary and unknown availability/deadline/host/eligible countries. NL is publisher geography only. Existing reviewed-html Open Graph path is sufficient; actual activation is verified by producer run 37272654737 and immutable release catalog-37272654737-1 on 5 October 2026. General RSS remains excluded for irrelevant alumni stories.",
       "refresh_cadence": "six-hour pipeline; one public programme-page request per run; at least10 seconds between same-host requests",
       "last_check_at": "2026-10-05",
       "review_tier": "exact_programme_metadata_review",
@@ -4386,7 +4386,7 @@
         "qualified_metadata_items": 0,
         "selection_reviewed_at": "2026-10-04"
       },
-      "ingestion_exclusion_reason": "General RSS has no qualified opportunity items. Exact programme-page metadata is separately reviewed; production release not yet verified.",
+      "ingestion_exclusion_reason": "General RSS remains excluded for irrelevant alumni stories; the separate exact programme-page metadata adapter is production verified.",
       "access_policy_inspection": {
         "inspected_at": "2026-10-05",
         "scope": "exact programme, robots, homepage and published privacy page; factual title/link metadata only",
@@ -4416,6 +4416,16 @@
         "original_publication_date_present": false,
         "metadata_only": true,
         "qualified_metadata_items": 1
+      },
+      "operational_verification": {
+        "verified_at": "2026-10-05",
+        "workflow_run_url": "https://github.com/fmarslan/YouthOpp-data-pipeline/actions/runs/37272654737",
+        "workflow_conclusion": "success",
+        "release_url": "https://github.com/fmarslan/YouthOpp-data-pipeline/releases/tag/catalog-37272654737-1",
+        "release_published_at": "2026-10-05T06:29:36Z",
+        "released_metadata_records": 1,
+        "source_health": "healthy",
+        "application_availability_inferred": false
       }
     },
     {
