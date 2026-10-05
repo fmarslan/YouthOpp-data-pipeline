@@ -4,7 +4,7 @@ Research date: 4 October 2026. Prepared by Open AI agent: Researcher.
 
 Canonical project repositories: [YouthOpp/data-pipeline](https://github.com/YouthOpp/data-pipeline), [YouthOpp/youthopp.github.io](https://github.com/YouthOpp/youthopp.github.io) and [YouthOpp/.github](https://github.com/YouthOpp/.github). Dated fork workflow/release identifiers below record development-fork execution evidence, not canonical project identities.
 
-Scoped access review updated 5 October 2026 for NASA, IKY and the exact Portugal and Netherlands programmes; other entries retain their recorded review dates. See [the primary-source access review](access-review-2026-10-05.md).
+Scoped access reviews include NASA, IKY and exact programme metadata; entries retain their own recorded review dates. The [Spain renewal of 5 October 2026](spain-access-review-2026-10-05.md) updates three existing publishers without activating an adapter. See also [the primary-source access review](access-review-2026-10-05.md).
 
 ## What this register means
 
@@ -116,9 +116,9 @@ All feed checks are dated 4 October 2026. Three newly tested commission feeds co
 
 | Source | Content | Retrieval status | Evidence / review limits |
 |---|---|---|---|
-| [INJUVE](https://www.injuve.es/convocatorias/becas?activas=si) | scholarship, youth | candidate; manual_review_then_html_adapter; not_connected | Primary listing has SEPI call dated 2026-09-30 with deadline 2026-10-07; direct fetch returned 502. |
-| [Fundación Carolina](https://www.fundacioncarolina.es/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Primary home lists 2026/27 scholarship call; annual programme, checkper call openstate. This records source activity; application availability remains unclassified unless separately verified. |
-| [la Caixa Foundation](https://fundacionlacaixa.org/es/becas) | scholarship | candidate; manual_review_then_html_adapter; not_connected | Recorded 2026-10-04 editorial evidence: Primary scholarships list includesopen research call deadline October 7 2026 andclosed undergrad May 29 2026. This records source activity; application availability remains unclassified unless separately verified. |
+| [INJUVE](https://www.injuve.es/convocatorias/becas?activas=si) | scholarship, youth | candidate; manual_review_then_html_adapter; not_connected | Indexed primary SEPI notice dated 2026-09-30 gives 30 September–7 October 2026 application window. Direct detail, legal notice and robots GETs returned 502 on 2026-10-05; current availability/access not accepted. |
+| [Fundación Carolina](https://www.fundacioncarolina.es/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Primary 2026/27 call remains published; application windows closed: postgraduate/institutional 2 March 2026, ECV 18 February, doctoral/postdoctoral/mobility 9 April. Home has 30 September 2026 cohort news; publisher activity is separate from an open call. Reuse permission required. |
+| [la Caixa Foundation](https://fundacionlacaixa.org/es/becas) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Primary scholarships landing explicitly states Francesc Moragas research grants open until 7 October 2026 at 14:00 Spanish peninsula time. Official BOE-B-2026-31913, published 2 October 2026, corroborates the 7 October closing date. Reuse/link permission required. |
 
 ### Finland (FI)
 
@@ -348,7 +348,7 @@ The resumed pass incorporates the previously recorded Fulbright commission short
 | Slovakia | 5 | 3 | Yes, editorial activity only |
 | United States | 5 | 3 | Yes, editorial activity only |
 
-28 of 28 countries meet the editorial activity threshold; 0 remain below three. The register contains 110 entries, of which 94 have recent opportunity evidence. Of these, 93 are eligible evidence entries before country-level operator deduplication: the Croatian science ministry co-publishes the same bilateral call as AMPEU and is explicitly excluded despite being a distinct operator. No country has three operational, policy-reviewed automated adapters. Czech Fulbright, NASA and the exact Portugal and Netherlands programmes have scoped metadata access-policy reviews; IKY requires prior publisher permission under its actual terms. The remaining 105 registry entries retain pending rights-review status. No express reuse licence or publisher approval is claimed.
+28 of 28 countries meet the editorial activity threshold; 0 remain below three. The register contains 110 entries, of which 94 have recent opportunity evidence. Of these, 93 are eligible evidence entries before country-level operator deduplication: the Croatian science ministry co-publishes the same bilateral call as AMPEU and is explicitly excluded despite being a distinct operator. No country has three operational, policy-reviewed automated adapters. Registry rights status after the Spain renewal: 100 pending, six scoped metadata access-policy reviews, three permission-required publishers (IKY, Fundación Carolina and la Caixa), and one reviewed manual-only publisher. A scoped review is not blanket publisher approval. Existing operational integrations remain nine; no Spain adapter is activated.
 
 ### Application state distinctions
 
@@ -356,7 +356,7 @@ Recent programme evidence is separate from its application state. The new `last_
 
 ### Confirmed current application coverage
 
-The 3–5 active-source target is not established as currently open applications. After the scoped 5 October renewal, explicitly classified examples establish at least one open call or open-call subset for 21 distinct national publishers across 19 target countries, plus one GLOBAL publisher (Visegrad Fund): 22 publishers total. GLOBAL evidence does not establish national coverage. None of the 28 target countries has three confirmed current publishers in this conservative review. This is a lower bound from `open_confirmed` or `some_calls_open`; unclassified, conditional, conflicting and closed examples are excluded. A zero count means insufficient reviewed evidence, not proof that the country has no open opportunities. No country has three operational policy-reviewed adapters either.
+The 3–5 active-source target is not established as currently open applications. After the scoped 5 October renewal, explicitly classified examples establish at least one open call or open-call subset for 22 distinct national publishers across 20 target countries, plus one GLOBAL publisher (Visegrad Fund): 23 publishers total. The Spain renewal adds only la Caixa as an explicitly confirmed open publisher; INJUVE remains unclassified for live availability and Carolina is closed. GLOBAL evidence does not establish national coverage. None of the 28 target countries has three confirmed current publishers in this conservative review. This is a lower bound from `open_confirmed` or `some_calls_open`; unclassified, conditional, conflicting and closed examples are excluded. A zero count means insufficient reviewed evidence, not proof that the country has no open opportunities. No country has three operational policy-reviewed adapters either.
 
 | Country | Publishers with explicitly confirmed open application evidence |
 |---|---|
@@ -368,7 +368,7 @@ The 3–5 active-source target is not established as currently open applications
 | Germany | 0 |
 | Denmark | 2 |
 | Estonia | 1 |
-| Spain | 0 |
+| Spain | 1 |
 | Finland | 1 |
 | France | 1 |
 | Greece | 1 |
@@ -468,9 +468,9 @@ The 3–5 active-source target is not established as currently open applications
 | Public Scholarship Fund (SI) | current_catalogue | [Primary URL](https://www.srips-rs.si/en/sklad/o-nas/javne-objave/javni-razpisi) | Primary public-calls list includes 2026/27 Zois and diaspora scholarships alongside explicitly expired 2026 calls. Relative open-days indicators need detail deadlines before individual records are marked open. |
 | CMEPIUS (SI) | recent_programme | [Primary URL](https://www.cmepius.si/mednarodno-sodelovanje/moznosti-sodelovanja/bilaterale/) | Bilateralprogramme list 2026/27 and 2027/28 calls; manylisteddeadlinespast, inspect each. |
 | University of Ljubljana (SI) | recent_programme | [Primary URL](https://www.aluo.uni-lj.si/en/internationally/erasmus-traineeship/) | University-managed 2026/27 traineeship funding call accepts applications while funds last, at latest July 1 2027; mobility runs October 1 2026–September 30 2027. Signed student/employer/department learning agreement required. Distinct institutional selection, not a copied SRIPS scholarship call. |
-| INJUVE (ES) | current_catalogue | [Primary URL](https://www.injuve.es/convocatorias/becas) | Primary SEPI 107 internshipslisting September 30 2026 deadline October 7 2026. |
-| Fundación Carolina (ES) | recent_programme | [Primary URL](https://www.fundacioncarolina.es/) | Primary home lists 2026/27 scholarship call; annual programme, checkper call openstate. |
-| la Caixa Foundation (ES) | current_catalogue | [Primary URL](https://fundacionlacaixa.org/es/becas) | Primary scholarships list includesopen research call deadline October 7 2026 andclosed undergrad May 29 2026. |
+| INJUVE (ES) | current_catalogue | [Primary URL](https://www.injuve.es/convocatorias/becas) | Indexed primary notice: 107 SEPI enterprise training grants; window 30 September–7 October 2026. Direct GET 502 is a transient collection gate, not proof the source is inactive. |
+| Fundación Carolina (ES) | recent_programme | [Primary URL](https://www.fundacioncarolina.es/) | Annual 2026/27 call: postgraduate/institutional closed 2 March, ECV closed 18 February, doctoral/postdoctoral/mobility closed 9 April 2026. Cohort news dated 30 September confirms continuing publisher activity. |
+| la Caixa Foundation (ES) | current_catalogue | [Primary URL](https://fundacionlacaixa.org/es/becas) | Francesc Moragas research grants explicitly open until 7 October 2026, 14:00 Spanish peninsula time. Master thesis, doctoral and postdoctoral humanities/social-sciences research at Spanish institutions; all nationalities, exact degree requirements apply. BOE-B-2026-31913 corroborates date. |
 | Swedish Institute (SE) | recent_programme | [Primary URL](https://apply-scholarships.si.se/) | Official application portal links eligible 2026/27 programmes and December 22 2025 call-date notice. Portal text mixes 2025/26 and 2026/27 in its notice; no current open status or 2027 dates inferred. |
 | Study in Sweden (SE) | guidance_updated | [Primary URL](https://studyinsweden.se/scholarships/) | April 20 2026 metadata representsuniversity directory update, notscholarship call. |
 | Lund University (SE) | recent_programme | [Primary URL](https://www.lunduniversity.lu.se/study/admission-degree-studies/scholarships-and-awards/lund-university-global-scholarship) | Primary Lund Global Scholarship states applications closed and February 16 2026 deadline. Tuition-only funding for fee-paying non-EU/EEA students; living costs excluded. |
