@@ -1,6 +1,6 @@
 # Categorical data model
 
-YouthOpp is a federated directory: records point to publisher URLs; the catalog is an index, not an assertion of applicant eligibility or open applications.
+YouthOpp is a directory of independent publisher sources: records point to publisher URLs; the catalog is an index, not an assertion of applicant eligibility or open applications.
 
 ## One taxonomy, distinct dimensions
 
