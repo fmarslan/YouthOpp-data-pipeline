@@ -2,6 +2,8 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { collect as collectRSS } from '../adapters/rss.js';
+import { collect as collectReviewedRSS } from '../adapters/reviewed-rss.js';
+const trustedAdapters = { rss: collectRSS, 'reviewed-rss': collectReviewedRSS };
 export function validateRecord(record) {
   for (const key of ['id','title','url','source','source_url','first_seen_at','last_seen_at','last_checked_at']) if (typeof record[key] !== 'string' || !record[key]) throw new Error(`Missing ${key}`);
   for (const key of ['url','source_url']) if (!['http:','https:'].includes(new URL(record[key]).protocol) || new URL(record[key]).username || new URL(record[key]).password) throw new Error('Unsafe URL');
@@ -14,19 +16,19 @@ export function validateRecord(record) {
 }
 export async function fetchText(url) {
   if(new URL(url).protocol !== 'https:' || new URL(url).username || new URL(url).password || /^(localhost|127\.|0\.|10\.|172\.(1[6-9]|2[0-9]|3[01])\.|192\.168\.|169\.254\.|\[)/.test(new URL(url).hostname)) throw new Error('HTTPS source required');
-  const response = await fetch(url,{signal:AbortSignal.timeout(25000),redirect:'error',headers:{'User-Agent':'YouthOpp/1.0 (+https://github.com/YouthOpp/data-pipeline)'}});
+  const response = await fetch(url,{signal:AbortSignal.timeout(25000),redirect:'error',headers:{'User-Agent':'YouthOpp/1.0 (+https://github.com/fmarslan/YouthOpp-data-pipeline)'}});
   if(!response.ok) throw new Error(`HTTP ${response.status}`);
   const reader=response.body.getReader();let size=0;const chunks=[];
   while(true){const {done,value}=await reader.read();if(done)break;size+=value.length;if(size>5_000_000){await reader.cancel();throw new Error('Feed exceeds 5 MB');}chunks.push(value);}
   return Buffer.concat(chunks).toString('utf8');
 }
-export async function runPipeline(manifests,previous={opportunities:[],sources:[]},{now=new Date().toISOString(),load=fetchText,adapter=collectRSS}={}) {
+export async function runPipeline(manifests,previous={opportunities:[],sources:[]},{now=new Date().toISOString(),load=fetchText,adapter}={}) {
   const enabled=manifests.filter(m=>m.enabled);const records=new Map((previous.opportunities||[]).map(r=>[r.id,r]));const sources=[];let successes=0;
   for(const manifest of enabled){
     const old=(previous.sources||[]).find(s=>s.source===manifest.source);
     try {
-      if(manifest.adapter!=='rss')throw new Error('Custom adapters require explicit trusted registration in scripts/collect.js');
-      const items=await adapter({manifest,fetchText:load,now});if(!items.length)throw new Error('Empty adapter output');
+      if(!Object.hasOwn(trustedAdapters,manifest.adapter))throw new Error('Custom adapters require explicit trusted registration in scripts/collect.js');
+      const items=await (adapter||trustedAdapters[manifest.adapter])({manifest,fetchText:load,now});if(!items.length)throw new Error('Empty adapter output');
       const batchIds=new Set();for(const record of items){validateRecord(record);if(batchIds.has(record.id))throw new Error('Duplicate adapter record ID');batchIds.add(record.id);}
       for(const record of items){const prior=records.get(record.id);const content=r=>JSON.stringify(Object.fromEntries(Object.entries(r).filter(([k])=>!['created_at','updated_at','first_seen_at','last_seen_at','last_checked_at'].includes(k))));records.set(record.id,{...record,created_at:prior?.created_at||now,first_seen_at:prior?.first_seen_at||now,updated_at:prior && content(prior)===content(record)?prior.updated_at:now});}
       sources.push({...manifest,last_attempt_at:now,last_checked_at:now,last_success_at:now,status:'ok',record_count:items.length,error:null});successes++;
