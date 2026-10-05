@@ -159,5 +159,34 @@
     ],
     "publisher_country": "PT",
     "publisher_type": "public-institution"
+  },
+  {
+    "source": "nl-fulbright-doctoral",
+    "source_url": "https://fulbright.nl/naar-de-vs/promovendi/fulbright-beurzen-voor-promovendi/",
+    "website_url": "https://fulbright.nl/",
+    "enabled": true,
+    "adapter": "reviewed-html",
+    "language": "nl",
+    "default_tags": [],
+    "added_at": "2026-10-05",
+    "scope": "exact reviewed doctoral scholarship programme metadata; individual application status and encoded eligibility unknown",
+    "reviewed_page": {
+      "url": "https://fulbright.nl/naar-de-vs/promovendi/fulbright-beurzen-voor-promovendi/",
+      "category": "scholarships",
+      "kind": "programme-overview",
+      "metadata_format": "open-graph"
+    },
+    "access_review": {
+      "reviewed_at": "2026-10-05",
+      "robots_url": "https://fulbright.nl/robots.txt",
+      "policy_url": "https://fulbright.nl/over-ons/privacyverklaring/",
+      "scope": "Factual original programme title and canonical URL only; no prose, imagery, personal data or endorsement. No express title/link indexing prohibition or reuse licence established in reviewed scope. One page request per six-hour run; robots crawl-delay 10 seconds respected by singleton host selection."
+    },
+    "research_source_id": "nl-fulbright-netherlands",
+    "categories": [
+      "scholarships"
+    ],
+    "publisher_country": "NL",
+    "publisher_type": "public-institution"
   }
 ]

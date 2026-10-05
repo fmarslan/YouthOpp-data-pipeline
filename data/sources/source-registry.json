@@ -3696,7 +3696,7 @@
       "resolved_url": "https://www.nasa.gov/learning-resources/internship-programs/",
       "page_title": "NASA Internship Programs - NASA",
       "source_kind": "recurring_programme_or_catalogue",
-      "acquisition_state": "not_connected",
+      "acquisition_state": "connected",
       "publisher_overlap": false,
       "retrieval_notes": "Only the exact NASA Internship Programs canonical WebPage is selected. Trusted reviewed-html adapter validates canonical identity and extracts name/datePublished from WebPage JSON-LD. Publish empty summary, internships category, programme-overview tag and unknown availability/deadline/country eligibility. Preserve original 2023 publication; do not relabel the 2026 modification as publication. The /feed/ URL returned HTML and is not an RSS endpoint.",
       "refresh_cadence": "six-hour pipeline; one public programme-page request per run; programme metadata only",
@@ -3743,6 +3743,18 @@
         "date_modified": "2026-09-28T15:01:36-04:00",
         "metadata_only": true,
         "qualified_metadata_items": 1
+      },
+      "runtime_source": "us-nasa-internships",
+      "runtime_adapter": "reviewed-html",
+      "operational_verification": {
+        "verified_at": "2026-10-05",
+        "workflow_run_url": "https://github.com/fmarslan/YouthOpp-data-pipeline/actions/runs/37270813364",
+        "workflow_conclusion": "success",
+        "release_url": "https://github.com/fmarslan/YouthOpp-data-pipeline/releases/tag/catalog-37270813364-1",
+        "release_published_at": "2026-10-05T06:07:29Z",
+        "released_metadata_records": 1,
+        "source_health": "healthy",
+        "application_availability_inferred": false
       }
     },
     {
@@ -4059,10 +4071,10 @@
       "runtime_adapter": "reviewed-rss",
       "operational_verification": {
         "verified_at": "2026-10-05",
-        "workflow_run_url": "https://github.com/fmarslan/YouthOpp-data-pipeline/actions/runs/37263518031",
+        "workflow_run_url": "https://github.com/fmarslan/YouthOpp-data-pipeline/actions/runs/37270813364",
         "workflow_conclusion": "success",
-        "release_url": "https://github.com/fmarslan/YouthOpp-data-pipeline/releases/tag/catalog-37263518031-1",
-        "release_published_at": "2026-10-05T04:26:39Z",
+        "release_url": "https://github.com/fmarslan/YouthOpp-data-pipeline/releases/tag/catalog-37270813364-1",
+        "release_published_at": "2026-10-05T06:07:29Z",
         "released_metadata_records": 2,
         "source_health": "healthy",
         "application_availability_inferred": false
@@ -4333,23 +4345,23 @@
       ],
       "operator": "Stichting Fulbright Commission the Netherlands",
       "added_at": "2026-10-04",
-      "verified_at": "2026-10-04",
-      "verification_status": "rss_tested",
-      "retrieval_method": "rss",
-      "adapter_status": "not_implemented",
+      "verified_at": "2026-10-05",
+      "verification_status": "primary_page_reviewed",
+      "retrieval_method": "reviewed_html_metadata",
+      "adapter_status": "reviewed_html_implemented",
       "acquisition_state": "not_connected",
       "language": "nl/en",
       "audience": "Programme-specific students, early-career researchers or language teachers. Citizenship, residence, institution and education requirements must be preserved.",
-      "rights_status": "Advertised feed and robots allow crawling with Crawl-delay: 10 seconds. Homepage, RSS, robots and privacy page inspected on 2026-10-04; no express title/link indexing ban or reuse licence established in that scope. Access/reuse review remains pending for any future concrete adapter; no publisher approval claimed.",
+      "rights_status": "Exact programme, robots, privacy and homepage fetched HTTP200 without redirects on 2026-10-05; same-host review requests spaced at least10 seconds. Privacy policy addresses personal data; no express factual-title/link indexing prohibition or reuse licence established in the inspected scope. Scoped project acquisition assessment supports original title/link only, without prose, imagery, personal data or publisher approval.",
       "source_kind": "recurring_programme_or_catalogue",
       "publisher_overlap": false,
-      "retrieval_notes": "RSS ingestion remains disabled for relevance. All ten observed items are alumni/blog stories; no qualified opportunity call. The separately reviewed programme page has an open application window, but its content is absent from this feed and requires a separate tested HTML adapter. Access-policy inspection found no express indexing prohibition or reuse licence; review remains pending because no concrete metadata selection/adapter is proposed.",
-      "refresh_cadence": "proposed weekly; annual programmes and programme-specific windows",
-      "last_check_at": "2026-10-04",
-      "review_tier": "feed_tested",
-      "rights_review_status": "pending",
+      "retrieval_notes": "One exact canonical and matching Open Graph URL/title identify the programme. Original publication metadata is absent; published_at stays null. Publish scholarships/programme-overview, empty summary and unknown availability/deadline/host/eligible countries. NL is publisher geography only. Existing reviewed-html Open Graph path is sufficient; actual activation requires merged runtime manifest and verified production release. General RSS remains excluded for irrelevant alumni stories.",
+      "refresh_cadence": "six-hour pipeline; one public programme-page request per run; at least10 seconds between same-host requests",
+      "last_check_at": "2026-10-05",
+      "review_tier": "exact_programme_metadata_review",
+      "rights_review_status": "access_policy_reviewed_metadata_only",
       "last_activity_evidence": {
-        "review_date": "2026-10-04",
+        "review_date": "2026-10-05",
         "status": "recent_programme",
         "url": "https://fulbright.nl/naar-de-vs/promovendi/fulbright-beurzen-voor-promovendi/",
         "description": "2027/28 doctoral research round explicitly open; deadline December 1 2026 at noon Dutch time. Dutch citizenship and affiliation to a Dutch university/research institute required; maximum support is partial, not a full-cost guarantee.",
@@ -4360,7 +4372,7 @@
       "counts_toward_active_source_target": true,
       "exclusion_reason": "",
       "freshness_evidence": "2027/28 doctoral research round explicitly open; deadline December 1 2026 at noon Dutch time. Dutch citizenship and affiliation to a Dutch university/research institute required; maximum support is partial, not a full-cost guarantee.",
-      "editorial_review_date": "2026-10-04",
+      "editorial_review_date": "2026-10-05",
       "feed_url": "https://fulbright.nl/feed/",
       "feed_check": {
         "checked_at": "2026-10-04",
@@ -4374,20 +4386,36 @@
         "qualified_metadata_items": 0,
         "selection_reviewed_at": "2026-10-04"
       },
-      "ingestion_exclusion_reason": "No qualified opportunity items in reviewed feed; programme-page adapter not implemented.",
+      "ingestion_exclusion_reason": "General RSS has no qualified opportunity items. Exact programme-page metadata is separately reviewed; production release not yet verified.",
       "access_policy_inspection": {
-        "inspected_at": "2026-10-04",
-        "scope": "homepage, advertised RSS, robots and published privacy page; no proposed item ingestion",
+        "inspected_at": "2026-10-05",
+        "scope": "exact programme, robots, homepage and published privacy page; factual title/link metadata only",
         "reviewed_policy_urls": [
-          "https://fulbright.nl/",
-          "https://fulbright.nl/feed/",
+          "https://fulbright.nl/naar-de-vs/promovendi/fulbright-beurzen-voor-promovendi/",
           "https://fulbright.nl/robots.txt",
+          "https://fulbright.nl/",
           "https://fulbright.nl/over-ons/privacyverklaring/"
         ],
+        "robots_status": 200,
+        "robots_allows_programme": true,
+        "crawl_delay_seconds": 10,
         "express_indexing_prohibition_found": false,
         "express_reuse_licence_found": false,
         "publisher_approval_claimed": false,
-        "review_limit": "Inspection is not reuse permission; adapter and selected-item acquisition review remain pending."
+        "review_limit": "Scoped project acquisition assessment; no blanket legal conclusion or reuse licence. No personal data, application documents, source prose or images indexed."
+      },
+      "runtime_source": "nl-fulbright-doctoral",
+      "runtime_adapter": "reviewed-html",
+      "html_check": {
+        "checked_at": "2026-10-05",
+        "http_status": 200,
+        "resolved_url": "https://fulbright.nl/naar-de-vs/promovendi/fulbright-beurzen-voor-promovendi/",
+        "canonical_url": "https://fulbright.nl/naar-de-vs/promovendi/fulbright-beurzen-voor-promovendi/",
+        "open_graph_url": "https://fulbright.nl/naar-de-vs/promovendi/fulbright-beurzen-voor-promovendi/",
+        "open_graph_title": "fulbright beurzen voor promovendi",
+        "original_publication_date_present": false,
+        "metadata_only": true,
+        "qualified_metadata_items": 1
       }
     },
     {
@@ -4447,7 +4475,7 @@
       "verification_status": "primary_page_reviewed",
       "retrieval_method": "reviewed_html_metadata",
       "adapter_status": "reviewed_html_implemented",
-      "acquisition_state": "not_connected",
+      "acquisition_state": "connected",
       "language": "pt/en",
       "audience": "Programme-specific students, early-career researchers or language teachers. Citizenship, residence, institution and education requirements must be preserved.",
       "rights_status": "Exact public programme, robots, homepage and published privacy page reviewed 2026-10-05. No express factual-title/link indexing prohibition or reuse licence established in this scope; all-rights-reserved footer retained. Scoped acquisition publishes only deterministic title and original URL, no prose, images, application documents or personal data. This is a project acquisition assessment, not publisher approval, endorsement or express reuse permission.",
@@ -4501,6 +4529,18 @@
         "robots_allows_programme": true,
         "original_publication_date_present": false,
         "observed_modification_timestamp": "2026-10-01T14:33:53+00:00"
+      },
+      "runtime_source": "pt-fulbright-masters",
+      "runtime_adapter": "reviewed-html",
+      "operational_verification": {
+        "verified_at": "2026-10-05",
+        "workflow_run_url": "https://github.com/fmarslan/YouthOpp-data-pipeline/actions/runs/37270813364",
+        "workflow_conclusion": "success",
+        "release_url": "https://github.com/fmarslan/YouthOpp-data-pipeline/releases/tag/catalog-37270813364-1",
+        "release_published_at": "2026-10-05T06:07:29Z",
+        "released_metadata_records": 1,
+        "source_health": "healthy",
+        "application_availability_inferred": false
       }
     },
     {
