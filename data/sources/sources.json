@@ -31,5 +31,28 @@
     "default_tags": [],
     "added_at": "2026-10-04",
     "scope": "international"
+  },
+  {
+    "source": "fulbright-czech-programmes",
+    "source_url": "https://fulbright.gov.cz/feed/",
+    "website_url": "https://fulbright.gov.cz/",
+    "enabled": true,
+    "adapter": "reviewed-rss",
+    "language": "cs",
+    "default_tags": [],
+    "added_at": "2026-10-04",
+    "scope": "reviewed programme metadata; availability and applicant eligibility unknown",
+    "reviewed_items": [
+      {
+        "url": "https://fulbright.gov.cz/intercountry-travel-grant-pozvete-si-americkeho-vedce-na-par-dni/",
+        "category": "grants",
+        "kind": "institutional-grant"
+      },
+      {
+        "url": "https://fulbright.gov.cz/nemusite-letet-na-mesic-muzete-letet-na-fulbrighta/",
+        "category": "scholarships",
+        "kind": "programme-overview"
+      }
+    ]
   }
 ]
