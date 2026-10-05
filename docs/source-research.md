@@ -23,11 +23,11 @@ This is a transparent discovery register, not a claim that every source has a wo
 | Opportunities for Youth | [https://opportunitiesforyouth.org/feed/](https://opportunitiesforyouth.org/feed/) | Valid RSS with 10 items; newest publication 2026-10-04. | RSS fetch and parse succeeded, robots.txt and guessed terms URL returned403. Access policy cannot be established from this environment; review pending. |
 | Opportunity Desk | [https://opportunitydesk.org/feed/](https://opportunitydesk.org/feed/) | Valid RSS with 10 items; newest publication 2026-10-03. | RSS fetch and parse succeeded, robots.txt and guessed terms URL returned403. Access policy cannot be established from this environment; review pending. |
 | Scholarships Corner | [https://scholarshipscorner.website/feed/](https://scholarshipscorner.website/feed/) | Valid RSS with 10 items; newest publication 2026-10-04. | robots.txt permits feed crawling; terms reviewed 2026-10-04 describe informational listings and official-provider referral. No express republication licence found. Minimal factual attribution only; permission review remains pending. |
-| Fulbright Commission Czech Republic | [https://fulbright.gov.cz/feed/](https://fulbright.gov.cz/feed/) | HTTP 200; 10 parsed items; newest 2026-09-03 | Robots fetched HTTP 200 and allows /feed/. No express reuse licence established. Mixed grant, webinar and institutional items require filtering; rights review pending. |
-| Fulbright Netherlands | [https://fulbright.nl/feed/](https://fulbright.nl/feed/) | HTTP 200; 10 parsed items; newest 2026-09-22 | Robots fetched HTTP 200 and allows /feed/, with Crawl-delay: 10 seconds. No express reuse licence established. Alumni stories are not new opportunities; rights review pending. |
-| Fulbright Portugal | [https://www.fulbright.pt/feed/](https://www.fulbright.pt/feed/) | HTTP 200; 10 parsed items; newest 2026-09-29 | Robots fetched HTTP 200 and allows /feed/. Site footer reserves rights; no express reuse licence established. Experiences/partnership news are not opportunities; rights review pending. |
+| Fulbright Commission Czech Republic | [https://fulbright.gov.cz/feed/](https://fulbright.gov.cz/feed/) | HTTP 200; 10 parsed items; newest 2026-09-03 | Scoped access-policy review complete; exact two metadata-only programme/grant notices selected, other eight excluded. Adapter implemented locally; actual live activation unverified. No express reuse licence or publisher approval claimed. |
+| Fulbright Netherlands | [https://fulbright.nl/feed/](https://fulbright.nl/feed/) | HTTP 200; 10 parsed items; newest 2026-09-22 | Advertised RSS and robots allow access, Crawl-delay: 10 seconds. No express reuse licence found; all ten current items are alumni/blog stories. Keep RSS ingestion disabled for relevance. |
+| Fulbright Portugal | [https://www.fulbright.pt/feed/](https://www.fulbright.pt/feed/) | HTTP 200; 10 parsed items; newest 2026-09-29 | Advertised RSS and robots allow access. Ordinary copyright reservation; no express reuse licence found. Zero qualified scholarship calls in current ten items. Keep RSS ingestion disabled for relevance. |
 
-All feed checks are dated 4 October 2026. Three newly tested commission feeds contain alumni, partnerships, webinars and other notices. Feed recency is not a currently open scholarship catalogue; selection and detail-page checks are required. No new adapter is enabled by this research change. Scambieuropei and ONEK previously returned HTTP 403; no block workaround was attempted.
+All feed checks are dated 4 October 2026. Three newly tested commission feeds contain alumni, partnerships, webinars and other notices. Feed recency is not a currently open scholarship catalogue; selection and detail-page checks are required. This research documentation does not control adapter activation; the runtime manifest and verified release are authoritative. Scambieuropei and ONEK previously returned HTTP 403; no block workaround was attempted.
 
 ## Country register
 
@@ -72,7 +72,7 @@ All feed checks are dated 4 October 2026. Three newly tested commission feeds co
 | [Study in Czechia](https://studyin.gov.cz/scholarships/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Publisher overlaps another entry. |
 | [DZS](https://www.dzs.cz/en) | mobility | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Publisher overlaps another entry. |
 | [Charles University](https://cuni.cz/UKEN-1617.html) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Charles University Mobility Fund autumn call opens October 1 2026; faculty deadlines October 20–30, university closing October 30 at 14:00. Restricted to eligible university students and academic mobility. |
-| [Fulbright Commission Czech Republic](https://fulbright.gov.cz/stipendia/stipendium-pro-postgradualni-studium/) | scholarship, research | rss_tested; rss; not_connected | Primary postgraduate page links 2027/28 application documents and September 2 2026 scholarship webinars. Degree and research application windows differ; a recent feed is not proof every programme is open. |
+| [Fulbright Commission Czech Republic](https://fulbright.gov.cz/stipendia/stipendium-pro-postgradualni-studium/) | scholarship, research | rss_tested; rss; not_connected (metadata adapter locally implemented) | Primary postgraduate page links 2027/28 application documents and September 2 2026 scholarship webinars. Degree and research application windows differ; a recent feed is not proof every programme is open. |
 
 ### Germany (DE)
 
@@ -336,11 +336,46 @@ The resumed pass incorporates the previously recorded Fulbright commission short
 | Slovakia | 5 | 3 | Yes, editorial activity only |
 | United States | 5 | 3 | Yes, editorial activity only |
 
-28 of 28 countries meet the editorial activity threshold; 0 remain below three. The register contains 110 entries, of which 94 have recent opportunity evidence. No country has three permission-reviewed automated adapters; publisher terms and automation rights reviews remain pending.
+28 of 28 countries meet the editorial activity threshold; 0 remain below three. The register contains 110 entries, of which 94 have recent opportunity evidence. Of these, 93 are eligible evidence entries before country-level operator deduplication: the Croatian science ministry co-publishes the same bilateral call as AMPEU and is explicitly excluded despite being a distinct operator. No country has three operational, policy-reviewed automated adapters. Czech Fulbright now has a scoped metadata access-policy review; 109 registry entries retain pending rights-review status. No express reuse licence or publisher approval is claimed.
 
 ### Application state distinctions
 
 Recent programme evidence is separate from its application state. The new `last_activity_evidence.application_state` field records reviewed examples: `open_confirmed`, `closed`, `some_calls_open`, `programme_specific_review`, `conditional_late_applications`, `conditional_funding_available`, `conflicting` or `conflicting_deadline`. It is research metadata, not a runtime catalogue deadline calculation. Older entries without this field remain unclassified rather than implicitly open.
+
+### Confirmed current application coverage
+
+The 3–5 active-source target is not established as currently open applications. The existing explicitly classified examples establish at least one open call or open-call subset for 18 distinct national publishers across 16 countries. None of the 28 target countries has three confirmed current publishers in this conservative review. This is a lower bound from `open_confirmed` or `some_calls_open`; unclassified, conditional, conflicting and closed examples are excluded. A zero count means insufficient reviewed evidence, not proof that the country has no open opportunities. No country has three operational policy-reviewed adapters either.
+
+| Country | Publishers with explicitly confirmed open application evidence |
+|---|---|
+| Austria | 0 |
+| Belgium | 1 |
+| Bulgaria | 0 |
+| Cyprus | 0 |
+| Czechia | 1 |
+| Germany | 0 |
+| Denmark | 2 |
+| Estonia | 1 |
+| Spain | 0 |
+| Finland | 1 |
+| France | 1 |
+| Greece | 1 |
+| Croatia | 0 |
+| Hungary | 1 |
+| Ireland | 0 |
+| Italy | 0 |
+| Lithuania | 1 |
+| Luxembourg | 1 |
+| Latvia | 1 |
+| Malta | 0 |
+| Netherlands | 1 |
+| Poland | 1 |
+| Portugal | 1 |
+| Romania | 0 |
+| Sweden | 1 |
+| Slovenia | 0 |
+| Slovakia | 2 |
+| United States | 0 |
 
 ### Per-source reviewed activity
 
@@ -465,13 +500,36 @@ The Belgium/Luxembourg Fulbright commission is a single source, stored under Bel
 
 Germany Fulbright has contradictory open/closed text on the same current student page; no open application is asserted. Austria lists an October 7 closing date while national US Fulbright pages use October 6; the discrepancy remains explicit. Swedish Institute portal notice contains mixed academic-year labels; no new date is inferred. Luxembourg scholarship evidence was retrieved from the primary publisher search index while direct page content was challenged; this is editorial evidence only.
 
+### Fulbright metadata adapter follow-up — 4 October 2026
+
+Access, reuse language and opportunity relevance were reviewed separately. Fresh HTTP requests returned 200 for the three official homepages, robots files and RSS feeds. All three homepages advertise their exact feed through `rel="alternate"` with RSS content type. Each feed contains ten items. Hourly syndication metadata describes feed updates and does not establish a reuse licence. No feed channel/item copyright, rights or licence element was found.
+
+| Source | Primary access and policy evidence | Editorial decision |
+|---|---|---|
+| Netherlands | [Homepage](https://fulbright.nl/) advertises [RSS](https://fulbright.nl/feed/). [Robots](https://fulbright.nl/robots.txt) contains `User-agent: *` and `Crawl-delay: 10`, without a disallow rule. The linked [privacy declaration](https://fulbright.nl/over-ons/privacyverklaring/) concerns personal-data handling; no express title/link indexing licence or prohibition found in this reviewed scope. | All ten items are alumni/blog stories, despite grant words in their descriptions. Zero qualified opportunity calls. Keep RSS ingestion disabled for relevance; a programme-page HTML adapter is separate work. |
+| Portugal | [Homepage](https://www.fulbright.pt/) advertises [RSS](https://www.fulbright.pt/feed/). [Robots](https://www.fulbright.pt/robots.txt) disallows `/wp-admin/`, allows `/wp-admin/admin-ajax.php`, and lists a sitemap. The [30-page sitemap](https://www.fulbright.pt/wp-sitemap-posts-page-1.xml) exposes a [privacy page](https://www.fulbright.pt/politica-privacidade/) not linked in the inspected footer; its text concerns personal data. The footer retains ordinary copyright reservation; no express title/link indexing prohibition found in these inspected pages. | Seven experience stories, one partnership announcement, one recipient list and a September 16 fair already past on review date. Zero qualified scholarship calls. Keep RSS ingestion disabled for relevance; the [scholarship catalogue](https://www.fulbright.pt/bolsas/) requires a separately tested adapter. |
+| Czech Republic | [Homepage](https://fulbright.gov.cz/) advertises [RSS](https://fulbright.gov.cz/feed/). [Robots](https://fulbright.gov.cz/robots.txt) disallows `/wp-admin/`, allows `/wp-admin/admin-ajax.php`; `noindex, follow` was a response header on robots.txt itself, not the feed. [GDPR](https://fulbright.gov.cz/wp-content/uploads/2024/07/GDPR.pdf), [media information](https://fulbright.gov.cz/pro-media/zakladni-informace/) and [press kit](https://fulbright.gov.cz/pro-media/press-kit/) were inspected. No express title/link indexing ban or RSS-specific licence established; ordinary copyright reservation remains. | Two reviewed programme/grant notices; eight news, webinar, alumni, podcast or office notices excluded. Bounded title/link/publication-date indexing is feasible under the project's factual metadata policy. A trusted adapter is implemented locally; CI and the actual release must establish operational success. |
+
+No express reuse licence or publisher approval is claimed. Absence of an express licence is an uncertainty, not invented permission and not an automatic requirement for new user approval. Ordinary copyright reservations alone are not treated here as an express title/link indexing ban. This is an engineering acquisition-policy assessment limited to the inspected pages, not a blanket legal conclusion. Source terms remain authoritative.
+
+The Czech allowlist contains only these exact canonical item URLs:
+
+| Reviewed item | Publication and programme interpretation | Catalogue constraints |
+|---|---|---|
+| [Institutional Intercountry travel grant notice](https://fulbright.gov.cz/intercountry-travel-grant-pozvete-si-americkeho-vedce-na-par-dni/) | 3 September 2026, 06:59:43 UTC. The linked [programme detail](https://fulbright.gov.cz/pro-skoly-a-univerzity/hostovani-americkych-akademiku/) explains that Czech higher-education/research institutions invite US Fulbright scholars already in Europe during 2026/27. Travel support and host responsibilities differ. | Category grants; institution-restricted grant, not unrestricted youth eligibility. No deadline or eligible-country inference. |
+| [2027/28 programme-cycle overview](https://fulbright.gov.cz/nemusite-letet-na-mesic-muzete-letet-na-fulbrighta/) | 1 April 2026, 07:03:50 UTC. Announces that selection cycles opened April 1 and points to separate details for students, scholars and professionals. | Category scholarships; programme overview, not evidence that every individual call remains open in October. |
+
+Preserve original Czech title, canonical original link and valid publication date. Set summary to an empty string, deadline to null, availability to unknown and host/eligible country arrays to empty. Do not publish article prose or images. The generic `Novinky` category and broad scholarship keywords also match excluded webinar/alumni content; they cannot determine selection. Unreviewed items remain excluded until primary-content review expands the exact allowlist. Sanitized fixtures retain title/link/date/categories only.
+
+The remaining Czech activation work is technical: pass relevant tests and CI, then verify the actual released records and source health for runtime source `fulbright-czech-programmes`, adapter `reviewed-rss`. Local implementation and fixture success do not establish live collection. No publisher-contact or owner-approval action is presently required by documented policy for this scoped metadata operation. Full descriptions/images, newly restrictive terms or blocked access would require a separate acquisition decision. NL/PT currently have a relevance blocker, not missing consent. Poll conservatively with a clear project User-Agent, honor rate limits and keep at least ten seconds between Netherlands same-host requests.
+
 ### Remaining implementation gaps
 
-The editorial activity minimum is now supported in all 28 countries. The original target of 3–5 high-quality, active and automatically accessible sources per country remains unmet: annual publication evidence, a current job catalogue and a functioning feed are different measurements. All 28 countries still need three independently tested, policy-reviewed automated adapters with health reporting; no country is claimed complete on that target.
+The editorial activity minimum is now supported in all 28 countries. The original target of 3–5 high-quality, active and automatically accessible sources per country remains unmet: annual publication evidence, a current job catalogue and a functioning feed are different measurements. All 28 countries remain below three independently tested, operational, policy-reviewed automated adapters with health reporting; no country is claimed complete on that target.
 
 | Work | Next concrete action |
 |---|---|
-| Feed selection | Curate NL/PT/CZ Fulbright feeds to exclude alumni, partnership, result and webinar notices unless they contain a genuine relevant call. Verify eligibility and application dates on programme detail pages. |
+| Feed selection | Verify the actual Czech two-record metadata release and health after CI. Keep NL/PT RSS disabled while their current feeds contain no qualified calls; implement separately reviewed programme-page adapters. Expand exact allowlists only after new primary content review. |
 | HTML adapters | Inspect exact list/detail URLs, robots, terms, crawl rates and fixtures for newly reviewed university, FNR, ministry, youth and arts publishers. Do not bypass access challenges. |
 | Call validity | Recheck closed annual programmes, finite funding, faculty sub-deadlines and unresolved publisher contradictions before showing a record as open. Mission duration is not an application deadline. |
 | Distinct programme checks | Exclude national grant re-listings and co-published calls even where several independently hosted university pages describe them. |
