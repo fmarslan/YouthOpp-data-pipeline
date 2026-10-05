@@ -55,15 +55,15 @@ All feed checks are dated 4 October 2026. Three newly tested commission feeds co
 |---|---|---|---|
 | [Fulbright Bulgaria](https://www.fulbright.bg/en/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
 | [INSAIT](https://insait.ai/surf/) | research, internship | candidate; manual_review_then_html_adapter; not_connected | Primary SURF page describes Summer Undergraduate Research Fellowship 2026; recurring annual research programme, now past summer. |
-| [FEBA Alumni](https://www.febalumni.org/en/) | scholarship | candidate; manual_review_then_html_adapter; not_connected | Not yet assessed; HTTP availability alone does not prove active opportunities. |
+| [FEBA Alumni](https://www.febalumni.org/en/) | scholarship | candidate; manual_review_then_html_adapter; not_connected | Manual review found a primary June 17 2026 scholarship call with a June 30 deadline. The current fetch returns HTTP 402, so this closed-call evidence does not establish adapter access or a currently open application. |
 
 ### Cyprus (CY)
 
 | Source | Content | Retrieval status | Evidence / review limits |
 |---|---|---|---|
-| [Cyprus State Scholarships Foundation](https://www.gov.cy/mof-cssf/) | scholarship | candidate; manual_review_then_html_adapter; not_connected | Not yet assessed; HTTP availability alone does not prove active opportunities. |
+| [Cyprus State Scholarships Foundation](https://www.gov.cy/mof-cssf/) | scholarship | candidate; manual_review_then_html_adapter; not_connected | Manual review found a primary undergraduate 2025/26 announcement published in April 2026. The collector receives HTTP 403; no currently open window or adapter readiness is established. |
 | [ONEK](https://youthfunds.onek.org.cy/en/) | youth, grant | page_reachable; manual_review_then_html_adapter; not_connected | Primary site lists Youth Initiatives 2027 call dated 2026-08-11 and 2026 programme calls. Feed request 403. |
-| [Cyprus Diaspora Scholarships](https://www.gov.cy/mfa/en/service-for-overseas-cypriots-and-repatriated-cypriots/) | scholarship, internship | candidate; manual_review_then_html_adapter; not_connected | Not yet assessed; HTTP availability alone does not prove active opportunities. |
+| [Cyprus Diaspora Scholarships](https://www.gov.cy/mfa/en/service-for-overseas-cypriots-and-repatriated-cypriots/) | scholarship, internship | candidate; manual_review_then_html_adapter; not_connected | Manual review found a primary 2026 MFA resource listing university scholarships and paid internships without application deadlines. The collector receives HTTP 403; current availability and adapter readiness remain unverified. |
 
 ### Czechia (CZ)
 
@@ -283,7 +283,7 @@ All feed checks are dated 4 October 2026. Three newly tested commission feeds co
 | [USAJOBS Students](https://www.usajobs.gov/HiringPath/Students) | internship, job | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
 | [NSF REU](https://www.nsf.gov/funding/initiatives/reu/students) | research, internship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Excluded from independent-publisher activity count: Guidance, unrelated date, or dated opportunity publication not yet established. |
 | [CareerOneStop Scholarship Finder](https://www.careeronestop.org/toolkit/training/find-scholarships.aspx) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Excluded from independent-publisher activity count: Guidance, unrelated date, or dated opportunity publication not yet established. |
-| [Fulbright US Student](https://us.fulbrightonline.org/) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
+| [Fulbright US Student](https://us.fulbrightonline.org/) | scholarship | primary_page_reviewed; manual_review_then_html_adapter; not_connected | Official 2027/28 competition is open with a national deadline of October 6 2026 at 5:00 p.m. Eastern Time. Enrolled applicants apply through their institution and may face an earlier campus deadline; eligible U.S. citizens with a bachelor's degree may apply at large. Country and award-specific requirements apply. |
 | [NASA Internships](https://www.nasa.gov/learning-resources/internship-programs/) | internship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
 
 ## Evidence and reproducibility
@@ -344,7 +344,7 @@ Recent programme evidence is separate from its application state. The new `last_
 
 ### Confirmed current application coverage
 
-The 3–5 active-source target is not established as currently open applications. The existing explicitly classified examples establish at least one open call or open-call subset for 18 distinct national publishers across 16 countries. None of the 28 target countries has three confirmed current publishers in this conservative review. This is a lower bound from `open_confirmed` or `some_calls_open`; unclassified, conditional, conflicting and closed examples are excluded. A zero count means insufficient reviewed evidence, not proof that the country has no open opportunities. No country has three operational policy-reviewed adapters either.
+The 3–5 active-source target is not established as currently open applications. The existing explicitly classified examples establish at least one open call or open-call subset for 19 distinct national publishers across 17 countries. None of the 28 target countries has three confirmed current publishers in this conservative review. This is a lower bound from `open_confirmed` or `some_calls_open`; unclassified, conditional, conflicting and closed examples are excluded. A zero count means insufficient reviewed evidence, not proof that the country has no open opportunities. No country has three operational policy-reviewed adapters either.
 
 | Country | Publishers with explicitly confirmed open application evidence |
 |---|---|
@@ -375,7 +375,7 @@ The 3–5 active-source target is not established as currently open applications
 | Sweden | 1 |
 | Slovenia | 0 |
 | Slovakia | 2 |
-| United States | 0 |
+| United States | 1 |
 
 ### Per-source reviewed activity
 
@@ -465,7 +465,7 @@ The 3–5 active-source target is not established as currently open applications
 | USAJOBS Students (US) | current_catalogue | [Primary URL](https://recentgrad.usajobs.gov/search/results) | Primaryrecentgraduatecatalogue lists September 22–October 6 2026 vacancy and January 2026–January 2027 ongoingcall. |
 | NSF REU (US) | not_established | [Primary URL](https://www.nsf.gov/funding/initiatives/reu/students) | No reliable dated opportunity publication manually established. HTTP availability does not establish update activity. |
 | CareerOneStop Scholarship Finder (US) | not_established | [Primary URL](https://www.careeronestop.org/toolkit/training/find-scholarships.aspx) | No reliable dated opportunity publication manually established. HTTP availability does not establish update activity. |
-| Fulbright US Student (US) | recent_programme | [Primary URL](https://us.fulbrightonline.org/) | Primary home 2027/28 competitionnational deadline October 6 2026 5 pm ET. |
+| Fulbright US Student (US) | recent_programme | [Primary URL](https://us.fulbrightonline.org/) | Official 2027/28 competition is open with a national deadline of October 6 2026 at 5:00 p.m. Eastern Time. Institution-based applicants may face an earlier campus deadline. |
 | NASA Internships (US) | recent_programme | [Primary URL](https://www.nasa.gov/learning-resources/internship-programs/) | Primary page 2027 summer deadline March 1 andfall deadline May 24; programme offers 3 sessionsannually. |
 | Opportunities for Youth (GLOBAL) | current_catalogue | [Primary URL](https://opportunitiesforyouth.org/) | Parsed RSSnewest October 4 2026;international aggregator. |
 | Opportunity Desk (GLOBAL) | current_catalogue | [Primary URL](https://opportunitydesk.org/) | Parsed RSSnewest October 3 2026;international aggregator. |
