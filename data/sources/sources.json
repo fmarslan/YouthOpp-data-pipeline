@@ -130,5 +130,34 @@
     ],
     "publisher_country": "US",
     "publisher_type": "public-institution"
+  },
+  {
+    "source": "pt-fulbright-masters",
+    "source_url": "https://www.fulbright.pt/bolsas/bolsa-fulbright-para-mestrado/",
+    "website_url": "https://www.fulbright.pt/",
+    "enabled": true,
+    "adapter": "reviewed-html",
+    "language": "pt",
+    "default_tags": [],
+    "added_at": "2026-10-05",
+    "scope": "exact reviewed programme overview metadata; individual application status and encoded eligibility unknown",
+    "reviewed_page": {
+      "url": "https://www.fulbright.pt/bolsas/bolsa-fulbright-para-mestrado/",
+      "category": "scholarships",
+      "kind": "programme-overview",
+      "metadata_format": "open-graph"
+    },
+    "access_review": {
+      "reviewed_at": "2026-10-05",
+      "robots_url": "https://www.fulbright.pt/robots.txt",
+      "policy_url": "https://www.fulbright.pt/politica-privacidade/",
+      "scope": "Factual programme title and original URL only; no descriptions, imagery or endorsement. No express indexing prohibition or reuse licence established in reviewed scope."
+    },
+    "research_source_id": "pt-fulbright-portugal",
+    "categories": [
+      "scholarships"
+    ],
+    "publisher_country": "PT",
+    "publisher_type": "public-institution"
   }
 ]

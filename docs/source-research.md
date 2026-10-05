@@ -2,7 +2,7 @@
 
 Research date: 4 October 2026. Prepared by Open AI agent: Researcher.
 
-Scoped access review updated 5 October 2026 for NASA and IKY; other entries retain their recorded review dates. See [the primary-source access review](access-review-2026-10-05.md).
+Scoped access review updated 5 October 2026 for NASA, IKY and the exact Portugal programme; other entries retain their recorded review dates. See [the primary-source access review](access-review-2026-10-05.md).
 
 ## What this register means
 
@@ -247,7 +247,7 @@ All feed checks are dated 4 October 2026. Three newly tested commission feeds co
 | [IPDJ](https://ipdj.gov.pt/candidaturas) | youth, grant | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. Excluded from independent-publisher activity count: Guidance, unrelated date, or dated opportunity publication not yet established. |
 | [FCT](https://www.fct.pt/en/financiamento/programas-de-financiamento/bolsas/) | research, scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Page fetched successfully; active call dates still require editorial verification. |
 | [DGES](https://www.dges.gov.pt/en) | scholarship | page_reachable; manual_review_then_html_adapter; not_connected | Primary 2026/27 need-based grant page gives August 14–October 2 2026 standard window and later proportional awards October 3–May 31, plus enrollment-dependent 20-working-day exceptions. Eligibility and award proration require careful interpretation. |
-| [Fulbright Portugal](https://www.fulbright.pt/bolsas/bolsa-fulbright-para-mestrado/) | scholarship, research | rss_tested; rss; not_connected | 2027/28 masters applications run October 1 2026–January 15 2027, 23:59 Lisbon time. Portuguese citizenship and US university admission required; award supports the first year up to the stated limit. |
+| [Fulbright Portugal](https://www.fulbright.pt/bolsas/bolsa-fulbright-para-mestrado/) | scholarship, research | primary_page_reviewed; reviewed_html_metadata; not_connected | 2027/28 masters applications run October 1 2026–January 15 2027, 23:59 Lisbon time. Portuguese citizenship and US university admission required; award supports the first year up to the stated limit. |
 
 ### Romania (RO)
 
@@ -344,7 +344,7 @@ The resumed pass incorporates the previously recorded Fulbright commission short
 | Slovakia | 5 | 3 | Yes, editorial activity only |
 | United States | 5 | 3 | Yes, editorial activity only |
 
-28 of 28 countries meet the editorial activity threshold; 0 remain below three. The register contains 110 entries, of which 94 have recent opportunity evidence. Of these, 93 are eligible evidence entries before country-level operator deduplication: the Croatian science ministry co-publishes the same bilateral call as AMPEU and is explicitly excluded despite being a distinct operator. No country has three operational, policy-reviewed automated adapters. Czech Fulbright and NASA have scoped metadata access-policy reviews; IKY requires prior publisher permission under its actual terms. The remaining 107 registry entries retain pending rights-review status. No express reuse licence or publisher approval is claimed.
+28 of 28 countries meet the editorial activity threshold; 0 remain below three. The register contains 110 entries, of which 94 have recent opportunity evidence. Of these, 93 are eligible evidence entries before country-level operator deduplication: the Croatian science ministry co-publishes the same bilateral call as AMPEU and is explicitly excluded despite being a distinct operator. No country has three operational, policy-reviewed automated adapters. Czech Fulbright, NASA and the exact Portugal programme have scoped metadata access-policy reviews; IKY requires prior publisher permission under its actual terms. The remaining 106 registry entries retain pending rights-review status. No express reuse licence or publisher approval is claimed.
 
 ### Application state distinctions
 
@@ -537,8 +537,13 @@ The editorial activity minimum is now supported in all 28 countries. The origina
 
 | Work | Next concrete action |
 |---|---|
-| Feed selection | Maintain the verified Czech two-record metadata selection and monitor source health. Keep NL/PT RSS disabled while their current feeds contain no qualified calls; implement separately reviewed programme-page adapters. Expand exact allowlists only after new primary content review. |
+| Feed selection | Maintain the verified Czech two-record metadata selection and monitor source health. Keep NL/PT RSS disabled while their current feeds contain no qualified calls. The exact Portugal master’s overview is implemented separately; verify production release before claiming activation. Netherlands programme-page implementation remains pending. Expand exact allowlists only after new primary content review. |
 | HTML adapters | Inspect exact list/detail URLs, robots, terms, crawl rates and fixtures for newly reviewed university, FNR, ministry, youth and arts publishers. Do not bypass access challenges. |
 | Call validity | Recheck closed annual programmes, finite funding, faculty sub-deadlines and unresolved publisher contradictions before showing a record as open. Mission duration is not an application deadline. |
 | Distinct programme checks | Exclude national grant re-listings and co-published calls even where several independently hosted university pages describe them. |
 | Evidence renewal | Revisit these date-stamped findings in scheduled source review; the register is a snapshot and must not claim indefinite activity. |
+
+
+### Exact Portugal programme-page selection — 5 October 2026
+
+The separately reviewed master's programme now has a trusted exact canonical/Open Graph title/link adapter; this does not activate the unrelated Portugal RSS. The [dated access review](access-review-2026-10-05.md) records GET200, robots scope, privacy-only policy text, all-rights-reserved footer and the absence of express reuse permission. This scoped project assessment covers factual metadata only, not source prose or publisher approval. Original publication is unavailable and stays null; the observed modification timestamp is never publication. The record stays a scholarship programme overview with unknown application state, deadline and eligibility. Current window evidence is separate research evidence. Runtime manifest inclusion and local checks are not proof of production release or hosted website acceptance.
