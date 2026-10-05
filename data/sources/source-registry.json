@@ -3937,18 +3937,18 @@
       "verified_at": "2026-10-04",
       "verification_status": "rss_tested",
       "retrieval_method": "rss",
-      "adapter_status": "not_implemented",
+      "adapter_status": "implemented_metadata_only",
       "acquisition_state": "not_connected",
       "language": "cs/en",
       "audience": "Programme-specific students, early-career researchers or language teachers. Citizenship, residence, institution and education requirements must be preserved.",
-      "rights_status": "Robots fetched HTTP 200 and allows /feed/. No express reuse licence established. Mixed grant, webinar and institutional items require filtering; rights review pending.",
+      "rights_status": "Access policy reviewed 2026-10-04 for bounded original title, canonical link and publication-date indexing only. Homepage explicitly advertises the RSS feed; robots permits /feed/; inspected feed XML, GDPR and media pages contain no express title/link indexing prohibition. Ordinary copyright reservation remains; no express reuse licence or publisher approval is claimed.",
       "source_kind": "recurring_programme_or_catalogue",
       "publisher_overlap": false,
-      "retrieval_notes": "RSS parsed successfully. Opportunity selection and detail-page eligibility/deadline validation required before adapter activation.",
+      "retrieval_notes": "Use a trusted metadata-only adapter with exact reviewed item URLs; generic Novinky category or scholarship keywords also match webinars, alumni and news. Preserve Czech titles, summary empty, deadlines null, status unknown and country arrays empty. Programme overview and institution-restricted travel grant are not universally open youth calls. Runtime manifest, CI and live releases determine activation; readiness alone is not collection success.",
       "refresh_cadence": "proposed weekly; annual programmes and programme-specific windows",
       "last_check_at": "2026-10-04",
-      "review_tier": "feed_tested",
-      "rights_review_status": "pending",
+      "review_tier": "feed_and_metadata_access_policy_reviewed",
+      "rights_review_status": "access_policy_reviewed_metadata_only",
       "last_activity_evidence": {
         "review_date": "2026-10-04",
         "status": "recent_programme",
@@ -3968,10 +3968,50 @@
         "http_status": 200,
         "parsed_items": 10,
         "newest_publication": "2026-09-03",
-        "content_scope": "mixed opportunity and institutional notices",
+        "content_scope": "2 reviewed programme/grant notices and 8 excluded news/webinar/alumni/office items",
         "robots_status": 200,
-        "robots_allows_feed": true
-      }
+        "robots_allows_feed": true,
+        "qualified_metadata_items": 2
+      },
+      "access_policy_review": {
+        "reviewed_at": "2026-10-04",
+        "scope": "bounded original title + canonical link + publication date; no article prose or images",
+        "homepage_feed_advertised": true,
+        "robots_url": "https://fulbright.gov.cz/robots.txt",
+        "robots_http_status": 200,
+        "robots_body": "User-agent: *\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n",
+        "reviewed_policy_urls": [
+          "https://fulbright.gov.cz/",
+          "https://fulbright.gov.cz/feed/",
+          "https://fulbright.gov.cz/wp-content/uploads/2024/07/GDPR.pdf",
+          "https://fulbright.gov.cz/pro-media/zakladni-informace/",
+          "https://fulbright.gov.cz/pro-media/press-kit/"
+        ],
+        "express_indexing_prohibition_found": false,
+        "express_reuse_licence_found": false,
+        "publisher_approval_claimed": false,
+        "copyright_notice": "© Fulbright Commission Czech Republic. All rights reserved.",
+        "review_limit": "No blanket legal conclusion; evidence is limited to inspected published pages. Publisher terms remain authoritative; review again if terms, access response or selected item changes."
+      },
+      "reviewed_metadata_items": [
+        {
+          "url": "https://fulbright.gov.cz/intercountry-travel-grant-pozvete-si-americkeho-vedce-na-par-dni/",
+          "published_at": "2026-09-03T06:59:43Z",
+          "kind": "institution_restricted_travel_grant_notice",
+          "category": "grants",
+          "limitations": "Czech higher-education and research institutions may invite US Fulbright scholars already in Europe during 2026/27. Travel support, not universal youth eligibility; no deadline inferred.",
+          "detail_evidence_url": "https://fulbright.gov.cz/pro-skoly-a-univerzity/hostovani-americkych-akademiku/"
+        },
+        {
+          "url": "https://fulbright.gov.cz/nemusite-letet-na-mesic-muzete-letet-na-fulbrighta/",
+          "published_at": "2026-04-01T07:03:50Z",
+          "kind": "programme_cycle_overview",
+          "category": "scholarships",
+          "limitations": "2027/28 programme selection cycle announcement opened April 1 2026; individual programmes have different windows. Publication does not establish current application availability."
+        }
+      ],
+      "runtime_source": "fulbright-czech-programmes",
+      "runtime_adapter": "reviewed-rss"
     },
     {
       "id": "de-fulbright-germany",
@@ -4245,10 +4285,10 @@
       "acquisition_state": "not_connected",
       "language": "nl/en",
       "audience": "Programme-specific students, early-career researchers or language teachers. Citizenship, residence, institution and education requirements must be preserved.",
-      "rights_status": "Robots fetched HTTP 200 and allows /feed/, with Crawl-delay: 10 seconds. No express reuse licence established. Alumni stories are not new opportunities; rights review pending.",
+      "rights_status": "Advertised feed and robots allow crawling with Crawl-delay: 10 seconds. Homepage, RSS, robots and privacy page inspected on 2026-10-04; no express title/link indexing ban or reuse licence established in that scope. Access/reuse review remains pending for any future concrete adapter; no publisher approval claimed.",
       "source_kind": "recurring_programme_or_catalogue",
       "publisher_overlap": false,
-      "retrieval_notes": "RSS parsed successfully. Opportunity selection and detail-page eligibility/deadline validation required before adapter activation.",
+      "retrieval_notes": "RSS ingestion remains disabled for relevance. All ten observed items are alumni/blog stories; no qualified opportunity call. The separately reviewed programme page has an open application window, but its content is absent from this feed and requires a separate tested HTML adapter. Access-policy inspection found no express indexing prohibition or reuse licence; review remains pending because no concrete metadata selection/adapter is proposed.",
       "refresh_cadence": "proposed weekly; annual programmes and programme-specific windows",
       "last_check_at": "2026-10-04",
       "review_tier": "feed_tested",
@@ -4272,10 +4312,27 @@
         "http_status": 200,
         "parsed_items": 10,
         "newest_publication": "2026-09-22",
-        "content_scope": "mixed opportunity and institutional notices",
+        "content_scope": "All ten observed items are alumni/blog stories; no qualified opportunity call.",
         "robots_status": 200,
         "robots_allows_feed": true,
-        "crawl_delay_seconds": 10
+        "crawl_delay_seconds": 10,
+        "qualified_metadata_items": 0,
+        "selection_reviewed_at": "2026-10-04"
+      },
+      "ingestion_exclusion_reason": "No qualified opportunity items in reviewed feed; programme-page adapter not implemented.",
+      "access_policy_inspection": {
+        "inspected_at": "2026-10-04",
+        "scope": "homepage, advertised RSS, robots and published privacy page; no proposed item ingestion",
+        "reviewed_policy_urls": [
+          "https://fulbright.nl/",
+          "https://fulbright.nl/feed/",
+          "https://fulbright.nl/robots.txt",
+          "https://fulbright.nl/over-ons/privacyverklaring/"
+        ],
+        "express_indexing_prohibition_found": false,
+        "express_reuse_licence_found": false,
+        "publisher_approval_claimed": false,
+        "review_limit": "Inspection is not reuse permission; adapter and selected-item acquisition review remain pending."
       }
     },
     {
@@ -4338,10 +4395,10 @@
       "acquisition_state": "not_connected",
       "language": "pt/en",
       "audience": "Programme-specific students, early-career researchers or language teachers. Citizenship, residence, institution and education requirements must be preserved.",
-      "rights_status": "Robots fetched HTTP 200 and allows /feed/. Site footer reserves rights; no express reuse licence established. Experiences/partnership news are not opportunities; rights review pending.",
+      "rights_status": "Advertised feed and robots allow crawling. Homepage, RSS, robots and privacy page inspected on 2026-10-04; no express title/link indexing ban or reuse licence established in that scope. Access/reuse review remains pending for any future concrete adapter; no publisher approval claimed.",
       "source_kind": "recurring_programme_or_catalogue",
       "publisher_overlap": false,
-      "retrieval_notes": "RSS parsed successfully. Opportunity selection and detail-page eligibility/deadline validation required before adapter activation.",
+      "retrieval_notes": "RSS ingestion remains disabled for relevance. Seven experience stories, one partnership notice, one recipient list and a past fair; no qualified scholarship call. The separately reviewed programme page has an open application window, but its content is absent from this feed and requires a separate tested HTML adapter. Access-policy inspection found no express indexing prohibition or reuse licence; review remains pending because no concrete metadata selection/adapter is proposed.",
       "refresh_cadence": "proposed weekly; annual programmes and programme-specific windows",
       "last_check_at": "2026-10-04",
       "review_tier": "feed_tested",
@@ -4365,9 +4422,26 @@
         "http_status": 200,
         "parsed_items": 10,
         "newest_publication": "2026-09-29",
-        "content_scope": "mixed opportunity and institutional notices",
+        "content_scope": "Seven experience stories, one partnership notice, one recipient list and a past fair; no qualified scholarship call.",
         "robots_status": 200,
-        "robots_allows_feed": true
+        "robots_allows_feed": true,
+        "qualified_metadata_items": 0,
+        "selection_reviewed_at": "2026-10-04"
+      },
+      "ingestion_exclusion_reason": "No qualified opportunity items in reviewed feed; programme-page adapter not implemented.",
+      "access_policy_inspection": {
+        "inspected_at": "2026-10-04",
+        "scope": "homepage, advertised RSS, robots and published privacy page; no proposed item ingestion",
+        "reviewed_policy_urls": [
+          "https://www.fulbright.pt/",
+          "https://www.fulbright.pt/feed/",
+          "https://www.fulbright.pt/robots.txt",
+          "https://www.fulbright.pt/politica-privacidade/"
+        ],
+        "express_indexing_prohibition_found": false,
+        "express_reuse_licence_found": false,
+        "publisher_approval_claimed": false,
+        "review_limit": "Inspection is not reuse permission; adapter and selected-item acquisition review remain pending."
       }
     },
     {
@@ -4755,7 +4829,8 @@
     "Regional Visegrad Fund is listed under International and is not counted as a separate national publisher in each service country.",
     "Observed contradictory page dates are retained as unresolved; activity evidence never overrides conflicting application state.",
     "Editorial source activity spans scholarships, paid doctoral positions, research internships, mobility, volunteering and youth arts grants; each has distinct eligibility.",
-    "The former KTU and RTU duplicate exclusions now have new evidence for their own independently managed institutional programmes; old national grants remain duplicates."
+    "The former KTU and RTU duplicate exclusions now have new evidence for their own independently managed institutional programmes; old national grants remain duplicates.",
+    "The legacy counts_toward_active_source_target flag measures recent editorial evidence, including closed annual calls. It never establishes current open-application or automated coverage; use the explicitly scoped country summary fields."
   ],
   "country_quality_summary": [
     {
@@ -4765,7 +4840,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 0,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "BE",
@@ -4774,7 +4851,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 1,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "BG",
@@ -4783,7 +4862,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 0,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "CY",
@@ -4792,7 +4873,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 0,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "CZ",
@@ -4801,7 +4884,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 1,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "DE",
@@ -4810,7 +4895,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 0,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "DK",
@@ -4819,7 +4906,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 2,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "EE",
@@ -4828,7 +4917,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 1,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "ES",
@@ -4837,7 +4928,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 0,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "FI",
@@ -4846,7 +4939,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 1,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "FR",
@@ -4855,7 +4950,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 1,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "GR",
@@ -4864,7 +4961,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 1,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "HR",
@@ -4873,7 +4972,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 0,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "HU",
@@ -4882,7 +4983,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 1,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "IE",
@@ -4891,7 +4994,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 0,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "IT",
@@ -4900,7 +5005,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 0,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "LT",
@@ -4909,7 +5016,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 1,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "LU",
@@ -4918,7 +5027,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 1,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "LV",
@@ -4927,7 +5038,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 1,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "MT",
@@ -4936,7 +5049,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 0,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "NL",
@@ -4945,7 +5060,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 1,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "PL",
@@ -4954,7 +5071,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 1,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "PT",
@@ -4963,7 +5082,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 1,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "RO",
@@ -4972,7 +5093,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 0,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "SE",
@@ -4981,7 +5104,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 1,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "SI",
@@ -4990,7 +5115,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 0,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "SK",
@@ -4999,7 +5126,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 2,
+      "minimum_three_currently_open_established": false
     },
     {
       "country": "US",
@@ -5008,7 +5137,9 @@
       "independent_publishers_with_recent_opportunity_evidence": 3,
       "minimum_three_met": true,
       "remaining_gap": 0,
-      "automated_permission_review_complete": false
+      "automated_permission_review_complete": false,
+      "independent_publishers_with_confirmed_open_application_evidence": 0,
+      "minimum_three_currently_open_established": false
     }
   ],
   "quality_summary": {
@@ -5017,6 +5148,10 @@
     "countries_below_minimum_three": 0,
     "sources_with_recent_opportunity_evidence": 94,
     "automated_permission_review_complete": 0,
-    "definition": "Recent editorial activity includes primary 2026 application rounds or 2026/27 and 2027/28 programmes, including closed annual calls, internships, doctoral jobs, youth grants and volunteering. It does not imply currently open applications, three automated integrations per country, or reuse permission."
+    "definition": "Recent editorial activity includes primary 2026 application rounds or 2026/27 and 2027/28 programmes, including closed annual calls, internships, doctoral jobs, youth grants and volunteering. It does not imply currently open applications, three automated integrations per country, or reuse permission.",
+    "countries_with_minimum_three_confirmed_open_publishers": 0,
+    "current_application_review_definition": "Conservative snapshot based only on explicitly reviewed open_confirmed or some_calls_open examples, counting distinct operators and excluding duplicate evidence. Missing, conditional, conflicting or closed states are not counted. Zero means insufficient classified evidence, not proof no open opportunities exist.",
+    "sources_eligible_for_independent_activity_count": 93,
+    "independent_activity_count_definition": "94 sources have dated/cycle editorial evidence; 93 are eligible evidence entries after excluding the Croatian science ministry bilateral call co-published with AMPEU. Country totals then deduplicate operators. publisher_overlap refers to common operators, whereas exclusion_reason can also exclude a duplicated programme from a different operator."
   }
 }
