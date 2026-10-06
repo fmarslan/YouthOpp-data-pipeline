@@ -5,7 +5,9 @@ for(const item of manifests){
  classifySource(item,true);
  if(!/^[a-z0-9-]+$/.test(item.source)||ids.has(item.source))throw new Error('Invalid or duplicate source');ids.add(item.source);
  for(const field of ['source_url','website_url'])if(new URL(item[field]).protocol!=='https:' || new URL(item[field]).username || new URL(item[field]).password || /^(localhost|127\.|0\.|10\.|172\.(1[6-9]|2[0-9]|3[01])\.|192\.168\.|169\.254\.|\[)/.test(new URL(item[field]).hostname))throw new Error('Source requires HTTPS');
- if(typeof item.enabled!=='boolean'||!['rss','reviewed-rss','reviewed-html'].includes(item.adapter)||typeof item.language!=='string')throw new Error('Invalid adapter manifest');
+ if(typeof item.enabled!=='boolean'||!['rss','reviewed-rss','reviewed-html','link-metadata'].includes(item.adapter)||typeof item.language!=='string')throw new Error('Invalid adapter manifest');
+ if(item.collection_blocked_reason!=null && (typeof item.collection_blocked_reason!=='string'||!item.collection_blocked_reason.trim()))throw new Error('Invalid collection block reason');
+ if(item.adapter==='link-metadata' && !item.research_source_id)throw new Error('Link metadata requires a research source link');
  if(item.adapter==='reviewed-html') {
   const selected=item.reviewed_page;
   if(!selected || selected.url!==item.source_url || new URL(selected.url).hostname!==new URL(item.website_url).hostname || !['internships','scholarships'].includes(selected.category) || selected.kind!=='programme-overview')throw new Error('Invalid reviewed HTML programme selection');

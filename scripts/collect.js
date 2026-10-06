@@ -4,8 +4,9 @@ import { pathToFileURL } from 'node:url';
 import { collect as collectRSS } from '../adapters/rss.js';
 import { collect as collectReviewedRSS } from '../adapters/reviewed-rss.js';
 import { collect as collectReviewedHTML } from '../adapters/reviewed-html.js';
+import { collect as collectLinkMetadata } from '../adapters/link-metadata.js';
 import { categoryIds, classifyRecord, validateClassification, buildCategoricalCatalog, validateCategoricalCatalog } from './taxonomy.js';
-const trustedAdapters = { rss: collectRSS, 'reviewed-rss': collectReviewedRSS, 'reviewed-html': collectReviewedHTML };
+export const trustedAdapters = { rss: collectRSS, 'reviewed-rss': collectReviewedRSS, 'reviewed-html': collectReviewedHTML, 'link-metadata': collectLinkMetadata };
 export function validateRecord(record) {
   for (const key of ['id','title','url','source','source_url','first_seen_at','last_seen_at','last_checked_at']) if (typeof record[key] !== 'string' || !record[key]) throw new Error(`Missing ${key}`);
   for (const key of ['url','source_url']) if (!['http:','https:'].includes(new URL(record[key]).protocol) || new URL(record[key]).username || new URL(record[key]).password) throw new Error('Unsafe URL');
@@ -26,10 +27,11 @@ export async function fetchText(url) {
   return Buffer.concat(chunks).toString('utf8');
 }
 export async function runPipeline(manifests,previous={opportunities:[],sources:[]},{now=new Date().toISOString(),load=fetchText,adapter,registry=[]}={}) {
-  const enabled=manifests.filter(m=>m.enabled);const records=new Map((previous.opportunities||[]).map(r=>{ const migrated=classifyRecord(r,manifests.find(m=>m.source===r.source)); validateRecord(migrated); return [r.id,migrated]; }));const sources=[];let successes=0;
-  for(const manifest of enabled){
+  const enabled=manifests.filter(m=>m.enabled);const records=new Map((previous.opportunities||[]).map(r=>{ const migrated=classifyRecord({...r,summary:'',updated_at:r.summary?now:r.updated_at},manifests.find(m=>m.source===r.source)); validateRecord(migrated); return [r.id,migrated]; }));const sources=[];let successes=0;
+  async function collectManifest(manifest){
     const old=(previous.sources||[]).find(s=>s.source===manifest.source);
     try {
+      if(manifest.collection_blocked_reason)throw new Error(`Collection blocked: ${manifest.collection_blocked_reason}`);
       if(!Object.hasOwn(trustedAdapters,manifest.adapter))throw new Error('Custom adapters require explicit trusted registration in scripts/collect.js');
       const items=(await (adapter||trustedAdapters[manifest.adapter])({manifest,fetchText:load,now})).map(record=>classifyRecord(record,manifest));if(!items.length)throw new Error('Empty adapter output');
       const batchIds=new Set();for(const record of items){validateRecord(record);if(batchIds.has(record.id))throw new Error('Duplicate adapter record ID');batchIds.add(record.id);}
@@ -37,6 +39,11 @@ export async function runPipeline(manifests,previous={opportunities:[],sources:[
       sources.push({...manifest,last_attempt_at:now,last_checked_at:now,last_success_at:now,status:'ok',record_count:items.length,error:null});successes++;
     }catch(error){sources.push({...manifest,last_attempt_at:now,last_checked_at:old?.last_checked_at||null,last_success_at:old?.last_success_at||null,status:'error',record_count:old?.record_count||0,error:String(error.message).slice(0,200)});}
   }
+  // Independent hosts can run together; each host is serialized with conservative spacing.
+  const groups=new Map();for(const manifest of enabled){const host=new URL(manifest.source_url).hostname;if(!groups.has(host))groups.set(host,[]);groups.get(host).push(manifest);}
+  const queue=[...groups.values()];let nextGroup=0;
+  await Promise.all(Array.from({length:Math.min(4,queue.length)},async()=>{while(nextGroup<queue.length){const group=queue[nextGroup++];for(let i=0;i<group.length;i++){if(i && !adapter && !group[i].collection_blocked_reason)await new Promise(resolve=>setTimeout(resolve,30000));await collectManifest(group[i]);}}}));
+  const sourceOrder=new Map(enabled.map((manifest,index)=>[manifest.source,index]));sources.sort((a,b)=>sourceOrder.get(a.source)-sourceOrder.get(b.source));
   if(!successes)throw new Error('All enabled sources failed; catalog must not be published');
   const active=new Set(enabled.map(m=>m.source));
   const opportunities=[...records.values()].filter(r=>active.has(r.source)).map(r=>({...r,status:r.deadline ? (Date.parse(r.deadline)<Date.parse(now)?'expired':'open'):'unknown'})).sort((a,b)=>(b.published_at||'').localeCompare(a.published_at||'')||a.id.localeCompare(b.id));

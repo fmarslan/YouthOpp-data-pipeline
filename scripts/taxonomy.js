@@ -53,7 +53,7 @@ export function buildCategoricalCatalog(opportunities, manifests, research = [])
   const source_registry = research.map(source => classifySource(source));
   for (const manifest of manifests) {
     const target = source_registry.find(source => source.id === manifest.research_source_id || source.adapter_source_id === manifest.source);
-    if (target) { Object.assign(target,{adapter_source_id:manifest.source,publisher_type:manifest.publisher_type || target.publisher_type,publisher_country:manifest.publisher_country || target.publisher_country}); continue; }
+    if (target) { Object.assign(target,{adapter_source_id:manifest.source,collection_enabled:manifest.enabled,...(manifest.adapter==='link-metadata'?{adapter_status:'configured_link_metadata',acquisition_state:manifest.collection_blocked_reason?'collection_blocked':manifest.enabled?'collection_enabled':'configured_disabled'}:{}),collection_blocked_reason:manifest.collection_blocked_reason || null,publisher_type:manifest.publisher_type || target.publisher_type,publisher_country:manifest.publisher_country || target.publisher_country}); continue; }
     source_registry.push(classifySource(manifest,true));
   }
   const empty = ids => Object.fromEntries(ids.map(id => [id,[]]));

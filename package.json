@@ -5,11 +5,13 @@
   "private": true,
   "scripts": {
     "pipeline": "node scripts/collect.js",
+    "probe": "node scripts/probe-sources.js",
     "test": "node --test",
     "validate": "node scripts/validate.js",
     "contributors": "node scripts/contributors.js"
   },
   "dependencies": {
+    "html-entities": "2.6.0",
     "rss-parser": "^3.13.0"
   },
   "engines": {

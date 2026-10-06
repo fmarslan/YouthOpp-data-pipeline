@@ -14,7 +14,7 @@ To preserve prior records locally, set `PREVIOUS_CATALOG=/path/to/catalog.json`.
 
 ## Public data contract
 
-`catalog.json` contains `schema_version: 1`, `generated_at`, `opportunities` and `sources`. Each opportunity keeps original article `url`, feed `source_url`, publisher `source` slug, original-language short plain-text summary, publication and collection dates. Category is derived from publisher-provided tags or explicit reviewed programme selection. Location, deadline, countries and eligibility remain unknown until explicit evidence is available. Source entries include publisher `website_url`, last attempt, last successful check and errors.
+`catalog.json` contains `schema_version: 1`, `generated_at`, `opportunities` and `sources`. Each opportunity keeps original article `url`, feed `source_url`, publisher `source` slug, original-language title and an empty summary (no publisher prose), publication and collection dates. Category is derived from publisher-provided tags or explicit reviewed programme selection. Location, deadline, countries and eligibility remain unknown until explicit evidence is available. Source entries include publisher `website_url`, last attempt, last successful check and errors.
 
 ## Publication
 
